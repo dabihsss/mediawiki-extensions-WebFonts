@@ -3,12 +3,19 @@ module( 'ext.webfonts', QUnit.newMwEnvironment() );
 test( '-- Initial check', function() {
 	expect(1);
 
-	ok( mw.webfonts, 'mw.webfonts is defined' );
-	
+	if ( browserIsBlacklisted() ) {
+		ok( mw.webfonts === undefined, 'mw.webfonts is not defined because we are running in a blacklisted browser' );
+	} else {
+		ok( mw.webfonts, 'mw.webfonts is defined and the browser is supported' );
+	}
 } );
 
-test( '-- Web font application to body', function() {
-	expect( 17 );
+test( '-- Application of a web font to the page and its removal', function() {
+	if ( browserIsBlacklisted() ) {
+		return;
+	}
+
+	expect( 25 );
 
 	var invalidFont = 'NonExistingFont';
 	assertTrue( mw.webfonts.set( invalidFont ) === undefined, 'A non-existent font is not initialized' );
@@ -38,20 +45,35 @@ test( '-- Web font application to body', function() {
 	deepEqual( oldConfig, mw.webfonts.oldconfig, 'Previous body css was saved properly' );
 
 	// Font application
-	equal( $body.css( 'font-family' ), "'" + teluguFont + "', " + fallbackFonts, 'The web font was applied to font-family of body' );
-	equal( $inputElement.css( 'font-family' ), "'" + teluguFont + "', " + fallbackFonts, 'The web font was applied to font-family of input' );
-	equal( $selectElement.css( 'font-family' ), "'"  + teluguFont + "', " + fallbackFonts, 'The web font was applied to font-family of select' );
-	equal( $textareaElement.css( 'font-family' ), "'" '"' + teluguFont + "', " + fallbackFonts, 'The web font was applied to font-family of textarea' );
+	var expectedFontFamilyValue = "'" + teluguFont + "', " + fallbackFonts;
+	equal( $body.css( 'font-family' ), expectedFontFamilyValue, 'The web font was applied to font-family of body' );
+	equal( $inputElement.css( 'font-family' ), expectedFontFamilyValue, 'The web font was applied to font-family of input' );
+	equal( $selectElement.css( 'font-family' ), expectedFontFamilyValue, 'The web font was applied to font-family of select' );
+	equal( $textareaElement.css( 'font-family' ), expectedFontFamilyValue, 'The web font was applied to font-family of textarea' );
 
-	// Restore <body>
-	$body.attr( 'lang', bodyLang );
-	ok( mw.webfonts.reset(), 'Reset body after testing font application' );
+	// Reset everything
+	ok( mw.webfonts.set( false ) === undefined, 'Reset body after testing font application' );
+	equals( $body.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for body was restored' );
+	equals( $body.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for body was restored' );
+	equals( $inputElement.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for body was restored' );
+	equals( $inputElement.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for body was restored' );
+	equals( $selectElement.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for the select element was restored' );
+	equals( $selectElement.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for the select element restored' );
+	equals( $textareaElement.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for the textarea element was restored' );
+	equals( $textareaElement.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for the textarea element was restored' );
+
 	ok( $inputElement.remove(), 'The input test element was removed from body' );
 	ok( $selectElement.remove(), 'The select test element was removed from body' );
 	ok( $textareaElement.remove(), 'The textarea test element was removed from body' );
+
+	$body.attr( 'lang', bodyLang );
 } );
 
 test( '-- Dynamic font loading', function() {
+	if ( browserIsBlacklisted() ) {
+		return;
+	}
+
 	expect( 7 );
 
 	var validFontName = mw.webfonts.config.languages.hi[0];
@@ -68,6 +90,10 @@ test( '-- Dynamic font loading', function() {
 } );
 
 test( '-- Dynamic font loading based on lang attribute', function() {
+	if ( browserIsBlacklisted() ) {
+		return;
+	}
+
 	expect( 15 );
 
 	mw.webfonts.fonts = [];
@@ -96,13 +122,18 @@ test( '-- Dynamic font loading based on lang attribute', function() {
 	assertTrue( $.inArray( tamilFont, mw.webfonts.fonts ) >= 0 , 'Tamil font loaded' );
 	assertTrue( isFontFaceLoaded( tamilFont ), 'New css rule font-face was added to the document for Tamil font' );
 
-	ok( mw.webfonts.reset(), 'Reset webfonts' );
-	assertFalse( $testElement.hasClass( 'webfonts-lang-attr' ), 'The element has no webfonts-lang-attr since we reset it' );
+	ok( mw.webfonts.reset(), 'Reset webfonts after testing application by lang' );
+	assertFalse( $testElement.hasClass( 'webfonts-lang-attr' ), 'The testing element has no webfonts-lang-attr since we reset it' );
+	// equals( $( 'body' ).find( '*[lang]' ).length, 0, 'There are no elements with the webfonts-lang-attr class' );
 
 	ok( $testElement.remove(), 'The test element was removed from body' );
 } );
 
 test( '-- Dynamic font loading based on font-family style attribute', function() {
+	if ( browserIsBlacklisted() ) {
+		return;
+	}
+
 	expect( 14 );
 
 	mw.webfonts.fonts = [];
@@ -111,21 +142,21 @@ test( '-- Dynamic font loading based on font-family style attribute', function()
 	assertTrue(  $testElement !== [], 'The test element is defined' );
 
 	var latinWebFont = 'RufScript';
-	var fallbackFonts = ', Arial, Helvetica, sans';
-	$testElement.attr( 'style','font-family: ' + latinWebFont + fallbackFonts );
+	var fallbackFonts = 'Helvetica, Arial, sans-serif';
+	$testElement.attr( 'style','font-family: ' + latinWebFont + ', ' + fallbackFonts );
 	assertTrue( $.inArray( latinWebFont, mw.webfonts.fonts ) === -1 , 'Latin font not loaded yet' );
 	ok( mw.webfonts.loadFontsForFontFamilyStyle(), 'Loaded fonts from font-family' );
 	assertTrue( $.inArray( latinWebFont, mw.webfonts.fonts ) >= 0 , 'Latin font loaded' );
 	assertTrue( isFontFaceLoaded( latinWebFont ), 'New css rule added to the document for Latin' );
 
 	var invalidFont = 'NonExistingFont';
-	$testElement.attr( 'style','font-family: ' + invalidFont + fallbackFonts );
+	$testElement.attr( 'style','font-family: ' + invalidFont + ', ' + fallbackFonts );
 	ok( mw.webfonts.loadFontsForFontFamilyStyle(), 'Attempted to load non-existing fonts specified in font-family' );
 	assertTrue( $.inArray( invalidFont, mw.webfonts.fonts ) === -1 , 'Font not loaded since it is not existing, including fallback fonts' );
 	assertFalse( isFontFaceLoaded( invalidFont ), 'No new css rule added to the document since the font does not exist' );
 
 	var malayalamFont = mw.webfonts.config.languages.ml[0];
-	$testElement.attr( 'style', 'font-family: ' + invalidFont + ', ' + malayalamFont + fallbackFonts );
+	$testElement.attr( 'style', 'font-family: ' + invalidFont + ', ' + malayalamFont + ', ' + fallbackFonts );
 	assertTrue( $.inArray( malayalamFont, mw.webfonts.fonts ) === -1 , 'Fallback font not loaded yet' );
 	ok( mw.webfonts.loadFontsForFontFamilyStyle(), 'Loading fonts from font-family' );
 	assertTrue( $.inArray( malayalamFont, mw.webfonts.fonts ) >= 0 , 'A fallback font was loaded' );
@@ -135,23 +166,30 @@ test( '-- Dynamic font loading based on font-family style attribute', function()
 } );
 
 test( '-- Build the menu', function() {
+	if ( browserIsBlacklisted() ) {
+		return;
+	}
+
 	expect( 8 );
+
 	var oldFonts = mw.webfonts.fonts;
 	var fonts = [];
-	assertFalse( mw.webfonts.buildMenu( fonts ) , 'Build the menu with empty fonts list' );
+	assertFalse( mw.webfonts.buildMenu( fonts ), 'Build the menu with empty fonts list' );
 	fonts = mw.webfonts.config.languages.hi;
-	ok( mw.webfonts.buildMenu( fonts ) , 'Build the menu with hindi fonts list' );
+	ok( mw.webfonts.buildMenu( fonts ) , 'Build the menu with Hindi fonts list' );
 	equals( $( 'li#pt-webfont' ).length , 1, 'There should be one and only one menu at any time' );
-	ok( mw.webfonts.buildMenu( fonts ) , 'Build the menu with hindi fonts list again' );
+	ok( mw.webfonts.buildMenu( fonts ) , 'Build the menu with Hindi fonts list again' );
 	equals( $( 'li#pt-webfont' ).length , 1, 'There should be one and only one menu at any time' );
-	equals( $( 'ul#webfonts-fontsmenu li' ).length ,  fonts.length + 2 , 'Number of menu items is number of availables fonts, a help link and reset item' );
-	equals ( $( 'li.webfont-help-item').length  , 1, 'Help link exists' );
+	equals( $( 'ul#webfonts-fontsmenu li' ).length,  fonts.length + 2, 'Number of menu items is number of availables fonts, a help link and reset item' );
+	equals ( $( 'li.webfont-help-item').length, 1, 'Help link exists' );
 	if (oldFonts.length)
-		assertTrue( mw.webfonts.buildMenu( oldFonts ) , 'Restore the menu' );
+		assertTrue( mw.webfonts.buildMenu( oldFonts ), 'Restore the menu' );
 	else {
-		assertFalse( mw.webfonts.buildMenu( oldFonts ) , 'Restore the menu' );
+		assertFalse( mw.webfonts.buildMenu( oldFonts ), 'Restore the menu' );
 	}
 } );
+
+// Tests end here
 
 isFontFaceLoaded = function( fontFamilyName ) {
 	var lastStyleIndex = document.styleSheets.length - 1;
@@ -167,5 +205,16 @@ isFontFaceLoaded = function( fontFamilyName ) {
 		}
 	}
 	
+	return false;
+}
+
+browserIsBlacklisted = function() {
+	var ua = navigator.userAgent;
+	if ( ( /MSIE 6/i.test( ua ) )
+		|| ( /MSIE 8/i.test( ua ) && /Windows NT 5.1/i.test( ua ) ) )
+	{
+		return true;
+	}
+
 	return false;
 }
