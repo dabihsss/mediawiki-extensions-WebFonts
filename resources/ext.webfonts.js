@@ -38,7 +38,7 @@
 			}
 
 			// Set the web font and the fallback fonts.
-			// Need to change the fonts of Input Select and Textarea explicitly.
+			// font-family of <input>, <select> and <textarea> must be changed explicitly.
 			$( 'body, input, select, textarea' ).css(
 				'font-family', '"' + font + '", Helvetica, Arial, sans-serif'
 			);
@@ -66,8 +66,8 @@
 				fontSize: mw.webfonts.oldconfig.fontSize
 			});
 
-			// We need to reset the font family of Input and Select explicitly.
-			$( 'input, select' ).css( 'font-family', mw.webfonts.oldconfig.fontFamily );
+			// font-family of <input>, <select> and <textarea> must be reset explicitly.
+			$( 'input, select, textarea' ).css( 'font-family', mw.webfonts.oldconfig.fontFamily );
 
 			// Reset the fonts applied for tags with lang attribute.
 			$( '.webfonts-lang-attr' ).css( 'font-family', '' ).removeClass( 'webfonts-lang-attr' );
