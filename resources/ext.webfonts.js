@@ -13,6 +13,7 @@
 		config: { fonts: {}, languages: {} },
 		version: '0.1.2',
 		fonts : [],
+
 		set: function( font ) {
 			if ( !font || font === 'none' ) {
 				mw.webfonts.reset();
@@ -48,7 +49,7 @@
 					mw.webfonts.normalize( config.normalization );
 				} );
 			}
-			// Store the font choise in cookie
+			// Store the font choice in cookie
 			$.cookie( 'webfonts-font', font, { 'path': '/', 'expires': 30 } );
 
 			// If we had reset the fonts for tags with lang attribute, apply the fonts again.
@@ -167,6 +168,7 @@
 					return false;
 				}
 			}
+
 			return true;
 		},
 
@@ -179,7 +181,7 @@
 			if ( navigator.appName === 'Microsoft Internet Explorer' ) {
 				var ua = navigator.userAgent;
 				if ( /MSIE 6/i.test( ua ) ) {
-					// IE6 has not font fallbacks
+					// IE6 doesn't have font fallbacks
 					return;
 				} else if ( /MSIE 8/i.test( ua ) && /Windows NT 5.1/i.test( ua ) ) {
 					// IE8 on XP has occasional gibberish bug
@@ -189,8 +191,8 @@
 
 			var	fonts = [],
 				languages = mw.webfonts.config.languages,
-				requested = [mw.config.get( 'wgUserVariant' ), mw.config.get( 'wgContentLanguage' ),
-					mw.config.get( 'wgUserLanguage' ), mw.config.get( 'wgPageContentLanguage' )],
+				requested = [ mw.config.get( 'wgUserVariant' ), mw.config.get( 'wgContentLanguage' ),
+					mw.config.get( 'wgUserLanguage' ), mw.config.get( 'wgPageContentLanguage' ) ],
 				i, j;
 
 			for ( i = 0; i < requested.length; i++ ) {
@@ -246,7 +248,7 @@
 				mw.config.get( 'wgUserLanguage' ), mw.config.get( 'wgPageContentLanguage' )];
 			var fontFamily = false;
 			// Find elements with the lang attribute.
-			$( 'body' ).find( '*[lang]' ).each( function( i, el) {
+			$( 'body' ).find( '*[lang]' ).each( function( i, el ) {
 				// If the lang attribute value is same as one of
 				// contentLang,useLang, variant, no need to do this.
 				if( $.inArray( el.lang , requested ) === -1 ) {
