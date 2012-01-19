@@ -3,9 +3,10 @@ module( 'ext.webfonts', QUnit.newMwEnvironment() );
 test( '-- Initial check', function() {
 	expect(1);
 
-	
 	if ( !mw.webfonts.isBrowserSupported ) {
-		ok( mw.webfonts === undefined, 'mw.webfonts is not defined because we are running in a blacklisted browser' );
+		// TODO: need a better way to test this
+		ok( mw.webfonts, 'The WebFonts extension is not supposed to run in a blacklisted browser - '
+			+ navigator.appName + ' ' + navigator.userAgent );
 	} else {
 		ok( mw.webfonts, 'mw.webfonts is defined and the browser is supported' );
 	}
