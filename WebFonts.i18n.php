@@ -960,6 +960,8 @@ $messages['sr-ec'] = array(
 	'webfonts-enable-preference' => 'Омогући уграђивање фонта (WebFonts)',
 	'webfonts-menu-tooltip' => 'Изаберите фонт за страницу',
 	'webfonts-help' => 'Помоћ',
+	'webfonts-preview-title' => 'Преглед фонтова',
+	'webfonts-preview-download' => 'Преузми фонт',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬) */
@@ -1061,8 +1063,10 @@ $messages['vi'] = array(
 
 /** Yiddish (ייִדיש)
  * @author Imre
+ * @author פוילישער
  */
 $messages['yi'] = array(
+	'webfonts-reset' => 'צוריקשטעלן',
 	'webfonts-help' => 'הילף',
 );
 
