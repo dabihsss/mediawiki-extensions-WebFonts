@@ -33,13 +33,13 @@ test( '-- Application of a web font to the page and its removal', function() {
 	$body.attr( 'lang', 'te' );
 
 	ok( $( 'body' ).append( "<input class='webfonts-testing-element'>input content</input>"), 'An input element for testing was appended to body' );
-	$inputElement =  $( 'input.webfonts-testing-element' )
+	var $inputElement =  $( 'input.webfonts-testing-element' );
 	assertTrue( $inputElement !== [], 'The input test element is defined' );
 	ok( $( 'body' ).append( "<select class='webfonts-testing-element'>select content</select>"), 'A select element for testing was appended to body' );
-	$selectElement =  $( 'select.webfonts-testing-element' )
+	var $selectElement =  $( 'select.webfonts-testing-element' );
 	assertTrue( $selectElement !== [], 'The select test element is defined' );
 	ok( $( 'body' ).append( "<textarea class='webfonts-testing-element'>textarea content</textarea>"), 'A textarea element for testing was appended to body' );
-	$textareaElement =  $( 'textarea.webfonts-testing-element' )
+	var $textareaElement =  $( 'textarea.webfonts-testing-element' );
 	assertTrue( $textareaElement !== [], 'The textarea test element is defined' );
 
 	ok( mw.webfonts.set( teluguFont ), 'Attempted to load a Telugu font for the whole page' );
@@ -107,11 +107,11 @@ test( '-- Dynamic font loading based on lang attribute', function() {
 		wgLanguage: "en",
 		wgUserVariant: "en",
 		wgUserLanguage: "en",
-		wgPageContentLanguage: "en",
+		wgPageContentLanguage: "en"
 	} );
 	
 	ok( $( 'body' ).append( "<p class='webfonts-testing-lang-attr'>Some content</p>"), 'An element for testing lang-based loading was appended to body' );
-	$testElement =  $( 'p.webfonts-testing-lang-attr' )
+	var $testElement = $( 'p.webfonts-testing-lang-attr' );
 	assertTrue( $testElement !== [], 'The test element is defined' );
 
 	ok( mw.webfonts.loadFontsForLangAttr(), 'Attempted to load fonts for the lang attribute' );
@@ -188,9 +188,9 @@ test( '-- Build the menu', function() {
 	equals( $( 'li#pt-webfont' ).length , 1, 'There should be one and only one menu at any time' );
 	equals( $( 'ul#webfonts-fontsmenu li' ).length,  fonts.length + 2, 'Number of menu items is number of availables fonts, a help link and reset item' );
 	equals ( $( 'li.webfont-help-item').length, 1, 'Help link exists' );
-	if (oldFonts.length)
+	if (oldFonts.length) {
 		assertTrue( mw.webfonts.buildMenu( oldFonts ), 'Restore the menu' );
-	else {
+	} else {
 		assertFalse( mw.webfonts.buildMenu( oldFonts ), 'Restore the menu' );
 	}
 } );
@@ -203,8 +203,8 @@ isFontFaceLoaded = function( fontFamilyName ) {
 	// Iterate from last.
 	for( var styleIndex = lastStyleIndex; styleIndex > 0; styleIndex-- ) {
 		var lastStyleSheet = document.styleSheets[styleIndex];
-		if ( !lastStyleSheet ) continue;
-		if ( !lastStyleSheet.cssRules[0] ) continue;
+		if ( !lastStyleSheet ) { continue; }
+		if ( !lastStyleSheet.cssRules[0] ) { continue; }
 		var cssText =  lastStyleSheet.cssRules[0].cssText;
 		if ( cssText.indexOf( '@font-face' ) >= 0 &&  cssText.indexOf( fontFamilyName ) >= 0 ) {
 			return true;
@@ -212,7 +212,7 @@ isFontFaceLoaded = function( fontFamilyName ) {
 	}
 	
 	return false;
-}
+};
 
 // Convert a font-family string to an array. This is needed
 // because browsers change the string by adding or removing spaces,
@@ -228,4 +228,4 @@ fontFamilyList = function( fontFamilyString ) {
 	}
 
 	return fontList;
-}
+};
