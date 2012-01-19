@@ -3,7 +3,8 @@ module( 'ext.webfonts', QUnit.newMwEnvironment() );
 test( '-- Initial check', function() {
 	expect(1);
 
-	if ( browserIsBlacklisted() ) {
+	
+	if ( !mw.webfonts.isBrowserSupported ) {
 		ok( mw.webfonts === undefined, 'mw.webfonts is not defined because we are running in a blacklisted browser' );
 	} else {
 		ok( mw.webfonts, 'mw.webfonts is defined and the browser is supported' );
@@ -11,7 +12,7 @@ test( '-- Initial check', function() {
 } );
 
 test( '-- Application of a web font to the page and its removal', function() {
-	if ( browserIsBlacklisted() ) {
+	if ( !mw.webfonts.isBrowserSupported ) {
 		return;
 	}
 
@@ -45,11 +46,15 @@ test( '-- Application of a web font to the page and its removal', function() {
 	deepEqual( oldConfig, mw.webfonts.oldconfig, 'Previous body css was saved properly' );
 
 	// Font application
-	var expectedFontFamilyValue = "'" + teluguFont + "', " + fallbackFonts;
-	equal( $body.css( 'font-family' ), expectedFontFamilyValue, 'The web font was applied to font-family of body' );
-	equal( $inputElement.css( 'font-family' ), expectedFontFamilyValue, 'The web font was applied to font-family of input' );
-	equal( $selectElement.css( 'font-family' ), expectedFontFamilyValue, 'The web font was applied to font-family of select' );
-	equal( $textareaElement.css( 'font-family' ), expectedFontFamilyValue, 'The web font was applied to font-family of textarea' );
+	var expectedFontFamilyValue = fontFamilyList( "'" + teluguFont + "', " + fallbackFonts );
+	deepEqual( fontFamilyList( $body.css( 'font-family' ) ),
+		expectedFontFamilyValue, 'The web font was applied to font-family of body' );
+	deepEqual( fontFamilyList( $inputElement.css( 'font-family' ) ),
+		expectedFontFamilyValue, 'The web font was applied to font-family of input' );
+	deepEqual( fontFamilyList( $selectElement.css( 'font-family' ) ),
+		expectedFontFamilyValue, 'The web font was applied to font-family of select' );
+	deepEqual( fontFamilyList( $textareaElement.css( 'font-family' ) ),
+		expectedFontFamilyValue, 'The web font was applied to font-family of textarea' );
 
 	// Reset everything
 	ok( mw.webfonts.set( false ) === undefined, 'Reset body after testing font application' );
@@ -70,7 +75,7 @@ test( '-- Application of a web font to the page and its removal', function() {
 } );
 
 test( '-- Dynamic font loading', function() {
-	if ( browserIsBlacklisted() ) {
+	if ( !mw.webfonts.isBrowserSupported ) {
 		return;
 	}
 
@@ -90,7 +95,7 @@ test( '-- Dynamic font loading', function() {
 } );
 
 test( '-- Dynamic font loading based on lang attribute', function() {
-	if ( browserIsBlacklisted() ) {
+	if ( !mw.webfonts.isBrowserSupported ) {
 		return;
 	}
 
@@ -130,7 +135,7 @@ test( '-- Dynamic font loading based on lang attribute', function() {
 } );
 
 test( '-- Dynamic font loading based on font-family style attribute', function() {
-	if ( browserIsBlacklisted() ) {
+	if ( !mw.webfonts.isBrowserSupported ) {
 		return;
 	}
 
@@ -166,7 +171,7 @@ test( '-- Dynamic font loading based on font-family style attribute', function()
 } );
 
 test( '-- Build the menu', function() {
-	if ( browserIsBlacklisted() ) {
+	if ( !mw.webfonts.isBrowserSupported ) {
 		return;
 	}
 
@@ -208,13 +213,18 @@ isFontFaceLoaded = function( fontFamilyName ) {
 	return false;
 }
 
-browserIsBlacklisted = function() {
-	var ua = navigator.userAgent;
-	if ( ( /MSIE 6/i.test( ua ) )
-		|| ( /MSIE 8/i.test( ua ) && /Windows NT 5.1/i.test( ua ) ) )
-	{
-		return true;
+// Convert a font-family string to an array. This is needed
+// because browsers change the string by adding or removing spaces,
+// so the string cannot be compared in a uniform way.
+fontFamilyList = function( fontFamilyString ) {
+	// Create a list
+	var fontList = fontFamilyString.split( /, */ );
+
+	// Remove the quotes from font names
+	for ( var fontIndex = 0; fontIndex < fontList.length; ++fontIndex) {
+		fontList[fontIndex] = fontList[fontIndex].replace( /^["']/, '' );
+		fontList[fontIndex] = fontList[fontIndex].replace( /["']$/, '' );
 	}
 
-	return false;
+	return fontList;
 }
