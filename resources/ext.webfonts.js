@@ -62,13 +62,10 @@
 		 * Reset the font with old configuration
 		 */
 		reset: function() {
-			$( 'body' ).css( {
+			$( 'body, input, select, textarea' ).css( {
 				fontFamily: mw.webfonts.oldconfig.fontFamily,
 				fontSize: mw.webfonts.oldconfig.fontSize
 			});
-
-			// font-family of <input>, <select> and <textarea> must be reset explicitly.
-			$( 'input, select, textarea' ).css( 'font-family', mw.webfonts.oldconfig.fontFamily );
 
 			// Reset the fonts applied for tags with lang attribute.
 			$( '.webfonts-lang-attr' ).css( 'font-family', '' ).removeClass( 'webfonts-lang-attr' );
@@ -182,10 +179,10 @@
 				var ua = navigator.userAgent;
 				if ( /MSIE 6/i.test( ua ) ) {
 					// IE6 doesn't have font fallbacks
-					return;
+					return false;
 				} else if ( /MSIE 8/i.test( ua ) && /Windows NT 5.1/i.test( ua ) ) {
 					// IE8 on XP has occasional gibberish bug
-					return;
+					return false;
 				}
 			}
 
@@ -236,6 +233,7 @@
 				// for the main language, because there may be lang attr based font embedding.
 				mw.webfonts.buildMenu( fonts );
 			}
+			return true;
 		},
 
 		/**
