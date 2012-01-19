@@ -4,7 +4,7 @@
 		if ( typeof font !== 'string' ) {
 			return font;
 		}
-		return 'webfont-' + font.toLowerCase().replace(/[_ ]/g, '-' ).replace(/[^-a-z]/g, '' );
+		return 'webfont-' + font.toLowerCase().replace(/[_ ]/g, '-' ).replace(/[^\-a-z]/g, '' );
 	}
 
 	mw.webfonts = {
@@ -168,13 +168,11 @@
 
 			return true;
 		},
-
+	
 		/**
-		 * Setup the font selection menu.
-		 * It also apply the font from cookie, if any.
+		 * Checks whether the browser is supported
 		 */
-		setup: function() {
-			// Blacklist some browsers that are known to have issues with font rendering
+		isBrowserSupported: function() {
 			if ( navigator.appName === 'Microsoft Internet Explorer' ) {
 				var ua = navigator.userAgent;
 				if ( /MSIE 6/i.test( ua ) ) {
@@ -184,6 +182,18 @@
 					// IE8 on XP has occasional gibberish bug
 					return false;
 				}
+			}
+			return true;
+		},
+
+		/**
+		 * Setup the font selection menu.
+		 * It also apply the font from cookie, if any.
+		 */
+		setup: function() {
+			// Some browsers are known to have issues with font rendering
+			if ( !mw.webfonts.isBrowserSupported ) {
+				return false;
 			}
 
 			var	fonts = [],
