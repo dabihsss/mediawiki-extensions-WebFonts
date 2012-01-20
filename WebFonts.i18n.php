@@ -338,6 +338,9 @@ $messages['fa'] = array(
 	'webfonts-enable-preference' => 'فعال‌کردن جاسازی قلم (وب‌قلم)',
 	'webfonts-menu-tooltip' => 'انتخاب قلم برای صفحه',
 	'webfonts-help' => 'کمک',
+	'webfonts-preview-title' => 'پیش‌نمایش قلم‌ها',
+	'webfonts-preview-download' => 'دریافت این قلم',
+	'webfonts-preview-installing-fonts-title' => 'نصب قلم‌ها',
 );
 
 /** Finnish (Suomi)
@@ -778,7 +781,7 @@ $messages['nl'] = array(
 $messages['or'] = array(
 	'webfonts' => 'ୱେବଫଣ୍ଟ',
 	'webfonts-desc' => 'ପୃଷ୍ଠାରେ ଏମବେଡ଼ କରାଯାଇଥିବା ଫଣ୍ଟ',
-	'webfonts-load' => 'ଫଣ୍ଟ ବାଛିବେ',
+	'webfonts-load' => 'Select font',
 	'webfonts-reset' => 'ପୁନସ୍ଥାପନ',
 	'webfonts-enable-preference' => 'ଫଣ୍ଟ ଏମବେଡ଼ କରିବା ସଚଳ କରିବେ (ୱେବ ଫଣ୍ଟ)',
 	'webfonts-menu-tooltip' => 'ଏହି ପୃଷ୍ଠା ପାଇଁ ଏକ ଫଣ୍ଟ ବାଛିବେ',
@@ -1059,6 +1062,12 @@ $messages['vi'] = array(
 	'webfonts-enable-preference' => 'Bật các phông chữ được nhúng vào (WebFonts)',
 	'webfonts-menu-tooltip' => 'Chọn phông chữ để sử dụng trong trang',
 	'webfonts-help' => 'Trợ giúp',
+	'webfonts-preview-intro' => 'Trang này giúp bạn xem thử các phông chữ có sẵn trong phần mở rộng WebFonts và tùy ý tải về và cài đặt chúng nó vào máy tính của bạn.',
+	'webfonts-preview-title' => 'Xem trước các phông chữ',
+	'webfonts-preview-download' => 'Tải về phông chữ này',
+	'webfonts-preview-sampletext' => 'Tôi có thể ăn thủy tinh mà không hại gì',
+	'webfonts-preview-installing-fonts-title' => 'Cài đặt phông chữ',
+	'webfonts-preview-installing-fonts-text' => 'Bạn có thể tải về phông chữ dùng liên kết “{{int:webfonts-preview-download}}” ở trên. Để cài đặt các phông chữ được tải về máy tính của bạn, hãy xem [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts tài liệu này].',
 );
 
 /** Yiddish (ייִדיש)
