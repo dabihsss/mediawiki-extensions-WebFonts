@@ -948,7 +948,7 @@ $messages['sl'] = array(
 	'webfonts-menu-tooltip' => 'Izberite pisavo strani',
 	'webfonts-help' => 'Pomoč',
 	'webfonts-preview-title' => 'Predogled pisav',
-	'webfonts-preview-download' => 'Prenesi',
+	'webfonts-preview-download' => 'Prenesi pisavo',
 	'webfonts-preview-installing-fonts-title' => 'Nameščanje pisav',
 );
 
