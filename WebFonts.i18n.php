@@ -397,7 +397,7 @@ $messages['frp'] = array(
  */
 $messages['gl'] = array(
 	'webfonts' => 'WebFonts',
-	'webfonts-desc' => 'Incorporar fontes nas páxinas',
+	'webfonts-desc' => 'Incorpora fontes nas páxinas',
 	'webfonts-load' => 'Seleccione unha fonte',
 	'webfonts-reset' => 'Restablecer',
 	'webfonts-enable-preference' => 'Activar a incorporación de fontes (WebFonts)',
@@ -645,6 +645,7 @@ $messages['li'] = array(
 	'webfonts-preview-intro' => 'Via dees paasj kins se de lettertypes bekieke die besjikbaar zeen inne oetbreiing WebFonts en es se det wils, kins se ze downloade en installere op diene pc.',
 	'webfonts-preview-title' => 'Veurbesjoew lettertypes',
 	'webfonts-preview-download' => 'Download dit lettertype',
+	'webfonts-preview-installing-fonts-title' => 'Lettertypen installere',
 );
 
 /** Macedonian (Македонски)
@@ -838,6 +839,7 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (Português)
+ * @author Giro720
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -845,6 +847,7 @@ $messages['pt'] = array(
 	'webfonts-desc' => 'Tipos de letra incorporados nas páginas',
 	'webfonts-load' => 'Seleccione o tipo',
 	'webfonts-reset' => 'Reiniciar',
+	'webfonts-help' => 'Ajuda',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
@@ -1094,7 +1097,7 @@ $messages['zh-hans'] = array(
 	'webfonts-help' => '帮助',
 	'webfonts-preview-intro' => '本页面可以帮助您预览在WebFonts扩展可用的字体，并可选下载并安装字体。',
 	'webfonts-preview-title' => '预览字体',
-	'webfonts-preview-download' => '下载',
+	'webfonts-preview-download' => '下载此字体',
 	'webfonts-preview-sampletext' => '灰狐狸快速地从那条笨狗的头上跳过',
 	'webfonts-preview-installing-fonts-title' => '安装字体',
 	'webfonts-preview-installing-fonts-text' => '您可以使用上面的"{{int:webfonts-preview-download}}"链接下载字体。要安装在您电脑上的字体，请参阅[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts 这篇文章].',
@@ -1114,7 +1117,7 @@ $messages['zh-hant'] = array(
 	'webfonts-help' => '幫助',
 	'webfonts-preview-intro' => '本頁面可以幫助您預覽在WebFonts擴展可用的字體，並可選下載並安裝字體。',
 	'webfonts-preview-title' => '預覽字體',
-	'webfonts-preview-download' => '下載',
+	'webfonts-preview-download' => '下載此字體',
 	'webfonts-preview-sampletext' => '平雪迎骨水直',
 	'webfonts-preview-installing-fonts-title' => '安裝字體',
 	'webfonts-preview-installing-fonts-text' => '您可以使用上面給出的{{int:webfonts-preview-download}}連結下載字體。要安裝在您的電腦上下載的字體，請參閱[//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts 此文檔]。',
