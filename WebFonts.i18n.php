@@ -887,6 +887,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Eugrus
+ * @author KPu3uC B Poccuu
  * @author Lockal
  * @author Александр Сигачёв
  */
@@ -895,7 +896,7 @@ $messages['ru'] = array(
 	'webfonts-desc' => 'Позволяет встраивать шрифты на страницы',
 	'webfonts-load' => 'Выбрать шрифт',
 	'webfonts-reset' => 'Сбросить',
-	'webfonts-enable-preference' => 'Включить внедрение шрифтов (WebFonts)',
+	'webfonts-enable-preference' => 'Включить внедрение шрифтов (Web fonts).',
 	'webfonts-menu-tooltip' => 'Выберите шрифт для страницы',
 	'webfonts-help' => 'Справка',
 	'webfonts-preview-intro' => 'Эта страница поможет просмотреть шрифты, доступные в расширение WebFonts.  При необходимости их можно будет загрузить и установить на своём компьютере.',
