@@ -367,7 +367,7 @@
 			as:  [ "Lohit Assamese" ],
 			bh:  [ "Lohit Devanagari" ],
 			bho: [ "Lohit Devanagari" ],
-			bn:  [ "Lohit Bengali" ,"Siyam Rupali" ],
+			bn:  [ "Siyam Rupali", "Lohit Bengali" ],
 			bpy: [ "Lohit Bengali" ],
 			cdo: [ "Charis SIL" ],
 			fa:  [ "Iranian Sans" ],
