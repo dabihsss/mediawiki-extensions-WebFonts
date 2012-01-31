@@ -62,12 +62,6 @@
 				woff: "Gujr/Lohit-Gujarati.woff",
 				version: "2.5.0"
 			},
-			"Raghu Gujarati": {
-				eot: "Gujr/RaghuGujaratiSans.eot",
-				ttf: "Gujr/RaghuGujaratiSans.ttf",
-				woff: "Gujr/RaghuGujaratiSans.woff",
-				version: "1.0"
-			},
 			"Samyak Gujarati": {
 				eot: "Gujr/SamyakGujarati.eot",
 				ttf: "Gujr/SamyakGujarati.ttf",
@@ -371,7 +365,7 @@
 			bpy: [ "Lohit Bengali" ],
 			cdo: [ "Charis SIL" ],
 			fa:  [ "Iranian Sans" ],
-			gu:  [ "Lohit Gujarati", "Raghu Gujarati" ],
+			gu:  [ "Lohit Gujarati" ],
 			hbo: [ "Taamey Frank CLM" ],
 			he:  [ "Miriam CLM", "Taamey Frank CLM" ],
 			hi:  [ "Lohit Devanagari" ],
