@@ -783,7 +783,7 @@ $messages['or'] = array(
 	'webfonts' => 'ୱେବଫଣ୍ଟ',
 	'webfonts-desc' => 'ପୃଷ୍ଠାରେ ଏମବେଡ଼ କରାଯାଇଥିବା ଫଣ୍ଟ',
 	'webfonts-load' => 'Select font',
-	'webfonts-reset' => 'ପୁନସ୍ଥାପନ',
+	'webfonts-reset' => 'Reset',
 	'webfonts-enable-preference' => 'ଫଣ୍ଟ ଏମବେଡ଼ କରିବା ସଚଳ କରିବେ (ୱେବ ଫଣ୍ଟ)',
 	'webfonts-menu-tooltip' => 'ଏହି ପୃଷ୍ଠା ପାଇଁ ଏକ ଫଣ୍ଟ ବାଛିବେ',
 	'webfonts-help' => 'ସହଯୋଗ',
@@ -795,6 +795,7 @@ $messages['or'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Olgak85
  * @author Woytecr
  */
@@ -806,6 +807,12 @@ $messages['pl'] = array(
 	'webfonts-enable-preference' => 'Włącz osadzanie czcionek',
 	'webfonts-menu-tooltip' => 'Wybierz czcionkę dla strony',
 	'webfonts-help' => 'Pomoc',
+	'webfonts-preview-intro' => 'Ta strona umożliwia podgląd czcionek dostępnych w rozszerzeniu WebFonts a opcjonalnie pobranie i instalację w komputerze.',
+	'webfonts-preview-title' => 'Podgląd czcionek',
+	'webfonts-preview-download' => 'Pobierz tą czcionkę',
+	'webfonts-preview-sampletext' => 'Zażółć gęślą jaźń Zażółć gęślą',
+	'webfonts-preview-installing-fonts-title' => 'Instalowanie czcionek',
+	'webfonts-preview-installing-fonts-text' => 'Możesz pobrać czcionki przy użyciu łącza „{{int:webfonts-preview-download}} " podanego powyżej. Aby zainstalować czcionki pobrane na komputer, przejrzyj [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts.pl tą dokumentację].',
 );
 
 /** Piedmontese (Piemontèis)
