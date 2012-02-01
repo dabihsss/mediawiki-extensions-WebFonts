@@ -100,6 +100,12 @@ $messages['ast'] = array(
 	'webfonts-enable-preference' => 'Activar la incorporación de fontes (WebFonts)',
 	'webfonts-menu-tooltip' => 'Seleicionar una fonte pa la páxina',
 	'webfonts-help' => 'Ayuda',
+	'webfonts-preview-intro' => "Esta páxina t'ayuda a dar una vista previa a les fontes disponibles na estensión WebFonts y, opcionalmente, descargales ya instalales nel to ordenador.",
+	'webfonts-preview-title' => 'Vista previa de les fontes',
+	'webfonts-preview-download' => 'Descargar esta fonte',
+	'webfonts-preview-sampletext' => "El xabaril que diba pel ḥou cabu la foz y la cigüeña qu'esnalaba per Ḷḷuarca",
+	'webfonts-preview-installing-fonts-title' => 'Instalación de les fontes',
+	'webfonts-preview-installing-fonts-text' => 'Pues descargar una fonte usando l\'enllaz "{{int:webfonts-preview-download}}" anterior. Pa instalar la fonte descargada nel to ordenador, llee [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación].',
 );
 
 /** Azerbaijani (Azərbaycanca)
@@ -303,6 +309,7 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Fitoschido
  * @author Imre
  * @author Platonides
@@ -315,6 +322,12 @@ $messages['es'] = array(
 	'webfonts-enable-preference' => 'Activar la incrustación de tipografías (WebFonts)',
 	'webfonts-menu-tooltip' => 'Escoger una fuente para la página',
 	'webfonts-help' => 'Ayuda',
+	'webfonts-preview-intro' => 'Esta página le ayuda a obtener una vista previa de las fuentes disponibles en la extensión WebFonts y opcionalmente descargarlas e instalarlas en su equipo.',
+	'webfonts-preview-title' => 'Obtener una vista previa de las fuentes',
+	'webfonts-preview-download' => 'Descargar esta fuente',
+	'webfonts-preview-sampletext' => 'Cada vez que me trabo, Félix paga un whisky añejo',
+	'webfonts-preview-installing-fonts-title' => 'Instalando las fuentes',
+	'webfonts-preview-installing-fonts-text' => 'Puede descargar una fuente utilizando el vínculo "{{int:webfonts-preview-download}}" dado anteriormente. Para instalar la fuente descargada en el equipo, consulte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación].',
 );
 
 /** Basque (Euskara)
@@ -692,6 +705,7 @@ $messages['ml'] = array(
  * @author Htt
  * @author Kaajawa
  * @author Mahitgar
+ * @author Rahuldeshmukh101
  */
 $messages['mr'] = array(
 	'webfonts' => 'जालटंक',
@@ -700,6 +714,7 @@ $messages['mr'] = array(
 	'webfonts-enable-preference' => '(WebFonts) फॉंट अंतःस्थापन  (एंबेडिंग) सक्षम करा',
 	'webfonts-menu-tooltip' => 'पानासाठी टंक निवडा',
 	'webfonts-help' => 'मदत',
+	'webfonts-preview-title' => 'टंकाचे पुर्ववलोलन करा',
 	'webfonts-preview-download' => 'हा टंक(फॉँट) उतरवा/वापरा',
 	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog कुणी अनुवादाचे हे खरे आव्हान पेलू शकेल काय ? मराठी भाषेतील प्रत्येक अक्षर येईल आणि एकदाच येईल किमान सर्वाधिक अक्षरे येतील अशी वाक्य रचना हवी आहे. येथे बदल करण्याकरिता तुम्हाला ट्रांसलेटविकि डॉट नेट वर आधी आपले खाते उघडून अनुवाद करू देण्याची फॉर्मॅलिटी पार पाडावी लागेल.',
 	'webfonts-preview-installing-fonts-title' => 'फॉंट इन्स्टॉलींग',
