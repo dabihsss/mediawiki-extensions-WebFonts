@@ -437,10 +437,12 @@ $messages['gsw'] = array(
 
 /** Gujarati (ગુજરાતી)
  * @author Ankit
+ * @author KartikMistry
  */
 $messages['gu'] = array(
 	'webfonts-load' => 'ફોન્ટ પસંદ કરો',
 	'webfonts-reset' => 'ફરી ગોઠવો',
+	'webfonts-help' => 'મદદ',
 );
 
 /** Hebrew (עברית)
