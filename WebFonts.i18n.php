@@ -227,13 +227,19 @@ $messages['cs'] = array(
  * @author Peter Alberti
  */
 $messages['da'] = array(
-	'webfonts' => 'WebFonts',
+	'webfonts' => 'Web fonts',
 	'webfonts-desc' => 'Integrer skrifttyper i siderne',
 	'webfonts-load' => 'Vælg skrifttype',
 	'webfonts-reset' => 'Nulstil',
-	'webfonts-enable-preference' => 'Aktiver integrering af skrifttyper (WebFonts)',
+	'webfonts-enable-preference' => 'Slå integrering af skrifttyper til (Web fonts)',
 	'webfonts-menu-tooltip' => 'Vælg en skrifttype for siden',
 	'webfonts-help' => 'Hjælp',
+	'webfonts-preview-intro' => 'Denne side giver en forhåndsvisning af de skrifttyper, der er tilgængelige i WebFonts-udvidelsen, og giver også mulighed for at hente dem ned og installere dem på din computer.',
+	'webfonts-preview-title' => 'Forhåndsvis skrifttyperne',
+	'webfonts-preview-download' => 'Hent denne skrifttype',
+	'webfonts-preview-sampletext' => 'Quizdeltager får whisky på jordbær, men cykelklovn kører taxa.',
+	'webfonts-preview-installing-fonts-title' => 'Om at installere skrifttyper',
+	'webfonts-preview-installing-fonts-text' => 'Du kan hente en skrifttype ved hjælp af linket "{{int:webfonts-preview-download}}" ovenfor. For at installere den pågældende skrifttype på din computer, se venligst [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts denne dokumentation].',
 );
 
 /** German (Deutsch)
@@ -445,6 +451,7 @@ $messages['gu'] = array(
 	'webfonts-desc' => 'પાનામાં વણાયેલા ફોન્ટ',
 	'webfonts-load' => 'ફોન્ટ પસંદ કરો',
 	'webfonts-reset' => 'ફરી ગોઠવો',
+	'webfonts-menu-tooltip' => 'આ પાના માટે ફોન્ટ પસંદ કરો',
 	'webfonts-help' => 'મદદ',
 	'webfonts-preview-title' => 'ફોન્ટની કાચી પ્રત બતાવો',
 	'webfonts-preview-download' => 'આ ફોન્ટ ડાઉનલોડ કરો',
@@ -717,6 +724,7 @@ $messages['ml'] = array(
  */
 $messages['mr'] = array(
 	'webfonts' => 'जालटंक',
+	'webfonts-desc' => 'पृष्ठात टंक स्थापित करा',
 	'webfonts-load' => 'टंक',
 	'webfonts-reset' => 'पूर्ववत करा',
 	'webfonts-enable-preference' => '(WebFonts) फॉंट अंतःस्थापन  (एंबेडिंग) सक्षम करा',
