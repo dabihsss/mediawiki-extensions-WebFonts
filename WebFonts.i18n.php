@@ -451,6 +451,7 @@ $messages['gu'] = array(
 	'webfonts-desc' => 'પાનામાં વણાયેલા ફોન્ટ',
 	'webfonts-load' => 'ફોન્ટ પસંદ કરો',
 	'webfonts-reset' => 'ફરી ગોઠવો',
+	'webfonts-enable-preference' => 'ફોન્ટ ઍમ્બેડિંગ સક્રીય કરો (વેબ ફોન્ટ)',
 	'webfonts-menu-tooltip' => 'આ પાના માટે ફોન્ટ પસંદ કરો',
 	'webfonts-help' => 'મદદ',
 	'webfonts-preview-title' => 'ફોન્ટની કાચી પ્રત બતાવો',
