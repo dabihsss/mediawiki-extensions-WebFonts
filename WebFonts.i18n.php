@@ -146,6 +146,13 @@ $messages['be-tarask'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Вы можаце загрузіць шрыфт, скарыстаўшыся спасылкай «{{int:webfonts-preview-download}}» вышэй. Каб усталяваць загружаны шрыфт на Ваш кампутар, калі ласка, глядзіце [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts дакумэнтацыю].',
 );
 
+/** Bhojpuri (भोजपुरी)
+ * @author Anshumangupta21
+ */
+$messages['bho'] = array(
+	'webfonts-load' => 'हमार नाम अन्शुमन बा',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Jayantanth
@@ -454,8 +461,10 @@ $messages['gu'] = array(
 	'webfonts-enable-preference' => 'ફોન્ટ ઍમ્બેડિંગ સક્રીય કરો (વેબ ફોન્ટ)',
 	'webfonts-menu-tooltip' => 'આ પાના માટે ફોન્ટ પસંદ કરો',
 	'webfonts-help' => 'મદદ',
+	'webfonts-preview-intro' => 'આ પાનું તમને વેબફોન્ડ વિસ્તારક હેઠળ ઉપલબ્ધ ફોન્ટનું પુનરવલોકન કરવામાં મદદ કરશે  અને તમને તે ફોન્ટ ડાઉનલોડ કરી રાખવામાં મદદ કરશે.',
 	'webfonts-preview-title' => 'ફોન્ટની કાચી પ્રત બતાવો',
 	'webfonts-preview-download' => 'આ ફોન્ટ ડાઉનલોડ કરો',
+	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog (ધ ક્વીક બ્રાઉન ફોક્સ જમ્પ્સ ઓવર લેઝી ડોગ)',
 	'webfonts-preview-installing-fonts-title' => 'ફોંટ બેસાડી રહ્યાં છીએ.',
 );
 
