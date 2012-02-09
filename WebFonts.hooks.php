@@ -59,6 +59,8 @@ class WebFontsHooks {
 
 	/**
 	 * Hook: ResourceLoaderGetConfigVars
+	 * @param $vars array
+	 * @return bool
 	 */
 	public static function addConfig( &$vars ) {
 		$vars['wgWebFontsHelpPage'] = wfMsgForContent( 'webfonts-help-page' );
