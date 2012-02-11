@@ -720,7 +720,7 @@ $messages['ml'] = array(
 	'webfonts-help' => 'സഹായം',
 	'webfonts-preview-intro' => 'വെബ്ഫോണ്ട് എക്സ്റ്റന്‍ഷനിലുള്ള ഫോണ്ടുകള്‍ പരീക്ഷിച്ചുനോക്കി അവ നിങ്ങളുടെ കമ്പ്യൂട്ടറില്‍ ഇന്‍സ്റ്റാള്‍ ചെയ്യുന്നതിനു് ഈ താള്‍ സഹായിക്കുന്നു.',
 	'webfonts-preview-title' => 'ഫോണ്ടുകള്‍ പരീക്ഷിച്ചുനോക്കുക',
-	'webfonts-preview-download' => 'ഡൌണ്‍ലോഡ്',
+	'webfonts-preview-download' => 'ലിങ്ക് എഴുത്ത് ഡൗൺലോഡ് ചെയ്യുക',
 	'webfonts-preview-sampletext' => 'തിരഞ്ഞെടുത്ത ഫോണ്ട് പരീക്ഷിച്ചു നോക്കാനായി ഇവിടെ നിങ്ങള്‍ക്കിഷ്ടമുള്ളതെഴുതാം.',
 	'webfonts-preview-installing-fonts-title' => 'ഫോണ്ടുകള്‍ ഇന്‍സ്റ്റാള്‍ ചെയ്യുന്ന വിധം',
 	'webfonts-preview-installing-fonts-text' => 'മുകളില്‍ കൊടുത്തിരിക്കുന്ന {{int:webfonts-preview-download}} കണ്ണി ഉപയോഗിച്ചു് നിങ്ങള്‍ക്കു്  ഫോണ്ട് ഡൌണ്‍ലോഡ് ചെയ്യാം. അതിനു ശേഷം ഇന്‍സ്റ്റാള്‍ ചെയ്യുന്നതിനായി [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ഈ താള്‍ സഹായിച്ചേക്കും.]',
@@ -1155,6 +1155,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Anakmalaysia
+ * @author Oapbtommy
  * @author Waihorace
  */
 $messages['zh-hant'] = array(
@@ -1164,7 +1165,7 @@ $messages['zh-hant'] = array(
 	'webfonts-reset' => '重置',
 	'webfonts-enable-preference' => '啟用字體嵌入（WebFonts）',
 	'webfonts-menu-tooltip' => '為本頁選擇字體',
-	'webfonts-help' => '幫助',
+	'webfonts-help' => '說明',
 	'webfonts-preview-intro' => '本頁面可以幫助您預覽在WebFonts擴展可用的字體，並可選下載並安裝字體。',
 	'webfonts-preview-title' => '預覽字體',
 	'webfonts-preview-download' => '下載此字體',
