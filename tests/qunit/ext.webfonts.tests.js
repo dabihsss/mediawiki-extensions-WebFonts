@@ -25,7 +25,7 @@ function isFontFaceLoaded( fontFamilyName ) {
 			continue;
 		}
 		cssText =  lastStyleSheet.cssRules[0].cssText;
-		if ( cssText.indexOf( '@font-face' ) >= 0 && cssText.indexOf( fontFamilyName ) >= 0 ) {
+		if ( cssText.indexOf( '@font-face' ) !== -1 && cssText.indexOf( fontFamilyName ) !== -1 ) {
 			return true;
 		}
 	}
@@ -44,8 +44,7 @@ function fontFamilyList( fontFamilyString ) {
 
 	// Remove the quotes from font names
 	for ( fontIndex = 0; fontIndex < fontList.length; ++fontIndex ) {
-		fontList[fontIndex] = fontList[fontIndex].replace( /^["']/, '' );
-		fontList[fontIndex] = fontList[fontIndex].replace( /["']$/, '' );
+		fontList[fontIndex] = fontList[fontIndex].replace( /^["']/, '' ).replace( /["']$/, '' );
 	}
 
 	return fontList;
@@ -65,63 +64,66 @@ test( '-- Initial check', function() {
 } );
 
 test( '-- Application of a web font to the page and its removal', function() {
+	// @fixme TODO: test that the right thing was written to the log
+	
 	if ( !mw.webfonts.isBrowserSupported ) {
 		return;
 	}
 
-	expect( 18 );
+	expect( 15 );
 
 	var invalidFont = 'NonExistingFont';
 	strictEqual( mw.webfonts.set( invalidFont ), undefined, 'A non-existent font is not initialized' );
-	// TODO: test that the right thing was written to the log
+
+	var $doc = $( 'html' );
+	var docLang = $doc.attr( 'lang' );
+	var oldConfig = {
+		fontFamily: $doc.css( 'font-family' ),
+		fontSize: $doc.css( 'font-size' )
+	};
+	var fontName = mw.webfonts.config.languages.my[2];
+	$doc.attr( 'lang', 'my' );
 
 	var $body = $( 'body' );
-	var bodyLang = $body.attr( 'lang' );
-	var oldConfig = {
-		fontFamily: $body.css( 'font-family' ),
-		fontSize: $body.css( 'font-size' )
-	};
-	var teluguFont = mw.webfonts.config.languages.te[0];
-	$body.attr( 'lang', 'te' );
-
 	var $inputElement = $( '<input value="input content"/>' );
-	var $selectElement = $( '<select><option value="foobar">Foobar</option></select>' );
 	var $textareaElement = $( '<textarea>textarea content</textarea>' );
-	$( '#qunit-fixture' ).append( $inputElement, $selectElement, $textareaElement );
+	$( '#qunit-fixture' ).append( $inputElement, $textareaElement );
 
-	assertTrue( mw.webfonts.set( teluguFont ), 'Attempted to load a Telugu font for the whole page' );
+	assertTrue( mw.webfonts.set( fontName ), 'Attempted to load a Telugu font for the whole page' );
 	var fallbackFonts = 'Helvetica, Arial, sans-serif';
 	deepEqual( oldConfig, mw.webfonts.oldconfig, 'Previous body css was saved properly' );
 
 	// Font application
-	var expectedFontFamilyValue = fontFamilyList( "'" + teluguFont + "', " + fallbackFonts );
+	var expectedFontFamilyValue = fontFamilyList( "'" + fontName + "', " + fallbackFonts );
 	deepEqual( fontFamilyList( $body.css( 'font-family' ) ),
 		expectedFontFamilyValue, 'The web font was applied to font-family of body' );
 	deepEqual( fontFamilyList( $inputElement.css( 'font-family' ) ),
 		expectedFontFamilyValue, 'The web font was applied to font-family of input' );
-	deepEqual( fontFamilyList( $selectElement.css( 'font-family' ) ),
-		expectedFontFamilyValue, 'The web font was applied to font-family of select' );
 	deepEqual( fontFamilyList( $textareaElement.css( 'font-family' ) ),
 		expectedFontFamilyValue, 'The web font was applied to font-family of textarea' );
 
 	// Cookie set
-	equals( $.cookie( 'webfonts-font' ), teluguFont, 'Correct cookie for the font was set' );
+	equals( $.cookie( 'webfonts-font' ), fontName, 'Correct cookie for the font was set' );
 
 	// Reset everything
 	strictEqual( mw.webfonts.set( false ), undefined, 'Reset body after testing font application' );
-	equals( $body.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for body was restored' );
-	equals( $body.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for body was restored' );
+	equals( $doc.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for body was restored' );
+	equals( $doc.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for body was restored' );
 	equals( $inputElement.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for body was restored' );
 	equals( $inputElement.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for body was restored' );
-	equals( $selectElement.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for the select element was restored' );
-	equals( $selectElement.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for the select element restored' );
 	equals( $textareaElement.css( 'font-family' ), oldConfig.fontFamily, 'Previous font-family for the textarea element was restored' );
 	equals( $textareaElement.css( 'font-size' ), oldConfig.fontSize, 'Previous font-size for the textarea element was restored' );
 
 	// Cookie set
 	equals( $.cookie( 'webfonts-font' ), 'none', 'The cookie was removed' );
 
-	$body.attr( 'lang', bodyLang );
+	// docLang could be undefined, in which case jQuery will treat
+	// the invocation as a getter instead of a setter.
+	if ( docLang !== undefined ) {
+		$doc.attr( 'lang', docLang );
+	} else {
+		$doc.removeAttr( 'lang' );
+	}
 } );
 
 test( '-- Dynamic font loading', function() {
@@ -185,33 +187,48 @@ test( '-- Dynamic font loading based on font-family style attribute', function()
 		return;
 	}
 
-	expect( 11 );
+	expect( 8 );
 
+	// Save
+	var oldFonts = mw.webfonts.fonts;
 	mw.webfonts.fonts = [];
 
-	var $testElement = $( '<p>Some content</p>' );
-	$( '#qunit-fixture' ).append( $testElement );
+	var $qunitFixture = $( '#qunit-fixture' );
+	var $latinTest = $( '<p>Some content</p>' );
+	var $invalidTest = $( '<p>Some content</p>' );
+	var $malayalamTest = $( '<p>Some content</p>' );
 
 	var latinWebFont = 'RufScript';
 	var fallbackFonts = 'Helvetica, Arial, sans-serif';
-	$testElement.attr( 'style', 'font-family: ' + latinWebFont + ', ' + fallbackFonts );
-	assertTrue( $.inArray( latinWebFont, mw.webfonts.fonts ) === -1, 'Latin font not loaded yet' );
-	ok( mw.webfonts.loadFontsForFontFamilyStyle(), 'Loaded fonts from font-family' );
-	assertTrue( $.inArray( latinWebFont, mw.webfonts.fonts ) >= 0, 'Latin font loaded' );
-	assertTrue( isFontFaceLoaded( latinWebFont ), 'New css rule added to the document for Latin' );
-
 	var invalidFont = 'NonExistingFont';
-	$testElement.attr( 'style', 'font-family: ' + invalidFont + ', ' + fallbackFonts );
-	ok( mw.webfonts.loadFontsForFontFamilyStyle(), 'Attempted to load non-existing fonts specified in font-family' );
-	assertTrue( $.inArray( invalidFont, mw.webfonts.fonts ) === -1, 'Font not loaded since it is not existing, including fallback fonts' );
-	assertFalse( isFontFaceLoaded( invalidFont ), 'No new css rule added to the document since the font does not exist' );
-
 	var malayalamFont = mw.webfonts.config.languages.ml[0];
-	$testElement.attr( 'style', 'font-family: ' + invalidFont + ', ' + malayalamFont + ', ' + fallbackFonts );
+
+	$latinTest.css( 'font-family', latinWebFont + ', ' + fallbackFonts );
+	$invalidTest.css( 'font-family', invalidFont + ', ' + fallbackFonts );
+	$malayalamTest.css( 'font-family', invalidFont + ', ' + malayalamFont + ', ' + fallbackFonts );
+	$qunitFixture.append( $latinTest, $invalidTest, $malayalamTest );
+	
+	// Trigger a re-render for Chrome,
+	// which otherwise will not synchronize css property into a string for style="" attribute
+	// We don't actually use innerHTML anywhere, just triggering it will fix Chrome.
+	$qunitFixture.prop('innerHTML');
+
+	assertTrue( $.inArray( latinWebFont, mw.webfonts.fonts ) === -1, 'Latin font not loaded yet' );
 	assertTrue( $.inArray( malayalamFont, mw.webfonts.fonts ) === -1, 'Fallback font not loaded yet' );
-	ok( mw.webfonts.loadFontsForFontFamilyStyle(), 'Loading fonts from font-family' );
-	assertTrue( $.inArray( malayalamFont, mw.webfonts.fonts ) >= 0, 'A fallback font was loaded' );
-	assertTrue( isFontFaceLoaded( malayalamFont ), 'New css rule added to the document for fallback font' );
+
+	mw.webfonts.loadFontsForFontFamilyStyle();
+
+	assertTrue( $.inArray( latinWebFont, mw.webfonts.fonts ) !== -1, 'Latin font loaded' );
+	assertTrue( isFontFaceLoaded( latinWebFont ), 'Latin font css rule added to the document' );
+
+	assertTrue( $.inArray( invalidFont, mw.webfonts.fonts ) === -1, 'NonExistingFont not loaded since it is not existing, including fallback fonts' );
+	assertFalse( isFontFaceLoaded( invalidFont ), 'NonExistingFont css rule not added to the document' );
+
+	assertTrue( $.inArray( malayalamFont, mw.webfonts.fonts ) !== -1, 'Fallback font loaded' );
+	assertTrue( isFontFaceLoaded( malayalamFont ), 'Fallback font css rule added to the document' );
+
+	// Restore
+	mw.webfonts.fonts = oldFonts;
 } );
 
 test( '-- Build the menu', function() {

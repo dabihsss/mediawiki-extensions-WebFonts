@@ -39,8 +39,10 @@
 			}
 
 			// Set the web font and the fallback fonts.
-			// font-family of <input>, <select> and <textarea> must be changed explicitly.
-			$( 'body, input, select, textarea' ).css(
+			// font-family of <input> and <textarea> must be changed explicitly.
+			// @fixme TODO: Figure out a way to set font styling on <select> elements.
+			// (if done, also add to reset() and to unit test).
+			$( 'body, input, textarea' ).css(
 				'font-family', '"' + font + '", Helvetica, Arial, sans-serif'
 			);
 
@@ -62,7 +64,7 @@
 		 * Reset the font with old configuration
 		 */
 		reset: function() {
-			$( 'body, input, select, textarea' ).css( {
+			$( 'body, input, textarea' ).css( {
 				fontFamily: mw.webfonts.oldconfig.fontFamily,
 				fontSize: mw.webfonts.oldconfig.fontSize
 			});
@@ -250,13 +252,13 @@
 		 * Scan the page for tags with lang attr and load the default font
 		 * for that language if available.
 		 */
-		loadFontsForLangAttr: function() {
+		loadFontsForLangAttr: function () {
 			var languages = mw.webfonts.config.languages;
 			var requested = [mw.config.get( 'wgUserVariant' ), mw.config.get( 'wgContentLanguage' ),
 				mw.config.get( 'wgUserLanguage' ), mw.config.get( 'wgPageContentLanguage' )];
 			var fontFamily = false;
 			// Find elements with the lang attribute.
-			$( 'body' ).find( '*[lang]' ).each( function( i, el ) {
+			$( 'body' ).find( '*[lang]' ).each( function ( i, el ) {
 				// If the lang attribute value is same as one of
 				// contentLang,useLang, variant, no need to do this.
 				if( $.inArray( el.lang , requested ) === -1 ) {
@@ -275,12 +277,12 @@
 		 * Scan the page for tags with font-family style declarations
 		 * If that font is available, embed it.
 		 */
-		loadFontsForFontFamilyStyle: function() {
+		loadFontsForFontFamilyStyle: function () {
 			// If there are tags with font-family style definition, get a list of fonts to be loaded
-			$( 'body' ).find( '*[style]' ).each( function( i, el ) {
-				if( el.style.fontFamily ) {
+			$( 'body' ).find( '[style]' ).each( function ( i, el ) {
+				if ( el.style.fontFamily ) {
 					var fontFamilyItems = el.style.fontFamily.split( ',' );
-					$.each( fontFamilyItems, function( i, fontFamily ) {
+					$.each( fontFamilyItems, function ( i, fontFamily ) {
 						// Remove the ' characters if any.
 						fontFamily = $.trim( fontFamily.replace( /'/g, '' ) );
 						mw.webfonts.addFont( fontFamily );
