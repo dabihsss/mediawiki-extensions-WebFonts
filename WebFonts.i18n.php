@@ -150,7 +150,11 @@ $messages['be-tarask'] = array(
  * @author Anshumangupta21
  */
 $messages['bho'] = array(
-	'webfonts-load' => 'हमार नाम अन्शुमन बा',
+	'webfonts' => 'वेब फोन्ट्स',
+	'webfonts-desc' => 'पन्ने मे फोन्ट्स एम्बेड करी',
+	'webfonts-load' => 'वेब फोन्ट्स',
+	'webfonts-menu-tooltip' => 'पन्ने के खतिर फोन्ट के चयन करी',
+	'webfonts-help' => 'मदद',
 );
 
 /** Bengali (বাংলা)
@@ -196,8 +200,10 @@ $messages['br'] = array(
 	'webfonts-enable-preference' => "Gweredekaat an ensoc'hañ fontoù (Fontoù Kenrouedad)",
 	'webfonts-menu-tooltip' => 'Dibabit ur font evit ar bajenn',
 	'webfonts-help' => 'Skoazell',
+	'webfonts-preview-intro' => "Ho skoazellañ a ra ar bajenn-mañ da rakwelet ar fontoù hegerz en astenn WebFonts ha, diouzh an dro, o fellgargañ hag o staliañ war hoc'h urzhiataer.",
 	'webfonts-preview-title' => 'Rakwelet ar fontoù',
 	'webfonts-preview-download' => 'Pellgargañ ar font-mañ',
+	'webfonts-preview-sampletext' => "Jezuz, ned eus stêr verr na sklaer o c'hourc'hemenniñ war yezh eürus he fobl na chag.",
 	'webfonts-preview-installing-fonts-title' => 'Staliañ ar fontoù',
 );
 
@@ -466,6 +472,7 @@ $messages['gu'] = array(
 	'webfonts-preview-download' => 'આ ફોન્ટ ડાઉનલોડ કરો',
 	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog (ધ ક્વીક બ્રાઉન ફોક્સ જમ્પ્સ ઓવર લેઝી ડોગ)',
 	'webfonts-preview-installing-fonts-title' => 'ફોંટ બેસાડી રહ્યાં છીએ.',
+	'webfonts-preview-installing-fonts-text' => 'ઉપર આપેલી કડી દ્વારા તમે  "{{int:webfonts-preview-download}}" વાપરી ફોન્ટ ડાઉનલોડ કરી શકો છો. તે ફોન્ટને તમારા કમ્યુટર પ્ર કાર્યાન્વીત કરવા આહીં માહિતી છે:  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation].',
 );
 
 /** Hebrew (עברית)
