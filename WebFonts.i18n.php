@@ -236,6 +236,19 @@ $messages['cs'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Písmo si můžete stáhnout pomocí odkazu „{{int:webfonts-preview-download}}“ zobrazeného výše. Postup instalace staženého písma do vašeho počítače najdete v [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentaci]',
 );
 
+/** Welsh (Cymraeg)
+ * @author Pwyll
+ */
+$messages['cy'] = array(
+	'webfonts-load' => 'Dewiswch ffont',
+	'webfonts-reset' => 'Ailosod',
+	'webfonts-menu-tooltip' => 'Dewiswch ffont ar gyfer y dudalen',
+	'webfonts-help' => 'Cymorth',
+	'webfonts-preview-title' => "Rhagolwg o'r ffontiau",
+	'webfonts-preview-download' => "Lawrlwytho'r ffont hwn",
+	'webfonts-preview-sampletext' => "Mae'r llwynog cyflym brown yn neidio dros y ci diog",
+);
+
 /** Danish (Dansk)
  * @author Peter Alberti
  */
