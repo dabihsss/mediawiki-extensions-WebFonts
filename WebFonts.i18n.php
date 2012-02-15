@@ -636,6 +636,7 @@ $messages['ka'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
+ * @author គីមស៊្រុន
  * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
@@ -643,7 +644,15 @@ $messages['km'] = array(
 	'webfonts-desc' => 'បង្កប់ពុម្ពអក្សរក្នុងទំព័រនេះ',
 	'webfonts-load' => 'ជ្រើសរើសពុម្ពអក្សរ',
 	'webfonts-reset' => 'កំណត់ឡើងវិញ',
-	'webfonts-enable-preference' => 'ដាក់ពុម្ពអក្សរបង្កប់ចូល (WebFonts)',
+	'webfonts-enable-preference' => 'ប្រើការបញ្ចូលប្រភេទអក្សរ (WebFonts)',
+	'webfonts-menu-tooltip' => 'ជ្រើសរើសប្រភេទអក្សរសំរាប់ទំព័រនេះ',
+	'webfonts-help' => 'ជំនួយ',
+	'webfonts-preview-intro' => 'ទំព័រនេះជួយអ្នកអោយមើលជាមុននូវប្រភេទអក្សរដែលមាននៅក្នុងកម្មវិធីបន្ថែម WebFonts និងទាញយកឬតំលើងនៅក្នុងកុំព្យូទ័ររបស់អ្នកតាមដែលអ្នកចង់។',
+	'webfonts-preview-title' => 'មើលប្រភេទអក្សរជាមុន',
+	'webfonts-preview-download' => 'ទាញយកប្រភេទតួអក្សរនេះ',
+	'webfonts-preview-sampletext' => 'តក់ៗពេញបំពង់ ឆុងឆុងពេញថាំង',
+	'webfonts-preview-installing-fonts-title' => 'កំពុងតំលើងប្រភេទអក្សរ',
+	'webfonts-preview-installing-fonts-text' => 'អ្នកអាចទាញយកប្រភេទអក្សរមួយដោយប្រើតំណភ្ជាប់ "{{int:webfonts-preview-download}}" ខាងលើ។ ដើម្បីតំលើងប្រភេទអក្សរដែលបានទាញយកហើយ​នៅលើកុំព្យូទ័ររបស់អ្នក សូមអាន[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts កំរងឯកសារនេះ]។',
 );
 
 /** Korean (한국어)
