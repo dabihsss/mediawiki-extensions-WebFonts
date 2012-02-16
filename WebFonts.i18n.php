@@ -1081,6 +1081,10 @@ $messages['ta'] = array(
 	'webfonts-enable-preference' => 'எழுத்துரு புதைத்தல் (இணைய எழுத்துருக்களை) பயன்படுத்துக',
 	'webfonts-menu-tooltip' => 'பக்கத்திற்கான எழுத்துருவை தேர்வு செய்க',
 	'webfonts-help' => 'உதவி',
+	'webfonts-preview-intro' => 'இந்த பக்கம் இணைய எழுத்துரு நீட்சியிலுள்ள எழுத்துருக்களை முன்தோற்றம் பார்க்க உதவுகிறது. மேலும் எழுத்துருவை உங்கள் கணினிக்கு பதிவிறக்கி, நிறுவ உதவும்.',
+	'webfonts-preview-title' => 'இந்த எழுத்துருவின் முன்தோற்றம் காண்க',
+	'webfonts-preview-download' => 'இந்த எழுத்துரு பதிவிறக்கு',
+	'webfonts-preview-installing-fonts-title' => 'எழுத்துரு நிறுவ',
 );
 
 /** Telugu (తెలుగు)
