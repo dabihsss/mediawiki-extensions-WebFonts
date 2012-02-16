@@ -349,9 +349,13 @@
 				ttf: "Beng/SiyamRupali.ttf",
 				woff: "Beng/SiyamRupali.woff",
 				version: "1.070"
+			},
+			"Jomolhari": {
+				eot: "Tibt/Jomolhari.eot",
+				ttf: "Tibt/Jomolhari.ttf",
+				woff: "Tibt/Jomolhari.woff",
+				version: "0.003"
 			}
-			
-
 		},
 
 		languages: {
@@ -364,6 +368,7 @@
 			bn:  [ "Siyam Rupali", "Lohit Bengali" ],
 			bpy: [ "Lohit Bengali" ],
 			cdo: [ "Charis SIL" ],
+			dz:  [ "Jomolhari" ],
 			fa:  [ "Iranian Sans" ],
 			gu:  [ "Lohit Gujarati" ],
 			hbo: [ "Taamey Frank CLM" ],
