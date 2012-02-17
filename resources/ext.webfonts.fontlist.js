@@ -366,6 +366,7 @@
 			bh:  [ "Lohit Devanagari" ],
 			bho: [ "Lohit Devanagari" ],
 			bn:  [ "Siyam Rupali", "Lohit Bengali" ],
+			bo:  [ "Jomolhari" ],
 			bpy: [ "Lohit Bengali" ],
 			cdo: [ "Charis SIL" ],
 			dz:  [ "Jomolhari" ],
