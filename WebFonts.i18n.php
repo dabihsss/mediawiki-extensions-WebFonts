@@ -205,6 +205,7 @@ $messages['br'] = array(
 	'webfonts-preview-download' => 'Pellgargañ ar font-mañ',
 	'webfonts-preview-sampletext' => "Jezuz, ned eus stêr verr na sklaer o c'hourc'hemenniñ war yezh eürus he fobl na chag.",
 	'webfonts-preview-installing-fonts-title' => 'Staliañ ar fontoù',
+	'webfonts-preview-installing-fonts-text' => 'Pellgargañ ur font a c\'hallit en ur ober gant al liamm "{{int:webfonts-preview-download}}" merket a-us. Evit staliañ ar font pellgarget en hoc\'h urzhiataer, sellit ouzh [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts an teul titouriñ-mañ].',
 );
 
 /** Bosnian (Bosanski)
