@@ -384,9 +384,12 @@ $messages['fa'] = array(
 	'webfonts-enable-preference' => 'فعال‌کردن جاسازی قلم (وب‌قلم)',
 	'webfonts-menu-tooltip' => 'انتخاب قلم برای صفحه',
 	'webfonts-help' => 'کمک',
+	'webfonts-preview-intro' => 'این صفحه به شما کمک می‌کند تا پیش‌نمایشی از قلم‌هایی که برای افزونه وب‌قلم در دسترس هستند را ببینید و به دلخواه آن‌ها را بارگیری و در رایانه خود نصب کنید.',
 	'webfonts-preview-title' => 'پیش‌نمایش قلم‌ها',
 	'webfonts-preview-download' => 'دریافت این قلم',
+	'webfonts-preview-sampletext' => 'ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی',
 	'webfonts-preview-installing-fonts-title' => 'نصب قلم‌ها',
+	'webfonts-preview-installing-fonts-text' => 'شما می‌توانید هر قلم را با استفاده از پیوند «{{int:webfonts-preview-download}}» که در بالا آمده بارگیری کنید. برای این که قلمی که بارگیری کرده‌اید را روی رایانه خود نصب کنید، لطفاُ [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts این مستندات] را ببینید.',
 );
 
 /** Finnish (Suomi)
@@ -697,6 +700,7 @@ $messages['lb'] = array(
 	'webfonts-menu-tooltip' => "Sicht eng Buschtawen-Zort fir d'Säit eraus",
 	'webfonts-help' => 'Hëllef',
 	'webfonts-preview-download' => 'Dës Schrëftart (Font) eroflueden',
+	'webfonts-preview-installing-fonts-title' => 'Schrëftzorten installéieren',
 );
 
 /** Limburgish (Limburgs)
