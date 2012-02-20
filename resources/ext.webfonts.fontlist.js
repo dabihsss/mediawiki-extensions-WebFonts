@@ -355,6 +355,12 @@
 				ttf: "Tibt/Jomolhari.ttf",
 				woff: "Tibt/Jomolhari.woff",
 				version: "0.003"
+			},
+			"Saweri": {
+				eot: "Bugi/saweri.eot",
+				ttf: "Bugi/saweri.ttf",
+				woff: "Bugi/saweri.woff",
+				version: "2"
 			}
 		},
 
@@ -368,6 +374,7 @@
 			bn:  [ "Siyam Rupali", "Lohit Bengali" ],
 			bo:  [ "Jomolhari" ],
 			bpy: [ "Lohit Bengali" ],
+			bug: [ "Saweri" ],
 			cdo: [ "Charis SIL" ],
 			dz:  [ "Jomolhari" ],
 			fa:  [ "Iranian Sans" ],
@@ -382,6 +389,7 @@
 			kok: [ "Lohit Devanagari" ],
 			gom: [ "Lohit Devanagari" ],
 			mai: [ "Lohit Devanagari" ],
+			mak: [ "Saweri" ],
 			ml:  [ "AnjaliOldLipi" ],
 			mr:  [ "Lohit Devanagari" ],
 			my:  [ "Masterpiece Uni Sans", "Padauk-Regular", "Myanmar3", "Yunghkio" ],
