@@ -238,6 +238,7 @@ $messages['cs'] = array(
 );
 
 /** Welsh (Cymraeg)
+ * @author Lloffiwr
  * @author Pwyll
  */
 $messages['cy'] = array(
@@ -247,7 +248,7 @@ $messages['cy'] = array(
 	'webfonts-help' => 'Cymorth',
 	'webfonts-preview-title' => "Rhagolwg o'r ffontiau",
 	'webfonts-preview-download' => "Lawrlwytho'r ffont hwn",
-	'webfonts-preview-sampletext' => "Mae'r llwynog cyflym brown yn neidio dros y ci diog",
+	'webfonts-preview-sampletext' => 'Parciais fy jac codi baw hud llawn dŵr ger tŷ Mabon',
 );
 
 /** Danish (Dansk)
@@ -361,6 +362,25 @@ $messages['es'] = array(
 	'webfonts-preview-sampletext' => 'Cada vez que me trabo, Félix paga un whisky añejo',
 	'webfonts-preview-installing-fonts-title' => 'Instalando las fuentes',
 	'webfonts-preview-installing-fonts-text' => 'Puede descargar una fuente utilizando el vínculo "{{int:webfonts-preview-download}}" dado anteriormente. Para instalar la fuente descargada en el equipo, consulte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación].',
+);
+
+/** Estonian (Eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'webfonts' => 'Kirjaliigid',
+	'webfonts-desc' => 'Lehekülje kirjaliigi seadmine',
+	'webfonts-load' => 'Vali kirjaliik',
+	'webfonts-reset' => 'Lähtesta',
+	'webfonts-enable-preference' => 'Luba kirjaliigi valimine',
+	'webfonts-menu-tooltip' => 'Vali lehekülje jaoks kirjaliik',
+	'webfonts-help' => 'Abi',
+	'webfonts-preview-intro' => 'Sellel leheküljel saad kirjaliikide lisaga kaasnevaid kirjaliike eelvaates proovida ja soovi korral enda arvutis installimiseks alla laadida.',
+	'webfonts-preview-title' => 'Kirjaliikide eelvaade',
+	'webfonts-preview-download' => 'Laadi see kirjaliik alla',
+	'webfonts-preview-sampletext' => 'See väike mölder jõuab rongile hüpata.',
+	'webfonts-preview-installing-fonts-title' => 'Kirjaliikide installimine',
+	'webfonts-preview-installing-fonts-text' => 'Kirjaliigi allalaadimiseks klõpsa ülal linki "{{int:webfonts-preview-download}}". Alla laaditud kirjaliigi enda arvutisse installimise kohta vaata [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts seda dokumentatsiooni].',
 );
 
 /** Basque (Euskara)
