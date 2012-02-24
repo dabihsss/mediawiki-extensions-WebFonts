@@ -194,7 +194,7 @@
 		 */
 		setup: function() {
 			// Some browsers are known to have issues with font rendering
-			if ( !mw.webfonts.isBrowserSupported ) {
+			if ( !mw.webfonts.isBrowserSupported() ) {
 				return false;
 			}
 
