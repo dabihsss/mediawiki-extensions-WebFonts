@@ -354,7 +354,7 @@ $messages['es'] = array(
 	'webfonts-load' => 'Seleccionar tipografía',
 	'webfonts-reset' => 'Restablecer',
 	'webfonts-enable-preference' => 'Activar la incrustación de tipografías (WebFonts)',
-	'webfonts-menu-tooltip' => 'Escoger una fuente para la página',
+	'webfonts-menu-tooltip' => 'Elegir una tipografía para la página',
 	'webfonts-help' => 'Ayuda',
 	'webfonts-preview-intro' => 'Esta página le ayuda a obtener una vista previa de las fuentes disponibles en la extensión WebFonts y opcionalmente descargarlas e instalarlas en su equipo.',
 	'webfonts-preview-title' => 'Obtener una vista previa de las fuentes',
@@ -937,7 +937,7 @@ $messages['ps'] = array(
 	'webfonts-load' => 'ليکبڼه ټاکل',
 	'webfonts-reset' => 'بياايښودل',
 	'webfonts-help' => 'لارښود',
-	'webfonts-preview-download' => 'ښکته کول',
+	'webfonts-preview-download' => 'دا ليکبڼه ښکته کول',
 );
 
 /** Portuguese (Português)
