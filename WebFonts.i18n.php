@@ -679,6 +679,25 @@ $messages['km'] = array(
 	'webfonts-preview-installing-fonts-text' => 'អ្នកអាចទាញយកប្រភេទអក្សរមួយដោយប្រើតំណភ្ជាប់ "{{int:webfonts-preview-download}}" ខាងលើ។ ដើម្បីតំលើងប្រភេទអក្សរដែលបានទាញយកហើយ​នៅលើកុំព្យូទ័ររបស់អ្នក សូមអាន[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts កំរងឯកសារនេះ]។',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author M G Harish
+ */
+$messages['kn'] = array(
+	'webfonts' => 'ವೆಬ್ ಫಾಂಟ್ಸ್',
+	'webfonts-desc' => 'ಪುಟಗಳಲ್ಲಿ ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಅಡಕಗೊಳಿಸಿ',
+	'webfonts-load' => 'ಅಕ್ಷರಶೈಲಿ ಆಯ್ದುಕೊಳ್ಳಿ',
+	'webfonts-reset' => 'ಪೂರ್ವನಿಯೋಜಿತ',
+	'webfonts-enable-preference' => 'ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಅಡಕಗೊಳಿಸುವುದನ್ನು ಶಕ್ತಗೊಳಿಸಿ (ವೆಬ್ ಫಾಂಟ್ಸ್)',
+	'webfonts-menu-tooltip' => 'ಈ ಪುಟಕ್ಕಾಗಿ ಒಂದು ಅಕ್ಷರಶೈಲಿ ಆಯ್ದುಕೊಳ್ಳಿ',
+	'webfonts-help' => 'ಸಹಾಯ',
+	'webfonts-preview-intro' => 'ಈ ಪುಟವು ನಿಮಗೆ ವೆಬ್ ಫಾಂಟ್ಸ್ ವಿಸ್ತರಣೆಯಲ್ಲಿ ಲಭ್ಯವಿರುವ ಅಕ್ಷರಶೈಲಿಗಳ ಪೂರ್ವವೀಕ್ಷಣೆ ಮಾಡಲು ಮತ್ತು ಐಚ್ಛಿಕವಾಗಿ ನಕಲಿಸಿಕೊಂಡು ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಅನುಸ್ಥಾಪಿಸಲು ಸಹಕರಿಸುತ್ತದೆ.',
+	'webfonts-preview-title' => 'ಅಕ್ಷರಶೈಲಿಗಳ ಪೂರ್ವವೀಕ್ಷಣೆ ನಡೆಸು',
+	'webfonts-preview-download' => 'ಈ ಅಕ್ಷರಶೈಲಿಯನ್ನು ನಕಲಿಳಿಸು',
+	'webfonts-preview-sampletext' => 'ಪೂರ್ವವೀಕ್ಷಣೆಗೆ ಒಂದು ಮಾದರಿ ವಾಕ್ಯ',
+	'webfonts-preview-installing-fonts-title' => 'ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸುವುದು',
+	'webfonts-preview-installing-fonts-text' => 'ನೀವು ಮೇಲೆ ನೀಡಿರುವ "{{int:webfonts-preview-download}}" ಕೊಂಡಿಯನ್ನು ಬಳಸಿ ಅಕ್ಷರಶೈಲಿಯನ್ನು ನಕಲಿಳಿಸಿಕೊಳ್ಳಬಹುದು. ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಅನುಸ್ಥಾಪಿಸಿಕೊಳ್ಳಲು ದಯವಿಟ್ಟು ಇಲ್ಲಿ ನೋಡಿ:‌[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation]',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
