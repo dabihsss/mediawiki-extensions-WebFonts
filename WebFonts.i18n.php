@@ -756,7 +756,9 @@ $messages['li'] = array(
 	'webfonts-preview-intro' => 'Via dees paasj kins se de lettertypes bekieke die besjikbaar zeen inne oetbreiing WebFonts en es se det wils, kins se ze downloade en installere op diene pc.',
 	'webfonts-preview-title' => 'Veurbesjoew lettertypes',
 	'webfonts-preview-download' => 'Download dit lettertype',
+	'webfonts-preview-sampletext' => "Victór Yzáns juëg twèlf Boxkämpfer achter 't drök aquaduk",
 	'webfonts-preview-installing-fonts-title' => 'Lettertypen installere',
+	'webfonts-preview-installing-fonts-text' => 'Doe kins e lettertype dowloade via de verwiezing "{{int:webfonts-preview-download}}" hiebaove. Bekiek de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] óm \'t gedownloade lettertype te installere op diene computer.',
 );
 
 /** Macedonian (Македонски)
