@@ -7,6 +7,13 @@
 
 	var config = {
 		fonts: {
+			"Amiri": {
+				eot: "Arab/amiri-regular.eot",
+				ttf: "Arab/amiri-regular.ttf",
+				woff: "Arab/amiri-regular.woff",
+				version: "1.0"
+			},
+
 			"Iranian Sans": {
 				eot: "Arab/IranianSans.eot",
 				ttf: "Arab/IranianSans.ttf",
@@ -376,6 +383,7 @@
 			akk: [ "Akkadian" ],
 			am:  [ "AbyssinicaSIL" ],
 			as:  [ "Lohit Assamese" ],
+			arb: [ "Amiri" ],
 			bh:  [ "Lohit Devanagari" ],
 			bho: [ "Lohit Devanagari" ],
 			bn:  [ "Siyam Rupali", "Lohit Bengali" ],
@@ -384,7 +392,7 @@
 			bug: [ "Saweri" ],
 			cdo: [ "Charis SIL" ],
 			dz:  [ "Jomolhari" ],
-			fa:  [ "Iranian Sans" ],
+			fa:  [ "Iranian Sans", "Amiri" ],
 			gu:  [ "Lohit Gujarati" ],
 			hbo: [ "Taamey Frank CLM" ],
 			he:  [ "Miriam CLM", "Taamey Frank CLM" ],
