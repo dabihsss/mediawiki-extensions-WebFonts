@@ -638,6 +638,9 @@ $messages['it'] = array(
 	'webfonts-enable-preference' => "Attiva l'incorporazione dei caratteri (WebFont)",
 	'webfonts-menu-tooltip' => 'Seleziona un tipo di carattere per la pagina',
 	'webfonts-help' => 'Aiuto',
+	'webfonts-preview-title' => 'Anteprima dei tipi di caratteri',
+	'webfonts-preview-download' => 'Scarica questo tipo di caratteri',
+	'webfonts-preview-installing-fonts-title' => 'Installa i tipi di caratteri',
 );
 
 /** Japanese (日本語)
@@ -1151,10 +1154,12 @@ $messages['tl'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Suelnur
  */
 $messages['tr'] = array(
 	'webfonts-load' => 'Yazı tipi seçin',
 	'webfonts-reset' => 'Sıfırla',
+	'webfonts-help' => 'Yardım',
 );
 
 /** Ukrainian (Українська)
