@@ -1,15 +1,14 @@
 <?php
 /**
- * Dynamic Font Embedding  MediaWiki extension
- *
- * To install it put this file in the extensions directory
- * To activate the extension, include it from your LocalSettings.php
- * with: require("$IP/extensions/WebFonts.php");
+ * MediaWiki extension for dynamic font embedding
+ * https://www.mediawiki.org/wiki/Extension:WebFonts
  *
  * @file
  * @ingroup Extensions
- * @author Santhosh Thottingal, <santhosh.thottingal@gmail.com>
- * @copyright © 2011 Santhosh Thottingal  http://thottingal.in
+ * @author Santhosh Thottingal
+ * @author Niklas Laxström
+ * @author Amir Aharoni
+ * @copyright © 2011-2012 Santhosh Thottingal, Niklas Laxström, Amir Aharoni 
  * @licence GNU General Public Licence 3.0 or later
  */
 
@@ -18,11 +17,11 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( -1 );
 }
 
-$wgExtensionCredits['parserhook'][] = array(
+$wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'WebFonts',
 	'version'        => '1.0',
-	'author'         => array( 'Santhosh Thottingal', 'Niklas Laxström' ),
+	'author'         => array( 'Santhosh Thottingal', 'Niklas Laxström', 'Amir Aharoni' ),
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:WebFonts',
 	'descriptionmsg' => 'webfonts-desc',
 );
