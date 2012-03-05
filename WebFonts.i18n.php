@@ -1055,6 +1055,7 @@ $messages['scn'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
@@ -1065,6 +1066,8 @@ $messages['si'] = array(
 	'webfonts-enable-preference' => 'අක්ෂර එබ්බවීම සක්‍රිය කරන්න (ජලාක්ෂර)',
 	'webfonts-menu-tooltip' => 'පිටුව සඳහා අක්ෂරයක් තෝරන්න',
 	'webfonts-help' => 'උදව්',
+	'webfonts-preview-sampletext' => 'ශුද්ධ සිංහල ෴',
+	'webfonts-preview-installing-fonts-title' => 'ෆොන්ට් ස්ථාපනය කරන්න',
 );
 
 /** Slovenian (Slovenščina)
