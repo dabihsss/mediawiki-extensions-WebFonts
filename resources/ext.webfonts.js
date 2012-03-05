@@ -180,9 +180,6 @@
 				if ( /MSIE 6/i.test( ua ) ) {
 					// IE6 doesn't have font fallbacks
 					return false;
-				} else if ( /MSIE 8/i.test( ua ) && /Windows NT 5.1/i.test( ua ) ) {
-					// IE8 on XP has occasional gibberish bug
-					return false;
 				}
 			}
 			return true;
