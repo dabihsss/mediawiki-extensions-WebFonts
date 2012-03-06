@@ -655,9 +655,11 @@ $messages['ja'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author David1010
  * @author ITshnik
  */
 $messages['ka'] = array(
+	'webfonts-load' => 'ფონტის არჩევა',
 	'webfonts-help' => 'დახმარება',
 );
 
