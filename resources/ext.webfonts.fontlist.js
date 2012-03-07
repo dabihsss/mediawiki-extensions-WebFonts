@@ -25,21 +25,35 @@
 				eot: "Beng/Lohit-Bengali.eot",
 				ttf: "Beng/Lohit-Bengali.ttf",
 				woff: "Beng/Lohit-Bengali.woff",
-				version: "2.5.0"
+				version: "2.5.1"
 			},
 
 			"Lohit Assamese": {
 				eot: "Beng/Lohit-Assamese.eot",
 				ttf: "Beng/Lohit-Assamese.ttf",
 				woff: "Beng/Lohit-Assamese.woff",
-				version: "2.5.0"
+				version: "2.5.1"
 			},
 
 			"Lohit Devanagari": {
 				eot: "Deva/Lohit-Devanagari.eot",
 				ttf: "Deva/Lohit-Devanagari.ttf",
 				woff: "Deva/Lohit-Devanagari.woff",
-				version: "2.5.0"
+				version: "2.5.1"
+			},
+
+			"Lohit Nepali": {
+				eot: "Deva/Lohit-Nepali.eot",
+				ttf: "Deva/Lohit-Nepali.ttf",
+				woff: "Deva/Lohit-Nepali.woff",
+				version: "2.5.1"
+			},
+
+			"Lohit Marathi": {
+				eot: "Deva/Lohit-Marathi.eot",
+				ttf: "Deva/Lohit-Marathi.ttf",
+				woff: "Deva/Lohit-Marathi.woff",
+				version: "2.5.1"
 			},
 
 			"Samyak Devanagari": {
@@ -67,7 +81,7 @@
 				eot: "Gujr/Lohit-Gujarati.eot",
 				ttf: "Gujr/Lohit-Gujarati.ttf",
 				woff: "Gujr/Lohit-Gujarati.woff",
-				version: "2.5.0"
+				version: "2.5.1"
 			},
 			"Samyak Gujarati": {
 				eot: "Gujr/SamyakGujarati.eot",
@@ -174,7 +188,7 @@
 				eot: "Knda/Lohit-Kannada.eot",
 				ttf: "Knda/Lohit-Kannada.ttf",
 				woff: "Knda/Lohit-Kannada.woff",
-				version: "2.5.0"
+				version: "2.5.1"
 			},
 
 			"Charis SIL": {
@@ -279,7 +293,7 @@
 				eot: "Orya/Lohit-Oriya.eot",
 				ttf: "Orya/Lohit-Oriya.ttf",
 				woff: "Orya/Lohit-Oriya.woff",
-				version: "2.5.0"
+				version: "2.5.1"
 			},
 
 			Utkal: {
@@ -321,7 +335,7 @@
 				eot: "Telu/Lohit-Telugu.eot",
 				ttf: "Telu/Lohit-Telugu.ttf",
 				woff: "Telu/Lohit-Telugu.woff",
-				version: "2.5.0"
+				version: "2.5.1"
 			},
 
 			"Pothana2000": {
@@ -342,7 +356,7 @@
 				eot: "Guru/Lohit-Punjabi.eot",
 				ttf: "Guru/Lohit-Punjabi.ttf",
 				woff: "Guru/Lohit-Punjabi.woff",
-				version: "2.5.0"
+				version: "2.5.1"
 			},
 
 			"Saab": {
@@ -413,9 +427,9 @@
 			mai: [ "Lohit Devanagari" ],
 			mak: [ "Saweri" ],
 			ml:  [ "AnjaliOldLipi" ],
-			mr:  [ "Lohit Devanagari" ],
+			mr:  [ "Lohit Marathi" ],
 			my:  [ "Masterpiece Uni Sans", "Padauk-Regular", "Myanmar3", "Yunghkio" ],
-			ne:  [ "Lohit Devanagari", "Madan" ],
+			ne:  [ "Lohit Nepali", "Madan" ],
 			or:  [ "Lohit Oriya" , "Utkal" ],
 			pa:  [ "Lohit Punjabi", "Saab" ],
 			rif: [ "Hapax Berbère" ],
