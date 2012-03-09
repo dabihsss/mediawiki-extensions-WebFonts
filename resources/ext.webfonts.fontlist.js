@@ -399,7 +399,7 @@
 
 		languages: {
 			// en: [ "RufScript", "Perizia", "Ubuntu" ],
-			ahr: [ "Lohit Devanagari" ],
+			ahr: [ "Lohit Marathi" ],
 			akk: [ "Akkadian" ],
 			am:  [ "AbyssinicaSIL" ],
 			as:  [ "Lohit Assamese" ],
