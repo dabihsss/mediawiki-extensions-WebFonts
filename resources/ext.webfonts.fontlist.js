@@ -389,12 +389,14 @@
 				woff: "Xsux/Akkadian.woff",
 				version: "2.56"
 			},
+/*
 			"Hapax Berbère": {
 				eot: "Tfng/hapaxber.eot",
 				ttf: "Tfng/hapaxber.ttf",
 				woff: "Tfng/hapaxber.woff",
 				version: "3.005"
 			}
+*/
 		},
 
 		languages: {
@@ -404,7 +406,7 @@
 			am:  [ "AbyssinicaSIL" ],
 			as:  [ "Lohit Assamese" ],
 			arb: [ "Amiri" ],
-			ber: [ "Hapax Berbère" ],
+			// ber: [ "Hapax Berbère" ],
 			bh:  [ "Lohit Devanagari" ],
 			bho: [ "Lohit Devanagari" ],
 			bn:  [ "Siyam Rupali", "Lohit Bengali" ],
@@ -432,17 +434,17 @@
 			ne:  [ "Lohit Nepali", "Madan" ],
 			or:  [ "Lohit Oriya" , "Utkal" ],
 			pa:  [ "Lohit Punjabi", "Saab" ],
-			rif: [ "Hapax Berbère" ],
+			// rif: [ "Hapax Berbère" ],
 			sa:  [ "Lohit Devanagari" ],
 			saz: [ "Pagul" ],
-			shi: [ "Hapax Berbère" ],
+			// shi: [ "Hapax Berbère" ],
 			sux: [ "Akkadian" ],
 			ta:  [ "Lohit Tamil", "Thendral", "Thenee" ],
 			tcy: [ "Lohit Kannada", "Kedage" ],
 			te:  [ "Lohit Telugu", "Pothana2000", "Vemana2000" ],
 			ti:  [ "AbyssinicaSIL" ],
-			tmh: [ "Hapax Berbère" ],
-			tzm: [ "Hapax Berbère" ]
+			// tmh: [ "Hapax Berbère" ],
+			// tzm: [ "Hapax Berbère" ]
 		}
 	};
 
