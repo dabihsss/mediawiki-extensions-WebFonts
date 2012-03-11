@@ -18,10 +18,7 @@ function isFontFaceLoaded( fontFamilyName ) {
 	// Iterate from last.
 	for ( styleIndex = lastStyleIndex; styleIndex > 0; styleIndex-- ) {
 		lastStyleSheet = document.styleSheets[styleIndex];
-		if ( !lastStyleSheet ) {
-			continue;
-		}
-		if ( !lastStyleSheet.cssRules[0] ) {
+		if ( !lastStyleSheet || !lastStyleSheet.cssRules || !lastStyleSheet.cssRules[0] ) {
 			continue;
 		}
 		cssText =  lastStyleSheet.cssRules[0].cssText;
