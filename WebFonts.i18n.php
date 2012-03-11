@@ -655,12 +655,15 @@ $messages['ja'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author BRUTE
  * @author David1010
  * @author ITshnik
  */
 $messages['ka'] = array(
 	'webfonts-load' => 'ფონტის არჩევა',
 	'webfonts-help' => 'დახმარება',
+	'webfonts-preview-download' => 'ჩაიწერეთ ეს შრიფტი',
+	'webfonts-preview-installing-fonts-title' => 'შრიფტების ინსტალაცია',
 );
 
 /** Khmer (ភាសាខ្មែរ)
