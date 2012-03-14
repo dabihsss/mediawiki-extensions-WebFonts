@@ -963,9 +963,11 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'webfonts' => 'د جال ليکبڼې',
 	'webfonts-load' => 'ليکبڼه ټاکل',
 	'webfonts-reset' => 'بياايښودل',
 	'webfonts-help' => 'لارښود',
+	'webfonts-preview-title' => 'د ليکبڼو مخليدنه',
 	'webfonts-preview-download' => 'دا ليکبڼه ښکته کول',
 );
 
@@ -1073,6 +1075,13 @@ $messages['si'] = array(
 	'webfonts-help' => 'උදව්',
 	'webfonts-preview-sampletext' => 'ශුද්ධ සිංහල ෴',
 	'webfonts-preview-installing-fonts-title' => 'ෆොන්ට් ස්ථාපනය කරන්න',
+);
+
+/** Slovak (Slovenčina)
+ * @author Teslaton
+ */
+$messages['sk'] = array(
+	'webfonts-enable-preference' => 'Povoliť vkladanie fontov (Web fonts embedding)',
 );
 
 /** Slovenian (Slovenščina)
