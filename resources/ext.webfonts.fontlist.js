@@ -231,15 +231,7 @@
 				eot: "Mlym/Meera.eot",
 				ttf: "Mlym/Meera.ttf",
 				woff: "Mlym/Meera.woff",
-				normalization: {
-					"ൾ": "ള്‍",
-					"ൻ": "ന്‍",
-					"ർ": "ര്‍",
-					"ൺ ": "ണ്‍",
-					"ൽ": "ല്‍",
-					"ൿ": "ക്‍ "
-				},
-				version: "5.01"
+				version: "5.0.1"
 			},
 
 			RaghuMalayalam: {
@@ -428,7 +420,7 @@
 			gom: [ "Lohit Devanagari" ],
 			mai: [ "Lohit Devanagari" ],
 			mak: [ "Saweri" ],
-			ml:  [ "AnjaliOldLipi" ],
+			ml:  [ "Meera", "AnjaliOldLipi" ],
 			mr:  [ "Lohit Marathi" ],
 			my:  [ "Masterpiece Uni Sans", "Padauk-Regular", "Myanmar3", "Yunghkio" ],
 			ne:  [ "Lohit Nepali", "Madan" ],
