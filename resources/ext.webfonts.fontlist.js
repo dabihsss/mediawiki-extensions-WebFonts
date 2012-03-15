@@ -253,7 +253,6 @@
 				eot: "Mymr/MasterpieceUniSans.eot",
 				ttf: "Mymr/MasterpieceUniSans.ttf",
 				woff: "Mymr/MasterpieceUniSans.woff",
-				svg: "Mymr/MasterpieceUniSans.svg",
 				version: "0.5"
 			},
 
@@ -261,7 +260,6 @@
 				eot: "Mymr/Myanmar3.eot",
 				ttf: "Mymr/Myanmar3.ttf",
 				woff: "Mymr/Myanmar3.woff",
-				svg: "Mymr/Myanmar3.svg",
 				version: "3.0"
 			},
 
@@ -269,7 +267,6 @@
 				eot: "Mymr/Padauk-Regular.eot",
 				ttf: "Mymr/Padauk-Regular.ttf",
 				woff: "Mymr/Padauk-Regular.woff",
-				svg: "Mymr/Padauk-Regular.svg",
 				version: "2.8"
 			},
 
@@ -277,7 +274,6 @@
 				eot: "Mymr/Yunghkio.eot",
 				ttf: "Mymr/Yunghkio.ttf",
 				woff: "Mymr/Yunghkio.woff",
-				svg: "Mymr/Yunghkio.svg",
 				version: "1.0"
 			},
 
@@ -380,6 +376,12 @@
 				ttf: "Xsux/Akkadian.ttf",
 				woff: "Xsux/Akkadian.woff",
 				version: "2.56"
+			},
+			"TharLon": {
+				eot: "Mymr/TharLon.eot",
+				ttf: "Mymr/TharLon.ttf",
+				woff: "Mymr/TharLon.woff",
+				version: "1.0"
 			}
 /*
 			"Hapax Berbère": {
@@ -422,7 +424,7 @@
 			mak: [ "Saweri" ],
 			ml:  [ "Meera", "AnjaliOldLipi" ],
 			mr:  [ "Lohit Marathi" ],
-			my:  [ "Masterpiece Uni Sans", "Padauk-Regular", "Myanmar3", "Yunghkio" ],
+			my:  [ "Masterpiece Uni Sans", "Padauk-Regular", "Myanmar3", "Yunghkio", "TharLon" ],
 			ne:  [ "Lohit Nepali", "Madan" ],
 			or:  [ "Lohit Oriya" , "Utkal" ],
 			pa:  [ "Lohit Punjabi", "Saab" ],
