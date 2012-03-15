@@ -380,7 +380,7 @@
 				ttf: "Xsux/Akkadian.ttf",
 				woff: "Xsux/Akkadian.woff",
 				version: "2.56"
-			},
+			}
 /*
 			"Hapax Berbère": {
 				eot: "Tfng/hapaxber.eot",
@@ -434,7 +434,7 @@
 			ta:  [ "Lohit Tamil", "Thendral", "Thenee" ],
 			tcy: [ "Lohit Kannada", "Kedage" ],
 			te:  [ "Lohit Telugu", "Pothana2000", "Vemana2000" ],
-			ti:  [ "AbyssinicaSIL" ],
+			ti:  [ "AbyssinicaSIL" ]
 			// tmh: [ "Hapax Berbère" ],
 			// tzm: [ "Hapax Berbère" ]
 		}
