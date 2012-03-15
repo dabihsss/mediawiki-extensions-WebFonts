@@ -1086,6 +1086,7 @@ $messages['sk'] = array(
 
 /** Slovenian (Slovenščina)
  * @author Dbc334
+ * @author Irena Plahuta
  */
 $messages['sl'] = array(
 	'webfonts' => 'SpletnePisave',
@@ -1095,9 +1096,11 @@ $messages['sl'] = array(
 	'webfonts-enable-preference' => 'Omogoči vdelavo pisav (SpletnePisave)',
 	'webfonts-menu-tooltip' => 'Izberite pisavo strani',
 	'webfonts-help' => 'Pomoč',
+	'webfonts-preview-intro' => 'Stran vam pomaga predogledati pisave, ki so na voljo v razširitvi WebFonts, in jih po izbiri prenesti ter namestiti na vaš računalnik.',
 	'webfonts-preview-title' => 'Predogled pisav',
 	'webfonts-preview-download' => 'Prenesi pisavo',
 	'webfonts-preview-installing-fonts-title' => 'Nameščanje pisav',
+	'webfonts-preview-installing-fonts-text' => 'Font lahko prenesete tako, da uporabite "{{int:webfonts-preview-download}}" povezavo, navedeno zgoraj. Da namestite prenešeni font na svoj računalnik, si poglejte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation].',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
