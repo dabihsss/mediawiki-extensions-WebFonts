@@ -1099,8 +1099,9 @@ $messages['sl'] = array(
 	'webfonts-preview-intro' => 'Stran vam pomaga predogledati pisave, ki so na voljo v razširitvi WebFonts, in jih po izbiri prenesti ter namestiti na vaš računalnik.',
 	'webfonts-preview-title' => 'Predogled pisav',
 	'webfonts-preview-download' => 'Prenesi pisavo',
+	'webfonts-preview-sampletext' => 'V kožuščku hudobnega fanta stopiclja mizar',
 	'webfonts-preview-installing-fonts-title' => 'Nameščanje pisav',
-	'webfonts-preview-installing-fonts-text' => 'Font lahko prenesete tako, da uporabite "{{int:webfonts-preview-download}}" povezavo, navedeno zgoraj. Da namestite prenešeni font na svoj računalnik, si poglejte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation].',
+	'webfonts-preview-installing-fonts-text' => 'Pisavo lahko prenesete tako, da uporabite zgoraj navedeno povezavo »{{int:webfonts-preview-download}}«. Za namestitev prenesene pisave na svoj računalnik si oglejte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentacijo].',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
