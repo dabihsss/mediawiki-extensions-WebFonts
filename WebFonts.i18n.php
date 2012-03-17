@@ -217,6 +217,17 @@ $messages['bs'] = array(
 	'webfonts-load' => 'Odaberi font',
 );
 
+/** Sorani (کوردی)
+ * @author Asoxor
+ */
+$messages['ckb'] = array(
+	'webfonts-load' => 'فۆنت ھەڵبژێرە',
+	'webfonts-enable-preference' => 'ڕێگەبدە بە چەسپاندنەوەی فۆنتی سەرھێڵ (Web fonts)',
+	'webfonts-help' => 'یارمەتی',
+	'webfonts-preview-download' => 'ئەم فۆنتە داگرە',
+	'webfonts-preview-installing-fonts-title' => 'دامەزراندنی فۆنتەکان',
+);
+
 /** Czech (Česky)
  * @author Mormegil
  * @author Utar
