@@ -780,6 +780,14 @@ $messages['li'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Doe kins e lettertype dowloade via de verwiezing "{{int:webfonts-preview-download}}" hiebaove. Bekiek de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] óm \'t gedownloade lettertype te installere op diene computer.',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'webfonts-reset' => 'Tihţhatna',
+	'webfonts-help' => 'Ţanpuina',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
