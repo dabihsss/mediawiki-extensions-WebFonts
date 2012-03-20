@@ -249,13 +249,6 @@
 				version: "2.0"
 			},
 
-			"Masterpiece Uni Sans": {
-				eot: "Mymr/MasterpieceUniSans.eot",
-				ttf: "Mymr/MasterpieceUniSans.ttf",
-				woff: "Mymr/MasterpieceUniSans.woff",
-				version: "0.5"
-			},
-
 			Myanmar3: {
 				eot: "Mymr/Myanmar3.eot",
 				ttf: "Mymr/Myanmar3.ttf",
@@ -263,18 +256,11 @@
 				version: "3.0"
 			},
 
-			"Padauk-Regular": {
+			"Padauk": {
 				eot: "Mymr/Padauk-Regular.eot",
 				ttf: "Mymr/Padauk-Regular.ttf",
 				woff: "Mymr/Padauk-Regular.woff",
 				version: "2.8"
-			},
-
-			Yunghkio: {
-				eot: "Mymr/Yunghkio.eot",
-				ttf: "Mymr/Yunghkio.ttf",
-				woff: "Mymr/Yunghkio.woff",
-				version: "1.0"
 			},
 
 			"Lohit Oriya": {
@@ -424,7 +410,7 @@
 			mak: [ "Saweri" ],
 			ml:  [ "Meera", "AnjaliOldLipi" ],
 			mr:  [ "Lohit Marathi" ],
-			my:  [ "Masterpiece Uni Sans", "Padauk-Regular", "Myanmar3", "Yunghkio", "TharLon" ],
+			my:  [ "TharLon", "Padauk", "Myanmar3" ],
 			ne:  [ "Lohit Nepali", "Madan" ],
 			or:  [ "Lohit Oriya" , "Utkal" ],
 			pa:  [ "Lohit Punjabi", "Saab" ],
