@@ -101,7 +101,6 @@
 				eot: "Hebr/TaameyFrankCLM.eot",
 				ttf: "Hebr/TaameyFrankCLM.ttf",
 				woff: "Hebr/TaameyFrankCLM.woff",
-				svg: "Hebr/TaameyFrankCLM.svg",
 				version: "0.110"
 			},
 
@@ -109,7 +108,6 @@
 				eot: "Khmr/KhmerOS.eot",
 				ttf: "Khmr/KhmerOS.ttf",
 				woff: "Khmr/KhmerOS.woff",
-				svg: "Khmr/KhmerOS.svg",
 				version: "1.10"
 			},
 
@@ -117,7 +115,6 @@
 				eot: "Khmr/KhmerOSbattambang.eot",
 				ttf: "Khmr/KhmerOSbattambang.ttf",
 				woff: "Khmr/KhmerOSbattambang.woff",
-				svg: "Khmr/KhmerOSbattambang.svg",
 				version: "1.10"
 			},
 
@@ -125,7 +122,6 @@
 				eot: "Khmr/KhmerOSbokor.eot",
 				ttf: "Khmr/KhmerOSbokor.ttf",
 				woff: "Khmr/KhmerOSbokor.woff",
-				svg: "Khmr/KhmerOSbokor.svg",
 				version: "1.10"
 			},
 
@@ -133,7 +129,6 @@
 				eot: "Khmr/KhmerOSfreehand.eot",
 				ttf: "Khmr/KhmerOSfreehand.ttf",
 				woff: "Khmr/KhmerOSfreehand.woff",
-				svg: "Khmr/KhmerOSfreehand.svg",
 				version: "1.10"
 			},
 
@@ -141,7 +136,6 @@
 				eot: "Khmr/KhmerOSfasthand.eot",
 				ttf: "Khmr/KhmerOSfasthand.ttf",
 				woff: "Khmr/KhmerOSfasthand.woff",
-				svg: "Khmr/KhmerOSfasthand.svg",
 				version: "1.10"
 			},
 
@@ -149,7 +143,6 @@
 				eot: "Khmr/KhmerOSmuol.eot",
 				ttf: "Khmr/KhmerOSmuol.ttf",
 				woff: "Khmr/KhmerOSmuol.woff",
-				svg: "Khmr/KhmerOSmuol.svg",
 				version: "1.10"
 			},
 
@@ -157,7 +150,6 @@
 				eot: "Khmr/KhmerOSmuollight.eot",
 				ttf: "Khmr/KhmerOSmuollight.ttf",
 				woff: "Khmr/KhmerOSmuollight.woff",
-				svg: "Khmr/KhmerOSmuollight.svg",
 				version: "1.10"
 			},
 
@@ -165,7 +157,6 @@
 				eot: "Khmr/KhmerOSmuolpali.eot",
 				ttf: "Khmr/KhmerOSmuolpali.ttf",
 				woff: "Khmr/KhmerOSmuolpali.woff",
-				svg: "Khmr/KhmerOSmuolpali.svg",
 				version: "1.10"
 			},
 
@@ -173,7 +164,6 @@
 				eot: "Khmr/KhmerOSsiemreap.eot",
 				ttf: "Khmr/KhmerOSsiemreap.ttf",
 				woff: "Khmr/KhmerOSsiemreap.woff",
-				svg: "Khmr/KhmerOSsiemreap.svg",
 				version: "1.10"
 			},
 
