@@ -46,7 +46,7 @@
 				eot: "Deva/Lohit-Nepali.eot",
 				ttf: "Deva/Lohit-Nepali.ttf",
 				woff: "Deva/Lohit-Nepali.woff",
-				version: "2.5.1"
+				version: "2.5.1.1"
 			},
 
 			"Lohit Marathi": {
