@@ -351,6 +351,7 @@ $messages['eo'] = array(
 	'webfonts-enable-preference' => 'Ŝalti enmetadon de tiparoj (WebFonts)',
 	'webfonts-menu-tooltip' => 'Elektu tiparon por la paĝo',
 	'webfonts-help' => 'Helpo',
+	'webfonts-preview-sampletext' => 'Eĥoŝanĝo Ĉiuĵaŭde',
 );
 
 /** Spanish (Español)
