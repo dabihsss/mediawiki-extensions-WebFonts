@@ -309,6 +309,16 @@ $messages['de-formal'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Sie können eine Schriftart herunterladen, indem Sie oben rechts auf den Link „{{int:webfonts-preview-download}}“ klicken. Um die heruntergeladene Schriftart auf Ihrem Computer zu installieren, folgen Sie bitte [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts diesen Hinweisen].',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'webfonts' => 'Fontê webi',
+	'webfonts-load' => 'Font weçinê',
+	'webfonts-reset' => 'Reset fi',
+	'webfonts-help' => 'Desteg',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -425,6 +435,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Kulmalukko
  * @author Nedergard
  * @author Olli
  */
@@ -436,6 +447,7 @@ $messages['fi'] = array(
 	'webfonts-enable-preference' => 'Ota fonttien upotus käyttöön (WebFonts)',
 	'webfonts-menu-tooltip' => 'Valitse sivun fontti',
 	'webfonts-help' => 'Ohje',
+	'webfonts-preview-download' => 'Lataa tämä fontti',
 );
 
 /** French (Français)
@@ -672,10 +684,19 @@ $messages['ja'] = array(
  * @author ITshnik
  */
 $messages['ka'] = array(
+	'webfonts' => 'ვებ-ფონტები',
+	'webfonts-desc' => 'იძლევა გვერდებში შრიფტების ჩამატების საშუალებას',
 	'webfonts-load' => 'ფონტის არჩევა',
+	'webfonts-reset' => 'გაუქმება',
+	'webfonts-enable-preference' => 'შრიფტების დანერგვის ჩართვა (Web fonts)',
+	'webfonts-menu-tooltip' => 'აირჩიეთ ფონტი გვერდისათვის',
 	'webfonts-help' => 'დახმარება',
+	'webfonts-preview-intro' => 'ეს გვერდი დაგეხმარებათ იხილოთ შრიფტები, რომელიც ხელმისაწვდომია WebFonts-ის გაფართოებაში.  სურვილისამებრ შესაძლებელია მათი ჩამოტვირთვა და თქვენს კომპიუტერზე დაყენება.',
+	'webfonts-preview-title' => 'ფონტების გადახედვა',
 	'webfonts-preview-download' => 'ჩაიწერეთ ეს შრიფტი',
+	'webfonts-preview-sampletext' => 'სწრაფი ყავისფერი მელა ახტება ზარმაც ძაღლს',
 	'webfonts-preview-installing-fonts-title' => 'შრიფტების ინსტალაცია',
+	'webfonts-preview-installing-fonts-text' => 'თქვენ შეგიძლიათ ჩამოტვირთოთ ფონტი ქვემოთ მოცემული ბმულის დახმარებით „{{int:webfonts-preview-download}}“. ჩამოტვირთული ფონტის თქვენ კომპიუტერზე დასაყენებლად, გთხოვთ იხილოთ [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts დოკუმენტაცია].',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -1005,15 +1026,22 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Rafael Vargas
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'webfonts' => 'WebFonts',
-	'webfonts-desc' => 'Incorporar as fontes nas páginas',
-	'webfonts-load' => 'Selecione a fonte',
+	'webfonts-desc' => 'Incorporar fontes tipográficas em páginas',
+	'webfonts-load' => 'Selecionar fonte',
 	'webfonts-reset' => 'Restaurar',
 	'webfonts-enable-preference' => 'Habilitar incorporação de fontes (WebFonts)',
 	'webfonts-menu-tooltip' => 'Selecione uma fonte para a página',
 	'webfonts-help' => 'Ajuda',
+	'webfonts-preview-intro' => 'Esta página te ajuda a visualizar as fontes disponíveis na extensão WebFonts e, opcionalmente, baixa-las e instala-las no seu computador.',
+	'webfonts-preview-title' => 'Visualizar as fontes',
+	'webfonts-preview-download' => 'Baixar esta fonte',
+	'webfonts-preview-sampletext' => 'Um pequeno jabuti xereta viu dez cegonhas felizes',
+	'webfonts-preview-installing-fonts-title' => 'Instalando fontes',
+	'webfonts-preview-installing-fonts-text' => 'Você pode baixar uma fonte usando o link "{{int:webfonts-preview-download}}", fornecido acima. Para instalar a fonte baixada em seu computador, consulte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentação].',
 );
 
 /** Romanian (Română)
