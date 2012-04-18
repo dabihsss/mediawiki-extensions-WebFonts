@@ -668,14 +668,21 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Ant176
  * @author Fryed-peach
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'webfonts' => 'Web フォント',
 	'webfonts-desc' => 'ページにフォントを埋め込みます。',
 	'webfonts-load' => 'フォントを選択',
 	'webfonts-reset' => 'リセット',
+	'webfonts-enable-preference' => 'フォントの埋め込みを有効にする（Webフォント）',
+	'webfonts-help' => 'ヘルプ',
+	'webfonts-preview-title' => 'フォントをプレビュー',
+	'webfonts-preview-download' => 'このフォントをダウンロード',
+	'webfonts-preview-installing-fonts-title' => 'フォントをインストール中',
 );
 
 /** Georgian (ქართული)
@@ -1025,8 +1032,8 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (Português do Brasil)
- * @author Rafael Vargas
  * @author 555
+ * @author Rafael Vargas
  */
 $messages['pt-br'] = array(
 	'webfonts' => 'WebFonts',
