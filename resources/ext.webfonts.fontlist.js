@@ -188,13 +188,6 @@
 				version: "4.011"
 			},
 
-			Perizia: {
-				eot: "Latn/Perizia.eot",
-				ttf: "Latn/Perizia.ttf",
-				woff: "Latn/Perizia.woff",
-				version: "0.1"
-			},
-
 			RufScript: {
 				eot: "Latn/Rufscript.eot",
 				ttf: "Latn/Rufscript.ttf",
@@ -202,12 +195,34 @@
 				version: "0.1"
 			},
 
-			Ubuntu: {
-				eot: "Latn/ubuntu-r-webfont.eot",
-				ttf: "Latn/ubuntu-r.ttf",
-				woff: "Latn/ubuntu-r-webfont.woff",
-				svg: "Latn/ubuntu-r-webfont.svg",
-				version: "0.69"
+			"Ubuntu": {
+				eot: "Latn/Ubuntu-R.eot",
+				ttf: "Latn/Ubuntu-R.ttf",
+				woff: "Latn/Ubuntu-R.woff",
+				svg: "Latn/Ubuntu-R.svg",
+				version: "0.8",
+				variants: {
+					bold: "Ubuntu Bold",
+					italic: "Ubuntu Italic"
+				}
+			},
+
+			"Ubuntu Bold": {
+				eot: "Latn/Ubuntu-B.eot",
+				ttf: "Latn/Ubuntu-B.ttf",
+				woff: "Latn/Ubuntu-B.woff",
+				svg: "Latn/Ubuntu-B.svg",
+				fontweight: "bold",
+				version: "0.8"
+			},
+
+			"Ubuntu Italic": {
+				eot: "Latn/Ubuntu-RI.eot",
+				ttf: "Latn/Ubuntu-RI.ttf",
+				woff: "Latn/Ubuntu-RI.woff",
+				svg: "Latn/Ubuntu-RI.svg",
+				fontstyle: "italic",
+				version: "0.8"
 			},
 
 			AnjaliOldLipi: {
@@ -358,7 +373,46 @@
 				ttf: "Mymr/TharLon.ttf",
 				woff: "Mymr/TharLon.woff",
 				version: "1.0"
-			}
+			},
+
+			"Libertine": {
+				eot: "Latn/LinLibertine_R.eot",
+				ttf: "Latn/LinLibertine_R.ttf",
+				woff: "Latn/LinLibertine_R.woff",
+				version: "5.1.3",
+				variants: {
+					bold: "Libertine Bold",
+					italic: "Libertine Italic",
+					bolditalic: "Libertine Bold Italic",
+				}
+			},
+
+			"Libertine Bold": {
+				eot: "Latn/LinLibertine_RB.eot",
+				ttf: "Latn/LinLibertine_RB.ttf",
+				woff: "Latn/LinLibertine_RB.woff",
+				fontweight: "bold",
+				fontstyle: "normal",
+				version: "5.1.3"
+			},
+
+			"Libertine Italic": {
+				eot: "Latn/LinLibertine_RI.eot",
+				ttf: "Latn/LinLibertine_RI.ttf",
+				woff: "Latn/LinLibertine_RI.woff",
+				fontstyle: "italic",
+				version: "5.1.3"
+			},
+
+			"Libertine Bold Italic": {
+				eot: "Latn/LinLibertine_RBI.eot",
+				ttf: "Latn/LinLibertine_RBI.ttf",
+				woff: "Latn/LinLibertine_RBI.woff",
+				fontweight: "bold",
+				fontstyle: "italic",
+				version: "5.1.3"
+			},
+
 /*
 			"Hapax Berbère": {
 				eot: "Tfng/hapaxber.eot",
@@ -370,7 +424,7 @@
 		},
 
 		languages: {
-			// en: [ "RufScript", "Perizia", "Ubuntu" ],
+			// en:  [ "Libertine", "RufScript", "Ubuntu"],
 			ahr: [ "Lohit Marathi" ],
 			akk: [ "Akkadian" ],
 			am:  [ "AbyssinicaSIL" ],
