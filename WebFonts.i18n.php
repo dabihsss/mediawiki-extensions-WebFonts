@@ -679,10 +679,12 @@ $messages['ja'] = array(
 	'webfonts-load' => 'フォントを選択',
 	'webfonts-reset' => 'リセット',
 	'webfonts-enable-preference' => 'フォントの埋め込みを有効にする（Webフォント）',
+	'webfonts-menu-tooltip' => 'ページのフォントを選択',
 	'webfonts-help' => 'ヘルプ',
 	'webfonts-preview-title' => 'フォントをプレビュー',
 	'webfonts-preview-download' => 'このフォントをダウンロード',
 	'webfonts-preview-installing-fonts-title' => 'フォントをインストール中',
+	'webfonts-preview-installing-fonts-text' => '上記の "{{int:webfonts-preview-download}}" リンクを使用してフォントをダウンロードできます。ダウンロードしたフォントをあなたのコンピュータにインストールするには、[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts このドキュメント]をご覧ください。',
 );
 
 /** Georgian (ქართული)
