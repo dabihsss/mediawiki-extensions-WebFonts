@@ -107,8 +107,9 @@
 		 * Construct the CSS required for the font-family, inject it to the head of the body
 		 * so that it gets loaded.
 		 * @param fontFamily The font-family name
+		 * @param variant The font variant, eg: bold, italic etc. Default is normal.
 		 */
-		loadCSS: function( fontFamily ) {
+		loadCSS: function( fontFamily, variant ) {
 			var	fontconfig = mw.webfonts.config.fonts[fontFamily],
 				base = mw.config.get( 'wgExtensionAssetsPath' ) + '/WebFonts/fonts/',
 				fontFormats = [],
@@ -116,7 +117,15 @@
 				versionSuffix = "?version=" + version + '&20111213',
 				styleString = "@font-face { font-family: '"+fontFamily+"';\n",
 				ua = navigator.userAgent;
-
+			if( variant === undefined ) {
+				variant = 'normal';
+			}
+			if ( variant !== 'normal' ) {
+				if ( fontconfig.variants !== undefined && fontconfig.variants[variant] ) {
+					fontFamily = fontconfig.variants[variant];
+					fontconfig = mw.webfonts.config.fonts[fontFamily];
+				}
+			}
 			if ( fontconfig.eot !== undefined ) {
 				styleString += "\tsrc: url('" + base + fontconfig.eot + versionSuffix + "');\n";
 			}
@@ -143,10 +152,26 @@
 			}
 
 			styleString += fontFormats.join() + ";\n";
-			styleString += "\tfont-weight: normal;}";
+
+			if ( fontconfig.fontweight !== undefined ) {
+				styleString += "\tfont-weight:" + fontconfig.fontweight + ";";
+			}
+			if ( fontconfig.fontstyle !== undefined ) {
+				styleString += "\tfont-style:" + fontconfig.fontstyle + ";";
+			} else {
+				styleString += "\tfont-style: normal;";
+			}
+			styleString += "}";
 
 			// inject the css to the head of the page.
 			mw.util.addCSS( styleString );
+
+			// Generate css for the font variants too.
+			if ( fontconfig.variants !== undefined ) {
+				$.each( fontconfig.variants, function ( variant, variantFontFamily ) {
+					mw.webfonts.loadCSS( fontFamily, variant );
+				} );
+			}
 		},
 
 		/**
