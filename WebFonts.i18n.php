@@ -506,6 +506,7 @@ $messages['gl'] = array(
 
 /** Swiss German (Alemannisch)
  * @author Als-Chlämens
+ * @author Als-Holder
  */
 $messages['gsw'] = array(
 	'webfonts' => 'WebSchriftarte',
@@ -513,6 +514,14 @@ $messages['gsw'] = array(
 	'webfonts-load' => 'Schriftart usswääle',
 	'webfonts-reset' => 'Zruggsetze',
 	'webfonts-enable-preference' => 'D Yybettig vo Schriftarte aktiviere',
+	'webfonts-menu-tooltip' => 'E Schriftart fir d Syte uuswehle.',
+	'webfonts-help' => 'Hilf',
+	'webfonts-preview-intro' => 'Die Syte hilft der derby, d Schriftarte, wu dur d Erwyterig Webfonts verfiegbar sin, in dr Vorschau aazluege un si uf dyy Computer aabezlade un z inschtalliere.',
+	'webfonts-preview-title' => 'Schriftartvorschau',
+	'webfonts-preview-download' => 'Die Schriftart aabelade',
+	'webfonts-preview-sampletext' => 'Ich chänn dr Franz, wu im komplett verwahrloste Taxi quer dur Bayern jagt.',
+	'webfonts-preview-installing-fonts-title' => 'Schriftarte inschtalliere',
+	'webfonts-preview-installing-fonts-text' => 'Du chasch e Schriftart aabelade, doderzue drucksch oben rächts uf dr Link „{{int:webfonts-preview-download}}“. Go di aabeglade Schriftart uf dyym Computer z inschtalliere, gang bitte [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts däne Hiiwys] no.',
 );
 
 /** Gujarati (ગુજરાતી)
@@ -681,9 +690,10 @@ $messages['ja'] = array(
 	'webfonts-enable-preference' => 'フォントの埋め込みを有効にする（Webフォント）',
 	'webfonts-menu-tooltip' => 'ページのフォントを選択',
 	'webfonts-help' => 'ヘルプ',
+	'webfonts-preview-intro' => 'このページは、ウェブ フォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
 	'webfonts-preview-title' => 'フォントをプレビュー',
 	'webfonts-preview-download' => 'このフォントをダウンロード',
-	'webfonts-preview-installing-fonts-title' => 'フォントをインストール中',
+	'webfonts-preview-installing-fonts-title' => 'フォントのインストール',
 	'webfonts-preview-installing-fonts-text' => '上記の "{{int:webfonts-preview-download}}" リンクを使用してフォントをダウンロードできます。ダウンロードしたフォントをあなたのコンピュータにインストールするには、[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts このドキュメント]をご覧ください。',
 );
 
