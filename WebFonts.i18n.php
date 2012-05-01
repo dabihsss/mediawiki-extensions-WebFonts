@@ -160,6 +160,7 @@ $messages['bho'] = array(
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Jayantanth
+ * @author Wikitanvir
  */
 $messages['bn'] = array(
 	'webfonts' => 'ওয়েবফন্টস',
@@ -169,10 +170,12 @@ $messages['bn'] = array(
 	'webfonts-enable-preference' => 'ফন্ট এমবেড সস্ক্রিয় করুন (ওয়েবফন্টস)',
 	'webfonts-menu-tooltip' => 'পাতার জন্য ফন্ট নির্বাচন করুন',
 	'webfonts-help' => 'সাহায্য',
+	'webfonts-preview-intro' => 'এই পাতাটি আপনাকে ওয়েবফন্টস এক্সটনশনে থাকা ফন্টগুলো দেখার সুযোগ দেয় এবং সেই সাথে ফন্টগুলো আপনার কম্পিউটারে ডাউনলোডেরও সুযোগ দেয়।',
 	'webfonts-preview-title' => 'ফন্ট প্রাকদর্শন',
-	'webfonts-preview-download' => 'ডাউনলোড',
+	'webfonts-preview-download' => 'এই ফন্টটি ডাউনলোড করুন',
 	'webfonts-preview-sampletext' => 'আমার সোনার বাংলা আমি তোমায় ভালবাসি',
 	'webfonts-preview-installing-fonts-title' => 'ফন্ট ইন্সটল হচ্ছে',
+	'webfonts-preview-installing-fonts-text' => 'আপনি ওপরে থাকা "{{int:webfonts-preview-download}}" লিংকটি ব্যবহার করে একটি ফন্ট ডাউনলোড করতে পারবেন। ডাউনলোডকৃত ফন্টটি আপনার কম্পিউটারে ইন্সটল করতে অনুগ্রপূর্বক [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts এই ডকুমেন্টেশন পাতাটি] দেখুন।',
 );
 
 /** Bishnupria Manipuri (ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী)
