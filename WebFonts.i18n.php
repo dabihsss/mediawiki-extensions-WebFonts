@@ -693,7 +693,7 @@ $messages['ja'] = array(
 	'webfonts-enable-preference' => 'フォントの埋め込みを有効にする（Webフォント）',
 	'webfonts-menu-tooltip' => 'ページのフォントを選択',
 	'webfonts-help' => 'ヘルプ',
-	'webfonts-preview-intro' => 'このページは、ウェブ フォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
+	'webfonts-preview-intro' => 'このページは、Web フォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
 	'webfonts-preview-title' => 'フォントをプレビュー',
 	'webfonts-preview-download' => 'このフォントをダウンロード',
 	'webfonts-preview-installing-fonts-title' => 'フォントのインストール',
@@ -796,6 +796,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'webfonts' => 'WebFonts',
 	'webfonts-desc' => "D'Schrëften an d'Säiten abannen",
 	'webfonts-load' => 'Buschtawen-Typ (Font) eraussichen',
 	'webfonts-reset' => 'Zrécksetzen',
@@ -1037,13 +1038,22 @@ $messages['ps'] = array(
 /** Portuguese (Português)
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Malafaya
  */
 $messages['pt'] = array(
 	'webfonts' => 'TiposDeLetraIncorporados',
 	'webfonts-desc' => 'Tipos de letra incorporados nas páginas',
 	'webfonts-load' => 'Seleccione o tipo',
 	'webfonts-reset' => 'Reiniciar',
+	'webfonts-enable-preference' => 'Ativar incorporação de fontes (Web fonts)',
+	'webfonts-menu-tooltip' => 'Selecione uma fonte para a página',
 	'webfonts-help' => 'Ajuda',
+	'webfonts-preview-intro' => 'Esta página ajuda-o a pré-visualizar as fontes disponíveis na extensão WebFonts e, opcionalmente, descarregar e instalá-las no seu computador.',
+	'webfonts-preview-title' => 'Pré-visualizar as fontes',
+	'webfonts-preview-download' => 'Descarregar esta fonte',
+	'webfonts-preview-sampletext' => 'Gafanhotos azuis celebram a pequena terra das jovens bruxas',
+	'webfonts-preview-installing-fonts-title' => 'A instalar fontes',
+	'webfonts-preview-installing-fonts-text' => 'Você pode descarregar uma fonte usando a "{{int:webfonts-visualização-baixar}}" ligação fornecida acima. Para instalar a fonte descarregada no seu computador, por favor, consulte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentação].',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
