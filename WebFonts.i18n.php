@@ -1207,6 +1207,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Lokal Profil
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1217,6 +1218,12 @@ $messages['sv'] = array(
 	'webfonts-enable-preference' => 'Aktivera typsnittsinbäddning (WebFonts)',
 	'webfonts-menu-tooltip' => 'Välj ett typsnitt för sidan',
 	'webfonts-help' => 'Hjälp',
+	'webfonts-preview-intro' => 'Denna sida hjälper dig att förhandsgranska de typsnitt som är tillgängliga i tillägget WebFonts, och ger dig även möjligheten att ladda ner dem och installera dem på din dator.',
+	'webfonts-preview-title' => 'Förhandsvisa teckensnitt',
+	'webfonts-preview-download' => 'Ladda ned detta teckensnitt',
+	'webfonts-preview-sampletext' => 'Väg för JB Qwick mot lyxhus på Zenda',
+	'webfonts-preview-installing-fonts-title' => 'Installerar teckensnitt',
+	'webfonts-preview-installing-fonts-text' => 'Du kan ladda ner ett teckensnitt med hjälp av länken "{{int:webfonts-preview-download}}" ovan. För att installera det nedladdade teckensnittet på din dator, se vänligen [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts denna dokumentationen].',
 );
 
 /** Tamil (தமிழ்)
