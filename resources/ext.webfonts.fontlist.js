@@ -3,7 +3,7 @@
  * First font is the default font for the language
  */
 
-( function ( $ ) {
+( function ( $, mw ) {
 
 	var config = {
 		fonts: {
@@ -383,7 +383,7 @@
 				variants: {
 					bold: "Libertine Bold",
 					italic: "Libertine Italic",
-					bolditalic: "Libertine Bold Italic",
+					bolditalic: "Libertine Bold Italic"
 				}
 			},
 
@@ -474,4 +474,4 @@
 
 	$.extend( mw.webfonts.config, config );
 
-} ) ( jQuery );
+} )( jQuery, mediaWiki );
