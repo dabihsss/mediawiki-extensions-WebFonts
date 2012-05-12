@@ -1285,7 +1285,7 @@ $messages['uk'] = array(
 	'webfonts-preview-download' => 'Завантажити цей шрифт',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
