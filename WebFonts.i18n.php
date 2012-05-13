@@ -946,7 +946,7 @@ $messages['ne'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'webfonts' => 'WebFonts',
+	'webfonts' => 'Webfonts',
 	'webfonts-desc' => "Lettertypen op pagina's insluiten",
 	'webfonts-load' => 'Lettertype selecteren',
 	'webfonts-reset' => 'Uitschakelen',
