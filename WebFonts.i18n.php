@@ -674,9 +674,12 @@ $messages['it'] = array(
 	'webfonts-enable-preference' => "Attiva l'incorporazione dei caratteri (WebFont)",
 	'webfonts-menu-tooltip' => 'Seleziona un tipo di carattere per la pagina',
 	'webfonts-help' => 'Aiuto',
+	'webfonts-preview-intro' => "Questa pagina ti consente di visualizzare in anteprima i font disponibili nell'estensione WebFonts e, opzionalmente, di scaricarli ed installarli nel vostro computer.",
 	'webfonts-preview-title' => 'Anteprima dei tipi di caratteri',
 	'webfonts-preview-download' => 'Scarica questo tipo di caratteri',
+	'webfonts-preview-sampletext' => 'Ma la volpe col suo balzo ha raggiunto il quieto Fido',
 	'webfonts-preview-installing-fonts-title' => 'Installa i tipi di caratteri',
+	'webfonts-preview-installing-fonts-text' => 'Puoi scaricare un tipo di carattere tramite il collegamento "{{int:webfonts-preview-download}}" soprastante. Per installare il tipo di carattere scaricato sul tuo computer, leggi [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts questa documentazione].',
 );
 
 /** Japanese (日本語)
