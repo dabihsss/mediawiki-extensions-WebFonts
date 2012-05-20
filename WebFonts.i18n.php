@@ -602,6 +602,7 @@ $messages['hsb'] = array(
 /** Hungarian (Magyar)
  * @author Dj
  * @author Misibacsi
+ * @author TK-999
  * @author Xbspiro
  */
 $messages['hu'] = array(
@@ -609,9 +610,15 @@ $messages['hu'] = array(
 	'webfonts-desc' => 'Fontok beágyazása a lapokba',
 	'webfonts-load' => 'Válassza ki a betűtípust!',
 	'webfonts-reset' => 'Törlés',
-	'webfonts-enable-preference' => 'Fontok beágyazása (WebFonts)',
-	'webfonts-menu-tooltip' => 'Válassz egy fontot az oldalhoz',
+	'webfonts-enable-preference' => 'Betűtípusok beágyazása (WebFonts)',
+	'webfonts-menu-tooltip' => 'Válassz egy betűtípust az oldalhoz',
 	'webfonts-help' => 'Segítség',
+	'webfonts-preview-intro' => 'Ezen az oldalon megtekintheted a WebFonts kiterjesztés elérhető betűtípusait, valamint opcionálisan letöltheted és telepítheted őket a számítógépedre.',
+	'webfonts-preview-title' => 'Betűtípusok előnézetének megtekintése',
+	'webfonts-preview-download' => 'Betűtípus letöltése',
+	'webfonts-preview-sampletext' => 'Árvíztűrő tükörfúrógép',
+	'webfonts-preview-installing-fonts-title' => 'Betűtípusok telepítése',
+	'webfonts-preview-installing-fonts-text' => 'Betűtípusokat a fent megadott "{{int:webfonts-preview-download}}" hivatkozáson keresztül tölthetsz le. A letöltött betűtípus telepítéséhez az alábbi [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentáció] nyújthat segítséget.',
 );
 
 /** Interlingua (Interlingua)
@@ -699,6 +706,7 @@ $messages['ja'] = array(
 	'webfonts-preview-intro' => 'このページは、Web フォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
 	'webfonts-preview-title' => 'フォントをプレビュー',
 	'webfonts-preview-download' => 'このフォントをダウンロード',
+	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog',
 	'webfonts-preview-installing-fonts-title' => 'フォントのインストール',
 	'webfonts-preview-installing-fonts-text' => '上記の "{{int:webfonts-preview-download}}" リンクを使用してフォントをダウンロードできます。ダウンロードしたフォントをあなたのコンピュータにインストールするには、[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts このドキュメント]をご覧ください。',
 );
