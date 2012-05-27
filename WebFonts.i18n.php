@@ -317,7 +317,7 @@ $messages['de-formal'] = array(
  */
 $messages['diq'] = array(
 	'webfonts' => 'Fontê webi',
-	'webfonts-load' => 'Font weçinê',
+	'webfonts-load' => 'Babeta nusni weçinê',
 	'webfonts-reset' => 'Reset fi',
 	'webfonts-help' => 'Desteg',
 );
