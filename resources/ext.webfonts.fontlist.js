@@ -411,9 +411,9 @@
 				fontweight: "bold",
 				fontstyle: "italic",
 				version: "5.1.3"
-			},
-
+			}
 /*
+			,
 			"Hapax Berbère": {
 				eot: "Tfng/hapaxber.eot",
 				ttf: "Tfng/hapaxber.ttf",
