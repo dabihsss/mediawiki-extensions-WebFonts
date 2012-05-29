@@ -697,10 +697,10 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'webfonts' => 'Web フォント',
-	'webfonts-desc' => 'ページにフォントを埋め込みます。',
+	'webfonts-desc' => 'ページにフォントを埋め込む',
 	'webfonts-load' => 'フォントを選択',
 	'webfonts-reset' => 'リセット',
-	'webfonts-enable-preference' => 'フォントの埋め込みを有効にする（Webフォント）',
+	'webfonts-enable-preference' => 'フォントの埋め込み（Webフォント）を有効にする',
 	'webfonts-menu-tooltip' => 'ページのフォントを選択',
 	'webfonts-help' => 'ヘルプ',
 	'webfonts-preview-intro' => 'このページは、Web フォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
@@ -866,6 +866,7 @@ $messages['mk'] = array(
 /** Malayalam (മലയാളം)
  * @author Praveenp
  * @author Santhosh
+ * @author Santhosh.thottingal
  * @author Vssun
  */
 $messages['ml'] = array(
@@ -881,7 +882,7 @@ $messages['ml'] = array(
 	'webfonts-preview-download' => 'ലിങ്ക് എഴുത്ത് ഡൗൺലോഡ് ചെയ്യുക',
 	'webfonts-preview-sampletext' => 'തിരഞ്ഞെടുത്ത ഫോണ്ട് പരീക്ഷിച്ചു നോക്കാനായി ഇവിടെ നിങ്ങള്‍ക്കിഷ്ടമുള്ളതെഴുതാം.',
 	'webfonts-preview-installing-fonts-title' => 'ഫോണ്ടുകള്‍ ഇന്‍സ്റ്റാള്‍ ചെയ്യുന്ന വിധം',
-	'webfonts-preview-installing-fonts-text' => 'മുകളില്‍ കൊടുത്തിരിക്കുന്ന {{int:webfonts-preview-download}} കണ്ണി ഉപയോഗിച്ചു് നിങ്ങള്‍ക്കു്  ഫോണ്ട് ഡൌണ്‍ലോഡ് ചെയ്യാം. അതിനു ശേഷം ഇന്‍സ്റ്റാള്‍ ചെയ്യുന്നതിനായി [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ഈ താള്‍ സഹായിച്ചേക്കും.]',
+	'webfonts-preview-installing-fonts-text' => 'മുകളിൽ കൊടുത്തിരിക്കുന്ന {{int:webfonts-preview-download}} കണ്ണി ഉപയോഗിച്ചു് നിങ്ങൾക്കു്  ഫോണ്ട് ഡൌൺലോഡ് ചെയ്യാം. അതിനു ശേഷം ഇൻസ്റ്റാൾ ചെയ്യുന്നതിനായി [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ഈ താൾ സഹായിച്ചേക്കും.]',
 );
 
 /** Marathi (मराठी)
