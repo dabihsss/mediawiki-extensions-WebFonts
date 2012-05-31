@@ -411,7 +411,15 @@
 				fontweight: "bold",
 				fontstyle: "italic",
 				version: "5.1.3"
+			},
+
+			"UnifrakturMaguntia": {
+				eot: "Latn/UnifrakturMaguntia.eot",
+				ttf: "Latn/UnifrakturMaguntia.ttf",
+				woff: "Latn/UnifrakturMaguntia.woff",
+				version: "2012-02-11"
 			}
+
 /*
 			,
 			"Hapax Berbère": {
