@@ -89,6 +89,17 @@ $messages['ar'] = array(
 	'webfonts-reset' => 'أعد الضبط',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'webfonts' => 'ৱেবফণ্টসমূহ',
+	'webfonts-reset' => 'পূৰ্বৰ অৱস্থালৈ লৈ যাওক',
+	'webfonts-help' => 'সহায়',
+	'webfonts-preview-title' => 'ফন্ট প্রাকদর্শন',
+	'webfonts-preview-download' => 'এই ফন্টটো ডাউনলোড কৰক',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
