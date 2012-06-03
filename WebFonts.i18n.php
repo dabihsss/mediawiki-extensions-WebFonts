@@ -91,10 +91,15 @@ $messages['ar'] = array(
 
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
+ * @author Gitartha.bordoloi
  */
 $messages['as'] = array(
 	'webfonts' => 'ৱেবফণ্টসমূহ',
+	'webfonts-desc' => "পৃষ্ঠাত ফ'ণ্ট এম্বেড কৰক",
+	'webfonts-load' => 'ফন্ট নিৰ্বাচন কৰক',
 	'webfonts-reset' => 'পূৰ্বৰ অৱস্থালৈ লৈ যাওক',
+	'webfonts-enable-preference' => "ফ'ণ্ট এম্বেডিং সক্ৰিয় কৰক (ৱেবফ'ণ্ট)",
+	'webfonts-menu-tooltip' => "পৃষ্ঠাৰ বাবে এটা ফ'ণ্ট বাছনি কৰক",
 	'webfonts-help' => 'সহায়',
 	'webfonts-preview-title' => 'ফন্ট প্রাকদর্শন',
 	'webfonts-preview-download' => 'এই ফন্টটো ডাউনলোড কৰক',
