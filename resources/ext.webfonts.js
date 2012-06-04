@@ -195,7 +195,7 @@
 
 			return true;
 		},
-	
+
 		/**
 		 * Checks whether the browser is supported
 		 */
@@ -324,6 +324,8 @@
 					.attr( 'id', 'webfonts-fontsmenu' )
 					.delegate( 'input:radio', 'click', function() {
 						mw.webfonts.set( $(this).val() );
+						// Changed font will make menu in wrong position.
+						mw.webfonts.positionMenu();
 					} ),
 				len = fonts.length,
 				i, font, $link, $label, $item;
@@ -404,7 +406,7 @@
 				$( 'li#pt-webfont' ).remove();
 				$( 'div#webfonts-menu' ).remove();
 			}
-			
+
 			var $menu = $( '<div>' )
 				.attr( 'id', 'webfonts-menu' )
 				.addClass( 'webfontMenu' )
@@ -425,30 +427,7 @@
 
 			$( 'body' ).prepend( $menu );
 			$li.click( function( event ) {
-				var menuSide, menuOffset, distanceToEdge;
-
-				if ( rtlEnv ) {
-					distanceToEdge = $li.outerWidth() + $li.offset().left;
-					if ( $menuItemsDiv.outerWidth() > distanceToEdge ) {
-						menuSide = 'left';
-						menuOffset = $li.offset().left;
-					} else {
-						menuSide = 'right';
-						menuOffset = $(window).width() - distanceToEdge;
-					}
-				} else {
-					distanceToEdge = $(window).width() - $li.offset().left;
-					if ( $menuItemsDiv.outerWidth() > distanceToEdge ) {
-						menuSide = 'right';
-						menuOffset = distanceToEdge - $li.outerWidth();
-					} else {
-						menuSide = 'left';
-						menuOffset = $li.offset().left;
-					}
-				}
-
-				$menuItemsDiv.css( menuSide, menuOffset );
-
+				mw.webfonts.positionMenu();
 				if ( $menu.hasClass( 'open' ) ) {
 					$menu.removeClass( 'open' );
 				} else {
@@ -476,6 +455,37 @@
 				} );
 			}
 			return true;
+		},
+
+		/*
+		 * Position the menu in correct position, depending on RTL/LTR
+		 * environment.
+		 */
+		positionMenu : function(){
+			var $menuLink = $( 'li#pt-webfont' );
+			var $menuItemsDiv = $( 'div#webfonts-fonts' );
+			var rtlEnv = $( 'body' ).hasClass( 'rtl' );
+			var menuSide, menuOffset, distanceToEdge;
+			if ( rtlEnv ) {
+				distanceToEdge = $menuLink.outerWidth() + $menuLink.offset().left;
+				if ( $menuItemsDiv.outerWidth() > distanceToEdge ) {
+					menuSide = 'left';
+					menuOffset = $menuLink.offset().left;
+				} else {
+					menuSide = 'right';
+					menuOffset = $(window).width() - distanceToEdge;
+				}
+			} else {
+				distanceToEdge = $(window).width() - $menuLink.offset().left;
+				if ( $menuItemsDiv.outerWidth() > distanceToEdge ) {
+					menuSide = 'right';
+					menuOffset = distanceToEdge - $menuLink.outerWidth();
+				} else {
+					menuSide = 'left';
+					menuOffset = $menuLink.offset().left;
+				}
+			}
+			$menuItemsDiv.css( menuSide, menuOffset );
 		}
 	};
 
