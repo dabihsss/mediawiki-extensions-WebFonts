@@ -103,6 +103,7 @@ $messages['as'] = array(
 	'webfonts-help' => 'সহায়',
 	'webfonts-preview-title' => 'ফন্ট প্রাকদর্শন',
 	'webfonts-preview-download' => 'এই ফন্টটো ডাউনলোড কৰক',
+	'webfonts-preview-sampletext' => 'শুই থকা শিয়ালে হাঁহ ধৰিব নোৱাৰে',
 	'webfonts-preview-installing-fonts-title' => 'ফন্ট ইনষ্টল হৈ আছে',
 );
 
