@@ -714,14 +714,14 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'webfonts' => 'Web フォント',
+	'webfonts' => 'Webフォント',
 	'webfonts-desc' => 'ページにフォントを埋め込む',
 	'webfonts-load' => 'フォントを選択',
 	'webfonts-reset' => 'リセット',
 	'webfonts-enable-preference' => 'フォントの埋め込み（Webフォント）を有効にする',
 	'webfonts-menu-tooltip' => 'ページのフォントを選択',
 	'webfonts-help' => 'ヘルプ',
-	'webfonts-preview-intro' => 'このページは、Web フォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
+	'webfonts-preview-intro' => 'このページは、Webフォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
 	'webfonts-preview-title' => 'フォントをプレビュー',
 	'webfonts-preview-download' => 'このフォントをダウンロード',
 	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog',
