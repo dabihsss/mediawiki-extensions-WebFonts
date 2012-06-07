@@ -359,12 +359,21 @@
 				// with fonts loaded. Don't show the menu.
 				return null;
 			}
-
-			$resetLink = $( '<input type="radio" name="font" />' )
-				.attr( 'value', 'webfont-none' )
+			$resetLink = null;
+			if ( haveSchemes ) {
+				$resetLink = $( '<input type="radio" name="font" />' );
+			} else {
+				// No font options to show. So show a checkbox instead or radio button.
+				$resetLink = $( '<input type="checkbox" name="font" />' );
+			}
+			$resetLink.attr( 'value', 'webfont-none' )
 				.attr( 'id', 'webfont-none' )
 				.click( function() {
 					mw.webfonts.set( 'none' );
+					if( !this.checked ) {
+						// If the checkbox not selected. Apply the font for elements with lang attribute.
+						mw.webfonts.loadFontsForLangAttr();
+					}
 				});
 
 			$resetLabel = $( '<label>' )
