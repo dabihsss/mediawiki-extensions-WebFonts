@@ -792,12 +792,13 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'webfonts' => '웹 글꼴',
 	'webfonts-desc' => '문서에 글꼴을 포함하기',
 	'webfonts-load' => '글꼴 선택',
-	'webfonts-reset' => '리셋',
+	'webfonts-reset' => '초기화',
 	'webfonts-enable-preference' => '글꼴 임베딩 켜기 (WebFonts)',
 	'webfonts-menu-tooltip' => '문서를 표시할 글꼴 선택',
 	'webfonts-help' => '도움말',
