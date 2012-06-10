@@ -335,9 +335,16 @@ $messages['de-formal'] = array(
  */
 $messages['diq'] = array(
 	'webfonts' => 'Fontê webi',
+	'webfonts-desc' => 'Fontanê pela pêtewrke',
 	'webfonts-load' => 'Babeta nusni weçinê',
 	'webfonts-reset' => 'Reset fi',
+	'webfonts-enable-preference' => 'Têdayışê fonta bıqefılnê (Fontê Webi)',
+	'webfonts-menu-tooltip' => 'Pela re jew font weçinê',
 	'webfonts-help' => 'Desteg',
+	'webfonts-preview-title' => 'Verqaytê fontan',
+	'webfonts-preview-download' => 'Nê fonti ron',
+	'webfonts-preview-sampletext' => 'Kahverengiya pêt luwa azad kutıg ser çekeno',
+	'webfonts-preview-installing-fonts-title' => 'Sazkerdışê Fontan',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -471,11 +478,12 @@ $messages['fi'] = array(
 	'webfonts-preview-download' => 'Lataa tämä fontti',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  * @author IAlex
  * @author Od1n
  * @author Sherbrooke
+ * @author Srtxg
  */
 $messages['fr'] = array(
 	'webfonts' => 'Polices web',
@@ -1301,9 +1309,10 @@ $messages['tr'] = array(
 	'webfonts-help' => 'Yardım',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author A1
  * @author Microcell
+ * @author Olvin
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1311,6 +1320,7 @@ $messages['uk'] = array(
 	'webfonts-desc' => 'Дозволяє вбудовувати шрифти у сторінки',
 	'webfonts-load' => 'Обрати шрифт',
 	'webfonts-reset' => 'Скинути',
+	'webfonts-enable-preference' => 'Дозволити вбудовування шрифтів (Web fonts)',
 	'webfonts-menu-tooltip' => 'Виберіть шрифт для сторінки',
 	'webfonts-help' => 'Допомога',
 	'webfonts-preview-download' => 'Завантажити цей шрифт',
@@ -1344,6 +1354,25 @@ $messages['vi'] = array(
 	'webfonts-preview-sampletext' => 'Tôi có thể ăn thủy tinh mà không hại gì',
 	'webfonts-preview-installing-fonts-title' => 'Cài đặt phông chữ',
 	'webfonts-preview-installing-fonts-text' => 'Bạn có thể tải về phông chữ dùng liên kết “{{int:webfonts-preview-download}}” ở trên. Để cài đặt các phông chữ được tải về máy tính của bạn, hãy xem [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts tài liệu này].',
+);
+
+/** Walloon (walon)
+ * @author Srtxg
+ */
+$messages['wa'] = array(
+	'webfonts' => 'Fontes waibe',
+	'webfonts-desc' => 'Mete des fontes ådvins minme des pådjes',
+	'webfonts-load' => 'Tchoezixhoz ene fonte',
+	'webfonts-reset' => 'Netyî',
+	'webfonts-enable-preference' => 'Mete en alaedje les fontes waibe (WebFonts)',
+	'webfonts-menu-tooltip' => 'Tchoezixhoz ene fonte pol pådje',
+	'webfonts-help' => 'Aidance',
+	'webfonts-preview-intro' => "Cisse pådje ci vs aidrè a prévey les fontes k' i gn a avou l' rawete WebFonts et motoit ossu ls aberweter ey astaler sol copiutrece da vosse.",
+	'webfonts-preview-title' => 'Prévey les fontes',
+	'webfonts-preview-download' => "Aberweter l' fonte",
+	'webfonts-preview-sampletext' => "Mi trûte a les balzins, co mî ki l' grijhe cawe di m' pôve fayé vexhåd!",
+	'webfonts-preview-installing-fonts-title' => 'Astaler des fontes',
+	'webfonts-preview-installing-fonts-text' => "Vos ploz aberweter ene fonte avou l' loyén «{{int:webfonts-preview-download}}» chal å dzeur. Po-z astaler l' fonte sol copiutrece da vosse, loukîz a [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts cisse documintåcion ci].",
 );
 
 /** Yiddish (ייִדיש)
