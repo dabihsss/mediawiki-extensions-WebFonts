@@ -13,9 +13,19 @@ $specialPageAliases['en'] = array(
 	'WebFonts' => array( 'WebFonts' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'WebFonts' => array( 'خطوط_الويب' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'WebFonts' => array( 'Schriftarten' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'WebFonts' => array( 'RenêWebi' ),
 );
 
 /** Swiss German (Alemannisch) */
@@ -35,10 +45,10 @@ $specialPageAliases['ka'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'WebFonts' => array( '웹폰트' ),
+	'WebFonts' => array( '웹글꼴', '웹폰트' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'WebFonts' => array( 'МрежниФонтови' ),
 );
@@ -48,7 +58,7 @@ $specialPageAliases['ml'] = array(
 	'WebFonts' => array( 'വെബ്ഫോണ്ട്സ്' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'WebFonts' => array( 'Nettfonter' ),
 );
