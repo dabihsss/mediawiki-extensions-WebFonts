@@ -293,7 +293,7 @@
 				eot: "Taml/Lohit-Tamil.eot",
 				ttf: "Taml/Lohit-Tamil.ttf",
 				woff: "Taml/Lohit-Tamil.woff",
-				version: "2.5.0"
+				version: "2.5.1"
 			},
 
 			Thendral: {
