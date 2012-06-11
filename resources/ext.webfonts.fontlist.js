@@ -296,6 +296,13 @@
 				version: "2.5.1"
 			},
 
+			"Lohit Tamil Classical": {
+				eot: "Taml/Lohit-Tamil-Classical.eot",
+				ttf: "Taml/Lohit-Tamil-Classical.ttf",
+				woff: "Taml/Lohit-Tamil-Classical.woff",
+				version: "2.5.1.1"
+			},
+
 			Thendral: {
 				eot: "Taml/ThendralUni.eot",
 				ttf: "Taml/ThendralUni.ttf",
@@ -471,7 +478,7 @@
 			saz: [ "Pagul" ],
 			// shi: [ "Hapax Berbère" ],
 			sux: [ "Akkadian" ],
-			ta:  [ "Lohit Tamil", "Thendral", "Thenee" ],
+			ta:  [ "Lohit Tamil", "Thendral", "Thenee", "Lohit Tamil Classical" ],
 			tcy: [ "Lohit Kannada", "Kedage" ],
 			te:  [ "Lohit Telugu", "Pothana2000", "Vemana2000" ],
 			ti:  [ "AbyssinicaSIL" ]
