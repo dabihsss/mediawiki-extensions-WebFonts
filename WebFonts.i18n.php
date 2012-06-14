@@ -107,7 +107,7 @@ $messages['as'] = array(
 	'webfonts-preview-installing-fonts-title' => 'ফন্ট ইনষ্টল হৈ আছে',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -126,7 +126,7 @@ $messages['ast'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Pues descargar una fonte usando l\'enllaz "{{int:webfonts-preview-download}}" anterior. Pa instalar la fonte descargada nel to ordenador, llee [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación].',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -196,7 +196,7 @@ $messages['bn'] = array(
 	'webfonts-preview-installing-fonts-text' => 'আপনি ওপরে থাকা "{{int:webfonts-preview-download}}" লিংকটি ব্যবহার করে একটি ফন্ট ডাউনলোড করতে পারবেন। ডাউনলোডকৃত ফন্টটি আপনার কম্পিউটারে ইন্সটল করতে অনুগ্রপূর্বক [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts এই ডকুমেন্টেশন পাতাটি] দেখুন।',
 );
 
-/** Bishnupria Manipuri (ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী)
+/** Bishnupria Manipuri (বিষ্ণুপ্রিয়া মণিপুরী)
  * @author Usingha
  */
 $messages['bpy'] = array(
@@ -209,7 +209,7 @@ $messages['bpy'] = array(
 	'webfonts-help' => 'পাংলাক',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -229,7 +229,7 @@ $messages['br'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Pellgargañ ur font a c\'hallit en ur ober gant al liamm "{{int:webfonts-preview-download}}" merket a-us. Evit staliañ ar font pellgarget en hoc\'h urzhiataer, sellit ouzh [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts an teul titouriñ-mañ].',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -238,7 +238,7 @@ $messages['bs'] = array(
 	'webfonts-load' => 'Odaberi font',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Asoxor
  */
 $messages['ckb'] = array(
@@ -249,7 +249,7 @@ $messages['ckb'] = array(
 	'webfonts-preview-installing-fonts-title' => 'دامەزراندنی فۆنتەکان',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  * @author Utar
  */
@@ -283,7 +283,7 @@ $messages['cy'] = array(
 	'webfonts-preview-sampletext' => 'Parciais fy jac codi baw hud llawn dŵr ger tŷ Mabon',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -392,7 +392,7 @@ $messages['eo'] = array(
 	'webfonts-preview-sampletext' => 'Eĥoŝanĝo Ĉiuĵaŭde',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Fitoschido
  * @author Imre
@@ -414,7 +414,7 @@ $messages['es'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Puede descargar una fuente utilizando el vínculo "{{int:webfonts-preview-download}}" dado anteriormente. Para instalar la fuente descargada en el equipo, consulte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación].',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
@@ -433,7 +433,7 @@ $messages['et'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Kirjaliigi allalaadimiseks klõpsa ülal linki "{{int:webfonts-preview-download}}". Alla laaditud kirjaliigi enda arvutisse installimise kohta vaata [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts seda dokumentatsiooni].',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -462,7 +462,7 @@ $messages['fa'] = array(
 	'webfonts-preview-installing-fonts-text' => 'شما می‌توانید هر قلم را با استفاده از پیوند «{{int:webfonts-preview-download}}» که در بالا آمده بارگیری کنید. برای این که قلمی که بارگیری کرده‌اید را روی رایانه خود نصب کنید، لطفاُ [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts این مستندات] را ببینید.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Kulmalukko
  * @author Nedergard
  * @author Olli
@@ -501,7 +501,7 @@ $messages['fr'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Vous pouvez télécharger une police en utilisant le lien "{{int:webfonts-preview-download}}" ci-dessus. Pour installer la police téléchargée sur votre ordinateur, veuillez consulter [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts cette documentation].',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -625,7 +625,7 @@ $messages['hsb'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Móžeš pismo z pomocu wotkaza "{{int:webfonts-preview-download}}" horjeka sćahnyć. Zo by sćehnjene pismo na swojim ličaku instalował, hlej prošu [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts tutu dokumentaciju].',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  * @author Misibacsi
  * @author TK-999
@@ -647,7 +647,7 @@ $messages['hu'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Betűtípusokat a fent megadott "{{int:webfonts-preview-download}}" hivatkozáson keresztül tölthetsz le. A letöltött betűtípus telepítéséhez az alábbi [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentáció] nyújthat segítséget.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -695,7 +695,7 @@ $messages['ilo'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Makaikarga ka ti kita ti letra babaen ti panag-usar ti "{{int:webfonts-preview-download}}"  a panilpo a naited dita ngato. Ti panagikabil ti naikarga a kita ti letra iti komputer mo, pangngaasi a kitaen[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts daytoy a dokumentasion].',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Aushulz
  * @author Beta16
  */
@@ -871,7 +871,7 @@ $messages['lus'] = array(
 	'webfonts-help' => 'Ţanpuina',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1021,7 +1021,7 @@ $messages['or'] = array(
 	'webfonts-preview-installing-fonts-text' => "ଆପଣ ଏକ ଲିପି ଡ଼ାଉନଲୋଡ଼ କରିପାରିବେ ଉପରେ ଥିବା ଏହି ଲିଙ୍କ ''{{int:webfonts-preview-download}}'' ଉପଯୋଗ କରି । ଡ଼ାଉନଲୋଡ଼ କରାଯାଇଥିବା ଲିପିକୁ ଆପଣଙ୍କ କମ୍ପ୍ୟୁଟରରେ ସ୍ଥାପନ କରିବା ପାଇଁ, ଦୟାକରି ଏହା ଦେଖନ୍ତୁ [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation] ।",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Olgak85
  * @author Woytecr
@@ -1074,7 +1074,7 @@ $messages['ps'] = array(
 	'webfonts-preview-download' => 'دا ليکبڼه ښکته کول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
  * @author Malafaya
@@ -1095,7 +1095,7 @@ $messages['pt'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Você pode descarregar uma fonte usando a "{{int:webfonts-visualização-baixar}}" ligação fornecida acima. Para instalar a fonte descarregada no seu computador, por favor, consulte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentação].',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Rafael Vargas
  */
@@ -1115,7 +1115,7 @@ $messages['pt-br'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Você pode baixar uma fonte usando o link "{{int:webfonts-preview-download}}", fornecido acima. Para instalar a fonte baixada em seu computador, consulte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentação].',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author Minisarm
  */
@@ -1124,7 +1124,7 @@ $messages['ro'] = array(
 	'webfonts-enable-preference' => 'Activează încorporarea fonturilor (WebFonts)',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1137,7 +1137,7 @@ $messages['roa-tara'] = array(
 	'webfonts-help' => 'Ajute',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eugrus
  * @author KPu3uC B Poccuu
  * @author Kaganer
@@ -1173,7 +1173,7 @@ $messages['sa'] = array(
 	'webfonts-help' => 'साहाय्यम्',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
@@ -1196,14 +1196,14 @@ $messages['si'] = array(
 	'webfonts-preview-installing-fonts-title' => 'ෆොන්ට් ස්ථාපනය කරන්න',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Teslaton
  */
 $messages['sk'] = array(
 	'webfonts-enable-preference' => 'Povoliť vkladanie fontov (Web fonts embedding)',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  * @author Irena Plahuta
  */
@@ -1223,7 +1223,7 @@ $messages['sl'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Pisavo lahko prenesete tako, da uporabite zgoraj navedeno povezavo »{{int:webfonts-preview-download}}«. Za namestitev prenesene pisave na svoj računalnik si oglejte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentacijo].',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1238,14 +1238,14 @@ $messages['sr-ec'] = array(
 	'webfonts-preview-download' => 'Преузми фонт',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'webfonts' => 'Veb fontovi',
 	'webfonts-desc' => 'Ugradi fontove na stranicama',
 	'webfonts-load' => 'Izaberi font',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lokal Profil
  * @author WikiPhoenix
  */
@@ -1384,7 +1384,7 @@ $messages['yi'] = array(
 	'webfonts-help' => 'הילף',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Anakmalaysia
  * @author Hzy980512
  * @author Liangent
@@ -1405,7 +1405,7 @@ $messages['zh-hans'] = array(
 	'webfonts-preview-installing-fonts-text' => '您可以使用上面的"{{int:webfonts-preview-download}}"链接下载字体。要安装在您电脑上的字体，请参阅[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts 这篇文章].',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  * @author Oapbtommy
  * @author Waihorace
