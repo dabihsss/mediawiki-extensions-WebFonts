@@ -11,7 +11,7 @@
 				eot: "Arab/amiri-regular.eot",
 				ttf: "Arab/amiri-regular.ttf",
 				woff: "Arab/amiri-regular.woff",
-				version: "1.0"
+				version: "1.0.2"
 			},
 
 			"Iranian Sans": {
