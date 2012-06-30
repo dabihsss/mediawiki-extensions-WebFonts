@@ -18,6 +18,11 @@ $specialPageAliases['ar'] = array(
 	'WebFonts' => array( 'خطوط_الويب' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'WebFonts' => array( 'ৱেব_ফণ্টসমূহ' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'WebFonts' => array( 'Schriftarten' ),
