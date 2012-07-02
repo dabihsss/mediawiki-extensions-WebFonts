@@ -830,6 +830,13 @@ $messages['ksh'] = array(
 	'webfonts-menu-tooltip' => 'Donn en Schreff för di Sigg ußwähle.',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'webfonts-help' => 'Alîkarî',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
