@@ -450,7 +450,7 @@
 			bho: [ "Lohit Devanagari" ],
 			bn:  [ "Siyam Rupali", "Lohit Bengali" ],
 			bo:  [ "Jomolhari" ],
-			bpy: [ "Lohit Bengali" ],
+			bpy: [ "Siyam Rupali", "Lohit Bengali" ],
 			bug: [ "Saweri" ],
 			cdo: [ "Charis SIL" ],
 			dz:  [ "Jomolhari" ],
