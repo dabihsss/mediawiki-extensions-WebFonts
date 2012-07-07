@@ -828,6 +828,15 @@ $messages['ksh'] = array(
 	'webfonts-reset' => 'Zeröksäze',
 	'webfonts-enable-preference' => 'Et Schreff_Aate en de Sigge enboue aanschallde ({{int:webfonts}})',
 	'webfonts-menu-tooltip' => 'Donn en Schreff för di Sigg ußwähle.',
+	'webfonts-help' => 'Hölp',
+	'webfonts-preview-intro' => 'Heh di Sigg sull hälfe, de Schreffte us däm Zohsazprojramm WebFonts aanzezeije un se velleisch eronger ze laade un em eije Rääschner ze enschtallere.',
+	'webfonts-preview-title' => 'De Schreffte zom Belooere aanzeije',
+	'webfonts-preview-download' => 'Heh di Schreff eronger laade',
+	'webfonts-preview-sampletext' => 'Dä Klein drengk sööße Milsch, kühmp brav, box joot, fuz, un well qualme.',
+	'webfonts-preview-installing-fonts-title' => 'Schrefte enshctalleere',
+	'webfonts-preview-installing-fonts-text' => 'Do kanns en Schreff eronger laade
+övver dä Langk „{{int:webfonts-preview-download}}“ 
+Öm di_j_eronger jelaade Schreff op Dingem Rääschner ze enschtalleere, haal Desch aan di Sigg:  „{{int:webfonts-preview-download}}“',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
