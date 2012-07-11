@@ -62,7 +62,7 @@ $messages['af'] = array(
 	'webfonts-help' => 'Help',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -133,7 +133,7 @@ $messages['az'] = array(
 	'webfonts-help' => 'Kömək',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Haqmar
  */
 $messages['ba'] = array(
@@ -143,7 +143,7 @@ $messages['ba'] = array(
 	'webfonts-help' => 'Белешмә',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -347,7 +347,7 @@ $messages['diq'] = array(
 	'webfonts-preview-installing-fonts-title' => 'Sazkerdışê Fontan',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -514,7 +514,7 @@ $messages['frp'] = array(
 	'webfonts-help' => 'Éde',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -607,7 +607,7 @@ $messages['hi'] = array(
 	'webfonts-help' => 'सहायता',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -974,13 +974,24 @@ $messages['mt'] = array(
 	'webfonts-load' => 'Agħżel it-tipa',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
+ * @author Simny
  */
 $messages['nb'] = array(
-	'webfonts' => 'WebFonts',
+	'webfonts' => 'Nettfonter',
 	'webfonts-desc' => 'Bygg inn fonter i sider',
 	'webfonts-load' => 'Velg font',
+	'webfonts-reset' => 'Nullstill',
+	'webfonts-enable-preference' => 'Tillat integrering av skrifttyper (WebFonts)',
+	'webfonts-menu-tooltip' => 'Velg en skrifttype for siden',
+	'webfonts-help' => 'Hjelp',
+	'webfonts-preview-intro' => 'Denne siden lar deg forhåndsvise fontene som er tilgjengelige i Nettfonter-utvidelsen, og lar deg laste ned og installere dem på din datamaskin.',
+	'webfonts-preview-title' => 'Forhåndsvis skrifttypene',
+	'webfonts-preview-download' => 'Last ned denne fonten',
+	'webfonts-preview-sampletext' => 'Høvdingens kjære squaw får litt pizza i Mexico by.',
+	'webfonts-preview-installing-fonts-title' => 'Installerer skrifttyper',
+	'webfonts-preview-installing-fonts-text' => 'Du kan laste ned en font ved å bruke «{{int:webfonts-preview-download}}»-lenka ovenfor. For å installere den nedlastede fonten på din datamaskin, se [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts denne dokumentasjonen].',
 );
 
 /** Nepali (नेपाली)
@@ -1342,7 +1353,7 @@ $messages['uk'] = array(
 	'webfonts-preview-download' => 'Завантажити цей шрифт',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
