@@ -4,6 +4,7 @@
  */
 
 ( function ( $, mw ) {
+	"use strict";
 
 	var config = {
 		fonts: {
@@ -244,6 +245,7 @@
 				ttf: "Mlym/RaghuMalayalam.ttf",
 				woff: "Mlym/RaghuMalayalam.woff",
 				normalization: {
+					// N.B.: ZWJ at the end of each value
 					"ൾ": "ള്‍",
 					"ൻ": "ന്‍",
 					"ർ": "ര്‍",

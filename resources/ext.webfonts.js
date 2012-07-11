@@ -1,4 +1,5 @@
 ( function( $, mw, undefined ) {
+	"use strict";
 
 	function fontID( font ) {
 		if ( typeof font !== 'string' ) {
@@ -328,7 +329,8 @@
 						mw.webfonts.positionMenu();
 					} ),
 				len = fonts.length,
-				i, font, $link, $label, $item;
+				i, font, $link, $label, $item,
+				$resetLink, $resetLabel, $resetItem;
 
 			for ( i = 0; i < len; i++ ) {
 				font = fonts[i];
@@ -351,8 +353,6 @@
 				$fontsMenu.append( $item );
 
 			}
-
-			$resetLink = $resetLabel = $resetItem = undefined;
 
 			if ( !haveSchemes && !$( '.webfonts-lang-attr' ).length ) {
 				// No schemes available, and no tags with lang attr
