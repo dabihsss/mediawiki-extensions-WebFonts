@@ -14,13 +14,12 @@ class SpecialWebFonts extends SpecialPage {
 	}
 
 	public function execute( $params ) {
-		global $wgOut, $wgLang;
-		$this->out = $wgOut;
-		$this->lang = $wgLang->getCode();
+		$this->out = $this->getOutput();
+		$this->lang = $this->getLanguage()->getCode();
 		if ( isset( $params ) ) {
 			$this->lang = $params;
 		}
-		$wgOut->addModules( 'ext.webfonts.preview' );
+		$this->out->addModules( 'ext.webfonts.preview' );
 		$this->setHeaders();
 		$this->out->setPageTitle( wfMsg( 'webfonts' ) );
 		$this->out->addWikiMsg( 'webfonts-preview-intro' );
