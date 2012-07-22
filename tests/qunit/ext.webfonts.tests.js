@@ -50,7 +50,7 @@ function fontFamilyList( fontFamilyString ) {
 test( '-- Initial check', function() {
 	expect(1);
 
-	if ( !mw.webfonts.isBrowserSupported ) {
+	if ( !mw.webfonts.isBrowserSupported() ) {
 		// TODO: need a better way to test this
 		ok( mw.webfonts, 'The WebFonts extension is not supposed to run in a blacklisted browser - '
 			+ navigator.appName + ' ' + navigator.userAgent );
@@ -63,7 +63,7 @@ test( '-- Initial check', function() {
 test( '-- Application of a web font to the page and its removal', function() {
 	// @fixme TODO: test that the right thing was written to the log
 	
-	if ( !mw.webfonts.isBrowserSupported ) {
+	if ( !mw.webfonts.isBrowserSupported() ) {
 		return;
 	}
 
@@ -124,7 +124,7 @@ test( '-- Application of a web font to the page and its removal', function() {
 } );
 
 test( '-- Dynamic font loading', function() {
-	if ( !mw.webfonts.isBrowserSupported ) {
+	if ( !mw.webfonts.isBrowserSupported() ) {
 		return;
 	}
 
@@ -144,7 +144,7 @@ test( '-- Dynamic font loading', function() {
 } );
 
 test( '-- Dynamic font loading based on lang attribute', function() {
-	if ( !mw.webfonts.isBrowserSupported ) {
+	if ( !mw.webfonts.isBrowserSupported() ) {
 		return;
 	}
 
@@ -180,7 +180,7 @@ test( '-- Dynamic font loading based on lang attribute', function() {
 } );
 
 test( '-- Dynamic font loading based on font-family style attribute', function() {
-	if ( !mw.webfonts.isBrowserSupported ) {
+	if ( !mw.webfonts.isBrowserSupported() ) {
 		return;
 	}
 
@@ -229,7 +229,7 @@ test( '-- Dynamic font loading based on font-family style attribute', function()
 } );
 
 test( '-- Build the menu', function() {
-	if ( !mw.webfonts.isBrowserSupported ) {
+	if ( !mw.webfonts.isBrowserSupported() ) {
 		return;
 	}
 
