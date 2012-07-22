@@ -302,16 +302,19 @@
 		 */
 		loadFontsForFontFamilyStyle: function () {
 			// If there are tags with font-family style definition, get a list of fonts to be loaded
-			$( 'body' ).find( '[style]' ).each( function ( i, el ) {
-				if ( el.style.fontFamily ) {
-					var fontFamilyItems = el.style.fontFamily.split( ',' );
+			// Also check elements with CSS class attribute to see if there is any font-family defined
+			// for the style corresponding to it.
+			$( 'body' ).find( '[style], [class]' ).each( function ( i, el ) {
+				var fontFamilyStyle = $( el ).css( 'fontFamily' );
+				if ( fontFamilyStyle ) {
+					var fontFamilyItems = fontFamilyStyle.split( ',' );
 					$.each( fontFamilyItems, function ( i, fontFamily ) {
-						// Remove the ' characters if any.
-						fontFamily = $.trim( fontFamily.replace( /'/g, '' ) );
+						// Remove the ' and " characters if any.
+						fontFamily = $.trim( fontFamily.replace( /["']/g, '' ) );
 						mw.webfonts.addFont( fontFamily );
-					});
+					} );
 				}
-			});
+			} );
 			return true;
 		},
 
