@@ -101,10 +101,12 @@ $messages['as'] = array(
 	'webfonts-enable-preference' => "ফ'ণ্ট এম্বেডিং সক্ৰিয় কৰক (ৱেবফ'ণ্ট)",
 	'webfonts-menu-tooltip' => "পৃষ্ঠাৰ বাবে এটা ফ'ণ্ট বাছনি কৰক",
 	'webfonts-help' => 'সহায়',
+	'webfonts-preview-intro' => "এই পৃষ্ঠাটোৱে আপোনাক ৱেবফন্ট সম্প্ৰসাৰনত উপলব্ধ ফন্টসমূহ পূৰ্বদৰ্শন কৰিবলৈ আৰু বিকল্পভাৱে ডাউনল'ড কৰি আপোনাৰ কম্পিউটাৰত ইন্ষ্টল কৰিবলৈ সহায় কৰে।",
 	'webfonts-preview-title' => 'ফন্ট প্রাকদর্শন',
 	'webfonts-preview-download' => 'এই ফন্টটো ডাউনলোড কৰক',
 	'webfonts-preview-sampletext' => 'শুই থকা শিয়ালে হাঁহ ধৰিব নোৱাৰে',
 	'webfonts-preview-installing-fonts-title' => 'ফন্ট ইনষ্টল হৈ আছে',
+	'webfonts-preview-installing-fonts-text' => 'আপুনি ওপৰত দিয়া "{{int:webfonts-preview-download}}" সংযোগ ব্যৱহাৰ কৰি এটা ফন্ট ডাউনল\'ড কৰিব পাৰিব। ডাউনল\'ড কৰা ফন্ট আপোনাৰ কম্পিউটাৰত ইনষ্টল কৰিবলৈ, অনুগ্ৰহ কৰি [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts এই তথ্যচিত্ৰ] চাওক।',
 );
 
 /** Asturian (asturianu)
@@ -464,6 +466,7 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Kulmalukko
+ * @author Linnea
  * @author Nedergard
  * @author Olli
  */
@@ -475,7 +478,9 @@ $messages['fi'] = array(
 	'webfonts-enable-preference' => 'Ota fonttien upotus käyttöön (WebFonts)',
 	'webfonts-menu-tooltip' => 'Valitse sivun fontti',
 	'webfonts-help' => 'Ohje',
+	'webfonts-preview-title' => 'Esikatsele fontteja',
 	'webfonts-preview-download' => 'Lataa tämä fontti',
+	'webfonts-preview-installing-fonts-title' => 'Fonttien asentaminen',
 );
 
 /** French (français)
@@ -1324,6 +1329,16 @@ $messages['tl'] = array(
 	'webfonts' => 'WebFonts',
 	'webfonts-desc' => 'Magbaon ng mga estilo ng titik sa mga pahina',
 	'webfonts-load' => 'Pumili ng estilo ng titik',
+	'webfonts-reset' => 'Muling itakda',
+	'webfonts-enable-preference' => "Paganahin ang pagbabaon ng hubog ng panitik (mga ''font'' ng Web)",
+	'webfonts-menu-tooltip' => 'Pumili ng isang hubog na panitik para sa pahina',
+	'webfonts-help' => 'Tulong',
+	'webfonts-preview-intro' => 'Tumutulong ang pahinang ito na paunang matingnan ang makukuhang mga hubog na panitik na nasa loob ng dugtong na WebFonts at ikargang paibaba at iluklok o hindi ikargang paibaba at hindi iluklok sa loob ng kompyuter mo.',
+	'webfonts-preview-title' => 'Paunang tingnan ang mga hubog ng panitik',
+	'webfonts-preview-download' => 'Ikargang paibaba ang hubog na ito ng panitik',
+	'webfonts-preview-sampletext' => 'Abcdefghijklmnopqrstuvwxyz',
+	'webfonts-preview-installing-fonts-title' => 'Iniluluklok ang mga Hubog ng Panitik',
+	'webfonts-preview-installing-fonts-text' => 'Makapagkakarga kang paibaba ng isang hubog ng panitik na ginagamit ang kawing na "{{int:webfonts-preview-download}}" na ibinigay sa itaas. Upang mailuklok ang naikargang paibaba na hubog ng panitik sa iyong kompyuter, paki tingnan ang [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts kasulatang ito].',
 );
 
 /** Turkish (Türkçe)

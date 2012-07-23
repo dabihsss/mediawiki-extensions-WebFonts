@@ -30,7 +30,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'WebFonts' => array( 'RenêWebi' ),
+	'WebFonts' => array( 'RengêWebi' ),
 );
 
 /** Swiss German (Alemannisch) */
