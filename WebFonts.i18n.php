@@ -342,7 +342,7 @@ $messages['diq'] = array(
 	'webfonts-reset' => 'Reset fi',
 	'webfonts-enable-preference' => 'Têdayışê fonta bıqefılnê (Fontê Webi)',
 	'webfonts-menu-tooltip' => 'Pela re jew font weçinê',
-	'webfonts-help' => 'Desteg',
+	'webfonts-help' => 'Peşti',
 	'webfonts-preview-title' => 'Verqaytê fontan',
 	'webfonts-preview-download' => 'Nê fonti ron',
 	'webfonts-preview-sampletext' => 'Kahverengiya pêt luwa azad kutıg ser çekeno',
@@ -1340,6 +1340,13 @@ $messages['tl'] = array(
 	'webfonts-preview-sampletext' => 'Abcdefghijklmnopqrstuvwxyz',
 	'webfonts-preview-installing-fonts-title' => 'Iniluluklok ang mga Hubog ng Panitik',
 	'webfonts-preview-installing-fonts-text' => 'Makapagkakarga kang paibaba ng isang hubog ng panitik na ginagamit ang kawing na "{{int:webfonts-preview-download}}" na ibinigay sa itaas. Upang mailuklok ang naikargang paibaba na hubog ng panitik sa iyong kompyuter, paki tingnan ang [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts kasulatang ito].',
+);
+
+/** толышә зывон (толышә зывон)
+ * @author Erdemaslancan
+ */
+$messages['tly'] = array(
+	'webfonts-help' => 'Арајиш',
 );
 
 /** Turkish (Türkçe)
