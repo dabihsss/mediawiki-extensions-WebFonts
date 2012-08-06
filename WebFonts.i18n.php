@@ -1196,6 +1196,7 @@ $messages['ru'] = array(
 /** Sanskrit (संस्कृतम्)
  * @author Ansumang
  * @author Bhawani Gautam
+ * @author Shubha
  */
 $messages['sa'] = array(
 	'webfonts' => 'वेब फॉण्ट्स',
@@ -1203,7 +1204,12 @@ $messages['sa'] = array(
 	'webfonts-load' => 'वर्णानि चयनं करोतु',
 	'webfonts-reset' => 'पुनर्स्थापयतु',
 	'webfonts-enable-preference' => 'वर्णस्थापना (वेबफ़ॉन्ट) सक्रियं करोतु',
+	'webfonts-menu-tooltip' => 'पृष्ठाय लिपिविन्यासः चीयताम्',
 	'webfonts-help' => 'साहाय्यम्',
+	'webfonts-preview-title' => 'लिपिविन्यासस्य प्राग्दृश्यम्',
+	'webfonts-preview-download' => 'लिपिविन्यासस्य अवतारणम्',
+	'webfonts-preview-sampletext' => 'अलसस्य शुनकस्य उपरि चटुलः कपिलः वृकः उत्पतति',
+	'webfonts-preview-installing-fonts-title' => 'लिपिविन्यासानां समायोजनम्',
 );
 
 /** Sicilian (sicilianu)
