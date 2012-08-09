@@ -369,6 +369,7 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author AK
+ * @author Glavkos
  */
 $messages['el'] = array(
 	'webfonts' => 'WebFonts',
@@ -378,6 +379,8 @@ $messages['el'] = array(
 	'webfonts-enable-preference' => 'Ενεργοποίηση της ενσωμάτωσης γραμματοσειρών (WebFonts)',
 	'webfonts-menu-tooltip' => 'Επιλέξτε γραμματοσειρά για τη σελίδα',
 	'webfonts-help' => 'Βοήθεια',
+	'webfonts-preview-title' => 'Προεπισκόπηση γραμματοσειρών',
+	'webfonts-preview-installing-fonts-title' => 'Εγκαθιστώντας Γραμματοσειρές',
 );
 
 /** Esperanto (Esperanto)
@@ -391,7 +394,10 @@ $messages['eo'] = array(
 	'webfonts-enable-preference' => 'Ŝalti enmetadon de tiparoj (WebFonts)',
 	'webfonts-menu-tooltip' => 'Elektu tiparon por la paĝo',
 	'webfonts-help' => 'Helpo',
+	'webfonts-preview-title' => 'Antaŭvidi la tiparojn',
+	'webfonts-preview-download' => 'Elŝuti ĉi tiun tiparon.',
 	'webfonts-preview-sampletext' => 'Eĥoŝanĝo Ĉiuĵaŭde',
+	'webfonts-preview-installing-fonts-title' => 'Instalado de tiparo',
 );
 
 /** Spanish (español)
@@ -478,9 +484,11 @@ $messages['fi'] = array(
 	'webfonts-enable-preference' => 'Ota fonttien upotus käyttöön (WebFonts)',
 	'webfonts-menu-tooltip' => 'Valitse sivun fontti',
 	'webfonts-help' => 'Ohje',
+	'webfonts-preview-intro' => 'Tämä sivu auttaa sinua, että voit esikatsella WebFonts-lisäosan sisältämiä fontteja ja voit myös halutessasi ladata ja asentaa niitä tietokoneellesi.',
 	'webfonts-preview-title' => 'Esikatsele fontteja',
 	'webfonts-preview-download' => 'Lataa tämä fontti',
 	'webfonts-preview-installing-fonts-title' => 'Fonttien asentaminen',
+	'webfonts-preview-installing-fonts-text' => 'Voit ladata fontin käyttämällä "{{int:webfonts-preview-download}}" -linkkiä. Asentaaksesi ladatun fontin tietokoneellesi, katso [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts tämä ohje].',
 );
 
 /** French (français)
@@ -1151,10 +1159,20 @@ $messages['pt-br'] = array(
 /** Romanian (română)
  * @author Firilacroco
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'webfonts' => 'Fonturi web',
+	'webfonts-desc' => 'Fonturi încoporate în pagini',
+	'webfonts-load' => 'Selectează fontul',
 	'webfonts-reset' => 'Resetează',
 	'webfonts-enable-preference' => 'Activează încorporarea fonturilor (WebFonts)',
+	'webfonts-menu-tooltip' => 'Selectează un font de pe pagină',
+	'webfonts-help' => 'Ajutor',
+	'webfonts-preview-title' => 'Previzualizează fonturile',
+	'webfonts-preview-download' => 'Descarcă acest font',
+	'webfonts-preview-sampletext' => 'Muzicologă în bej, vând whisky și tequila, preț fix.',
+	'webfonts-preview-installing-fonts-title' => 'Se instalează fonturile',
 );
 
 /** tarandíne (tarandíne)
