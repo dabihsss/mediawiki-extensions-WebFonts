@@ -680,6 +680,7 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Farras
  * @author IvanLanin
  */
 $messages['id'] = array(
@@ -687,6 +688,15 @@ $messages['id'] = array(
 	'webfonts-desc' => 'Menyertakan fon (huruf) dalam halaman',
 	'webfonts-load' => 'Pilih fon',
 	'webfonts-reset' => 'Setel ulang',
+	'webfonts-enable-preference' => 'Aktifkan penanaman font (font web)',
+	'webfonts-menu-tooltip' => 'Pilih font untuk halaman ini',
+	'webfonts-help' => 'Bantuan',
+	'webfonts-preview-intro' => 'Halaman ini membantu Anda meninjau font yang tersedia melalui ekstensi WebFonts dan dapat diunduh dan diinstal di komputer Anda.',
+	'webfonts-preview-title' => 'Pratinjau font',
+	'webfonts-preview-download' => 'Unduh font ini',
+	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog',
+	'webfonts-preview-installing-fonts-title' => 'Menginstal Font',
+	'webfonts-preview-installing-fonts-text' => 'Anda dapat mengunduh font menggunakan pranala "{{int:webfonts-preview-download}}" di atas. Untuk menginstalnya di komputer, lihat [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation].',
 );
 
 /** Iloko (Ilokano)
@@ -891,6 +901,14 @@ $messages['li'] = array(
 	'webfonts-preview-sampletext' => "Victór Yzáns juëg twèlf Boxkämpfer achter 't drök aquaduk",
 	'webfonts-preview-installing-fonts-title' => 'Lettertypen installere',
 	'webfonts-preview-installing-fonts-text' => 'Doe kins e lettertype dowloade via de verwiezing "{{int:webfonts-preview-download}}" hiebaove. Bekiek de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] óm \'t gedownloade lettertype te installere op diene computer.',
+);
+
+/** Lithuanian (lietuvių)
+ * @author Vogone
+ */
+$messages['lt'] = array(
+	'webfonts-reset' => 'Atstatyti',
+	'webfonts-help' => 'Pagalba',
 );
 
 /** Lushai (Mizo ţawng)
@@ -1211,6 +1229,14 @@ $messages['ru'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Вы можете загрузить шрифт с помощью приведённой ниже ссылки «{{int:webfonts-preview-download}}». Чтобы установить загруженный шрифт на вашем компьютере, пожалуйста, обратитесь [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts к данной документации].',
 );
 
+/** Rusyn (русиньскый)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'webfonts-reset' => 'Ресетовати',
+	'webfonts-help' => 'Поміч',
+);
+
 /** Sanskrit (संस्कृतम्)
  * @author Ansumang
  * @author Bhawani Gautam
@@ -1249,6 +1275,7 @@ $messages['si'] = array(
 	'webfonts-enable-preference' => 'අක්ෂර එබ්බවීම සක්‍රිය කරන්න (ජලාක්ෂර)',
 	'webfonts-menu-tooltip' => 'පිටුව සඳහා අක්ෂරයක් තෝරන්න',
 	'webfonts-help' => 'උදව්',
+	'webfonts-preview-download' => 'මෙම අක්ෂරය බාගන්න',
 	'webfonts-preview-sampletext' => 'ශුද්ධ සිංහල ෴',
 	'webfonts-preview-installing-fonts-title' => 'ෆොන්ට් ස්ථාපනය කරන්න',
 );
