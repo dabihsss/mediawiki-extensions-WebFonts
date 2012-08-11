@@ -646,7 +646,7 @@ $messages['hsb'] = array(
  */
 $messages['hu'] = array(
 	'webfonts' => 'WebFonts',
-	'webfonts-desc' => 'Fontok beágyazása a lapokba',
+	'webfonts-desc' => 'Betűtípusok beágyazása a lapokba',
 	'webfonts-load' => 'Válassza ki a betűtípust!',
 	'webfonts-reset' => 'Törlés',
 	'webfonts-enable-preference' => 'Betűtípusok beágyazása (WebFonts)',
