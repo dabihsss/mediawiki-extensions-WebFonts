@@ -240,6 +240,23 @@ $messages['bs'] = array(
 	'webfonts-load' => 'Odaberi font',
 );
 
+/** Catalan (català)
+ * @author Arnaugir
+ */
+$messages['ca'] = array(
+	'webfonts' => 'Fonts Web',
+	'webfonts-desc' => 'Inclou fonts en pàgines',
+	'webfonts-load' => 'Escull font',
+	'webfonts-reset' => 'Reinicia',
+	'webfonts-menu-tooltip' => 'Escull una font per la pàgina',
+	'webfonts-help' => 'Ajuda',
+	'webfonts-preview-intro' => "Aquesta pàgina d'ajuda et permet previsualitzar les fonts disponibles en l'extensió WebFonts i, opcionalment, descarregar-les i instal·lar-les al teu ordinador.",
+	'webfonts-preview-title' => 'Previsualitza les fonts',
+	'webfonts-preview-download' => 'Descarrega aquesta font',
+	'webfonts-preview-sampletext' => "Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi!",
+	'webfonts-preview-installing-fonts-title' => 'Instal·lació de fonts',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Asoxor
  */
@@ -398,6 +415,7 @@ $messages['eo'] = array(
 	'webfonts-preview-download' => 'Elŝuti ĉi tiun tiparon.',
 	'webfonts-preview-sampletext' => 'Eĥoŝanĝo Ĉiuĵaŭde',
 	'webfonts-preview-installing-fonts-title' => 'Instalado de tiparo',
+	'webfonts-preview-installing-fonts-text' => 'Vi povas elŝuti tiparon per la ligilo "{{int:webfonts-preview-download}}" supre. Instali la elŝutitan tiparon ĉe via komputilo, bonvolu legi [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts la dokumentadon].',
 );
 
 /** Spanish (español)
@@ -1004,6 +1022,8 @@ $messages['ms'] = array(
  */
 $messages['mt'] = array(
 	'webfonts-load' => 'Agħżel it-tipa',
+	'webfonts-menu-tooltip' => 'Agħżel tipa għal din il-paġna',
+	'webfonts-help' => 'Għajnuna',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
@@ -1275,6 +1295,7 @@ $messages['si'] = array(
 	'webfonts-enable-preference' => 'අක්ෂර එබ්බවීම සක්‍රිය කරන්න (ජලාක්ෂර)',
 	'webfonts-menu-tooltip' => 'පිටුව සඳහා අක්ෂරයක් තෝරන්න',
 	'webfonts-help' => 'උදව්',
+	'webfonts-preview-title' => 'අකෂර පෙරදසුන් කරන්න',
 	'webfonts-preview-download' => 'මෙම අක්ෂරය බාගන්න',
 	'webfonts-preview-sampletext' => 'ශුද්ධ සිංහල ෴',
 	'webfonts-preview-installing-fonts-title' => 'ෆොන්ට් ස්ථාපනය කරන්න',
@@ -1318,6 +1339,7 @@ $messages['sr-ec'] = array(
 	'webfonts-enable-preference' => 'Омогући уграђивање фонта (WebFonts)',
 	'webfonts-menu-tooltip' => 'Изаберите фонт за страницу',
 	'webfonts-help' => 'Помоћ',
+	'webfonts-preview-intro' => 'На овој страници можете да погледате фонтове који су на располагању са додатком WebFonts (уз могућност преузимања и инсталирања на ваш рачунар).',
 	'webfonts-preview-title' => 'Преглед фонтова',
 	'webfonts-preview-download' => 'Преузми фонт',
 );
@@ -1352,6 +1374,7 @@ $messages['sv'] = array(
 /** Tamil (தமிழ்)
  * @author Logicwiki
  * @author Sodabottle
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'webfonts' => 'இணைய எழுத்துருக்கள்',
@@ -1364,7 +1387,9 @@ $messages['ta'] = array(
 	'webfonts-preview-intro' => 'இந்த பக்கம் இணைய எழுத்துரு நீட்சியிலுள்ள எழுத்துருக்களை முன்தோற்றம் பார்க்க உதவுகிறது. மேலும் எழுத்துருவை உங்கள் கணினிக்கு பதிவிறக்கி, நிறுவ உதவும்.',
 	'webfonts-preview-title' => 'இந்த எழுத்துருவின் முன்தோற்றம் காண்க',
 	'webfonts-preview-download' => 'இந்த எழுத்துரு பதிவிறக்கு',
+	'webfonts-preview-sampletext' => 'அஆஇஈஉஊஎஏஐஒஓஔஃகங்சாஞிடீணுதூநெபேமையொரோலௌவழளஜஷஸஹக்ஷஸ்ரீ',
 	'webfonts-preview-installing-fonts-title' => 'எழுத்துரு நிறுவ',
+	'webfonts-preview-installing-fonts-text' => '"{{int:webfonts-preview-download}}" மேலே வழங்கப்பட்ட தொடுப்பைப் பயன்படுத்துவதன் மூலம் நீங்கள் ஓர் எழுத்துருவைத் தரவிறக்க முடியும். உங்கள் கணினியில் தரவிறக்கிய எழுத்துருவை நிறுவுவதற்கு, தயவு செய்து [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts இவ்வாவணத்தைப்] பார்க்கவும்.',
 );
 
 /** Telugu (తెలుగు)
