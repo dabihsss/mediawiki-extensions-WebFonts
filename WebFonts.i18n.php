@@ -411,6 +411,7 @@ $messages['eo'] = array(
 	'webfonts-enable-preference' => 'Ŝalti enmetadon de tiparoj (WebFonts)',
 	'webfonts-menu-tooltip' => 'Elektu tiparon por la paĝo',
 	'webfonts-help' => 'Helpo',
+	'webfonts-preview-intro' => 'Ĉi tiu paĝo helpas al vi antaŭvidi la disponajn tiparojn en la WebFonts kromprogramo, kaj laŭvole alŝuti kaj instali ĝin en via komputilo.',
 	'webfonts-preview-title' => 'Antaŭvidi la tiparojn',
 	'webfonts-preview-download' => 'Elŝuti ĉi tiun tiparon.',
 	'webfonts-preview-sampletext' => 'Eĥoŝanĝo Ĉiuĵaŭde',
@@ -543,6 +544,9 @@ $messages['frp'] = array(
 	'webfonts-enable-preference' => 'Activar l’aponsa de les fontes (WebFonts)',
 	'webfonts-menu-tooltip' => 'Chouèsésséd una police por la pâge',
 	'webfonts-help' => 'Éde',
+	'webfonts-preview-title' => 'Prèvisualisar les polices',
+	'webfonts-preview-download' => 'Tèlèchargiér cela police',
+	'webfonts-preview-installing-fonts-title' => 'Enstalacion de les polices',
 );
 
 /** Galician (galego)
@@ -922,11 +926,18 @@ $messages['li'] = array(
 );
 
 /** Lithuanian (lietuvių)
+ * @author Eitvys200
  * @author Vogone
  */
 $messages['lt'] = array(
+	'webfonts-load' => 'Pasirinkite šriftą',
 	'webfonts-reset' => 'Atstatyti',
+	'webfonts-menu-tooltip' => 'Pasirinkite puslapio šriftą',
 	'webfonts-help' => 'Pagalba',
+	'webfonts-preview-title' => 'Peržiūrėti šriftus',
+	'webfonts-preview-download' => 'Atsisiųsti šį šriftą',
+	'webfonts-preview-sampletext' => 'Įlinkusi fechtuotojo špaga blykčiodama gręžė apvalų arbūzą',
+	'webfonts-preview-installing-fonts-title' => 'Įdiegiami Šriftai',
 );
 
 /** Lushai (Mizo ţawng)
@@ -1019,9 +1030,11 @@ $messages['ms'] = array(
 
 /** Maltese (Malti)
  * @author Chrisportelli
+ * @author පසිඳු කාවින්ද
  */
 $messages['mt'] = array(
 	'webfonts-load' => 'Agħżel it-tipa',
+	'webfonts-reset' => 'Irrisettja',
 	'webfonts-menu-tooltip' => 'Agħżel tipa għal din il-paġna',
 	'webfonts-help' => 'Għajnuna',
 );
@@ -1342,6 +1355,9 @@ $messages['sr-ec'] = array(
 	'webfonts-preview-intro' => 'На овој страници можете да погледате фонтове који су на располагању са додатком WebFonts (уз могућност преузимања и инсталирања на ваш рачунар).',
 	'webfonts-preview-title' => 'Преглед фонтова',
 	'webfonts-preview-download' => 'Преузми фонт',
+	'webfonts-preview-sampletext' => 'Фијуче ветар у шибљу, леди пасаже и куће иза њих и гунђа у оџацима.',
+	'webfonts-preview-installing-fonts-title' => 'Инсталирање фонтова',
+	'webfonts-preview-installing-fonts-text' => 'Можете да преузмете фонт преко горенаведене везе „{{int:webfonts-preview-download}}“. Да бисте га инсталирали на рачунар, погледајте  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ову документацију].',
 );
 
 /** Serbian (Latin script) (‪srpski (latinica)‬) */
