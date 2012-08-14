@@ -782,6 +782,25 @@ $messages['ja'] = array(
 	'webfonts-preview-installing-fonts-text' => '上記の "{{int:webfonts-preview-download}}" リンクを使用してフォントをダウンロードできます。ダウンロードしたフォントをあなたのコンピュータにインストールするには、[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts このドキュメント]をご覧ください。',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'webfonts' => 'Fon wèb',
+	'webfonts-desc' => 'Sisipaké fon nèng kaca',
+	'webfonts-load' => 'Pilih fon',
+	'webfonts-reset' => 'Balèni setèl',
+	'webfonts-enable-preference' => 'Urubaké pananeman fon (fon wèb)',
+	'webfonts-menu-tooltip' => 'Pilih fon kanggo kaca',
+	'webfonts-help' => 'Pitulung',
+	'webfonts-preview-intro' => 'Kaca iki nulungi Sampéyan mratayang fon sing sumadhiya nèng èkstènsi WebFonts, undhuh bebas lan pasang nèng komputer Sampéyan.',
+	'webfonts-preview-title' => 'Pratayang fon',
+	'webfonts-preview-download' => 'Undhuh fon iki',
+	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog',
+	'webfonts-preview-installing-fonts-title' => 'Masang Fon',
+	'webfonts-preview-installing-fonts-text' => 'Sampéyan bisa ngundhuh fon nganggo pranala sumadhiya ndhuwur "{{int:webfonts-preview-download}}". Carané masang fon nèng kompter Sampéyan, mangga ndelok [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumèntasi iki].',
+);
+
 /** Georgian (ქართული)
  * @author BRUTE
  * @author David1010
@@ -1033,10 +1052,12 @@ $messages['ms'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['mt'] = array(
+	'webfonts' => 'WebFonts',
 	'webfonts-load' => 'Agħżel it-tipa',
 	'webfonts-reset' => 'Irrisettja',
 	'webfonts-menu-tooltip' => 'Agħżel tipa għal din il-paġna',
 	'webfonts-help' => 'Għajnuna',
+	'webfonts-preview-installing-fonts-text' => 'Tista\' tniżżel tipa billi tuża l-ħolqa "{{int:webfonts-preview-download}}" mogħtija hawn fuq. Sabiex tinstalla t-tipa mniżżla fuq il-kompjuter tiegħek, aqra [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts din id-dokumentazzjoni].',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
@@ -1385,6 +1406,13 @@ $messages['sv'] = array(
 	'webfonts-preview-sampletext' => 'Väg för JB Qwick mot lyxhus på Zenda',
 	'webfonts-preview-installing-fonts-title' => 'Installerar teckensnitt',
 	'webfonts-preview-installing-fonts-text' => 'Du kan ladda ner ett teckensnitt med hjälp av länken "{{int:webfonts-preview-download}}" ovan. För att installera det nedladdade teckensnittet på din dator, se vänligen [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts denna dokumentationen].',
+);
+
+/** Swahili (Kiswahili)
+ * @author Kwisha
+ */
+$messages['sw'] = array(
+	'webfonts-help' => 'Msaada',
 );
 
 /** Tamil (தமிழ்)
