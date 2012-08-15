@@ -82,11 +82,15 @@ $messages['an'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Meno25
  * @author روخو
  */
 $messages['ar'] = array(
+	'webfonts' => 'خطوط الويب',
 	'webfonts-load' => 'أختر الخط',
 	'webfonts-reset' => 'أعد الضبط',
+	'webfonts-help' => 'مساعدة',
+	'webfonts-preview-installing-fonts-title' => 'تنصيب الخطوط',
 );
 
 /** Assamese (অসমীয়া)
@@ -462,8 +466,10 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
+	'webfonts-reset' => 'Hasieratu',
 	'webfonts-help' => 'Laguntza',
 );
 
@@ -490,6 +496,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Beluga
  * @author Kulmalukko
  * @author Linnea
  * @author Nedergard
@@ -506,6 +513,7 @@ $messages['fi'] = array(
 	'webfonts-preview-intro' => 'Tämä sivu auttaa sinua, että voit esikatsella WebFonts-lisäosan sisältämiä fontteja ja voit myös halutessasi ladata ja asentaa niitä tietokoneellesi.',
 	'webfonts-preview-title' => 'Esikatsele fontteja',
 	'webfonts-preview-download' => 'Lataa tämä fontti',
+	'webfonts-preview-sampletext' => 'On sangen hauskaa, että polkupyörä on maanteiden jokapäiväinen ilmiö',
 	'webfonts-preview-installing-fonts-title' => 'Fonttien asentaminen',
 	'webfonts-preview-installing-fonts-text' => 'Voit ladata fontin käyttämällä "{{int:webfonts-preview-download}}" -linkkiä. Asentaaksesi ladatun fontin tietokoneellesi, katso [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts tämä ohje].',
 );
@@ -547,6 +555,14 @@ $messages['frp'] = array(
 	'webfonts-preview-title' => 'Prèvisualisar les polices',
 	'webfonts-preview-download' => 'Tèlèchargiér cela police',
 	'webfonts-preview-installing-fonts-title' => 'Enstalacion de les polices',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'webfonts-reset' => 'Athshocraigh',
+	'webfonts-help' => 'Cuidiú',
 );
 
 /** Galician (galego)
@@ -1113,6 +1129,14 @@ $messages['nl'] = array(
 	'webfonts-preview-installing-fonts-text' => 'U kunt een lettertype downloaden via de verwijzing "{{int:webfonts-preview-download}}" hierboven. Bekijk de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] om het gedownloade lettertype te installeren op uw computer.',
 );
 
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'webfonts-preview-intro' => 'Via deze pagina kan je de lettertypen bekijken die beschikbaar zijn in de uitbreiding WebFonts en als je dat wilt, kan je ze downloaden en installeren op je computer.',
+	'webfonts-preview-installing-fonts-text' => 'Je kunt een lettertype downloaden via de verwijzing "{{int:webfonts-preview-download}}" hierboven. Bekijk de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] om het gedownloade lettertype te installeren op je computer.',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
@@ -1304,10 +1328,12 @@ $messages['sa'] = array(
 	'webfonts-enable-preference' => 'वर्णस्थापना (वेबफ़ॉन्ट) सक्रियं करोतु',
 	'webfonts-menu-tooltip' => 'पृष्ठाय लिपिविन्यासः चीयताम्',
 	'webfonts-help' => 'साहाय्यम्',
+	'webfonts-preview-intro' => 'जाललिपिविन्यासविस्तारे विद्यमानानां लिपिविन्यासानां प्राग्दर्शनाय, अवारोपणाय भवतः सङ्गणकयन्त्रे प्रतिष्ठापनाय च इदं पृष्ठं सहकरोति ।',
 	'webfonts-preview-title' => 'लिपिविन्यासस्य प्राग्दृश्यम्',
 	'webfonts-preview-download' => 'लिपिविन्यासस्य अवतारणम्',
 	'webfonts-preview-sampletext' => 'अलसस्य शुनकस्य उपरि चटुलः कपिलः वृकः उत्पतति',
 	'webfonts-preview-installing-fonts-title' => 'लिपिविन्यासानां समायोजनम्',
+	'webfonts-preview-installing-fonts-text' => 'उपरि दत्तमिदं "{{int:webfonts-preview-download}}" अनुबन्धम् उपयुज्य भवान् लिपिविन्यासम् अवारोपयितुम् अर्हति । अवारोपितं लिपिविन्यासं भवतः सङ्गणके प्रतिष्ठापनाय कृपया दृश्यताम् [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation].',
 );
 
 /** Sicilian (sicilianu)
@@ -1412,7 +1438,10 @@ $messages['sv'] = array(
  * @author Kwisha
  */
 $messages['sw'] = array(
+	'webfonts-load' => 'Chagua maandishi',
 	'webfonts-help' => 'Msaada',
+	'webfonts-preview-download' => 'Pakua maandishi haya',
+	'webfonts-preview-installing-fonts-title' => 'Kusanikisha maandishi',
 );
 
 /** Tamil (தமிழ்)
