@@ -1525,6 +1525,17 @@ $messages['uk'] = array(
 	'webfonts-preview-download' => 'Завантажити цей шрифт',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'webfonts-reset' => 'دوبارہ مرتب کریں',
+	'webfonts-menu-tooltip' => 'صفحے کے لئے ایک فونٹ کا انتخاب کریں',
+	'webfonts-help' => 'مدد',
+	'webfonts-preview-download' => 'اس فونٹ ڈاؤن لوڈ ، اتارنا',
+	'webfonts-preview-installing-fonts-title' => 'فونٹ انسٹال کرنے',
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
