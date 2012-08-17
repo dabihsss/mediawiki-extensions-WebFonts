@@ -983,6 +983,21 @@ $messages['lus'] = array(
 	'webfonts-help' => 'Ţanpuina',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'webfonts' => 'Tīmekļa fonti',
+	'webfonts-load' => 'Izvēlieties fontu',
+	'webfonts-reset' => 'Atiestatīt',
+	'webfonts-enable-preference' => 'Iespējot fontu iegulšanu (tīmekļa fonti)',
+	'webfonts-menu-tooltip' => 'Izvēlieties fontu lapai',
+	'webfonts-help' => 'Palīdzība',
+	'webfonts-preview-title' => 'Priekšskatīt fontus',
+	'webfonts-preview-download' => 'Lejupielādēt šo fontu',
+	'webfonts-preview-installing-fonts-title' => 'Uzstāda fontus',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
