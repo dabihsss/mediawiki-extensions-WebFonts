@@ -21,7 +21,7 @@ class SpecialWebFonts extends SpecialPage {
 		}
 		$this->out->addModules( 'ext.webfonts.preview' );
 		$this->setHeaders();
-		$this->out->setPageTitle( wfMsg( 'webfonts' ) );
+		$this->out->setPageTitle( wfMessage( 'webfonts' )->text() );
 		$this->out->addWikiMsg( 'webfonts-preview-intro' );
 		$this->showPreviewForm();
 	}
@@ -30,7 +30,7 @@ class SpecialWebFonts extends SpecialPage {
 		$this->out->wrapWikiMsg( '==$1==', 'webfonts-preview-title' ) ;
 		$this->out->addHtml( $this->showToolbar() );
 		$editArea = Html::Element( 'div', array( 'id' => 'webfonts-preview-area' , 'contenteditable' => 'true' ) ,
-			wfMsg( 'webfonts-preview-sampletext' ) ) ;
+			wfMessage( 'webfonts-preview-sampletext' )->text() ) ;
 		$this->out->addHtml( $editArea );
 		$this->out->wrapWikiMsg( '==$1==', 'webfonts-preview-installing-fonts-title' ) ;
 		$this->out->addWikiMsg( 'webfonts-preview-installing-fonts-text' );
@@ -56,7 +56,7 @@ class SpecialWebFonts extends SpecialPage {
 		$underline = Html::Element( 'button', array( 'id' => 'webfonts-preview-underline' ) ,  'U' );
 
 		$download  = Html::Element( 'a', array( 'id' => 'webfonts-preview-download', 'href' => '#' ) ,
-			wfMsg( 'webfonts-preview-download' ) );
+			wfMessage( 'webfonts-preview-download' )->text() );
 
 		return Html::openElement( 'div', array( 'id' => 'webfonts-preview-toolbar' ) )
 			. $langSelector[1]

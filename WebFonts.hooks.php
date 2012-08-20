@@ -63,7 +63,7 @@ class WebFontsHooks {
 	 * @return bool
 	 */
 	public static function addConfig( &$vars ) {
-		$vars['wgWebFontsHelpPage'] = wfMsgForContent( 'webfonts-help-page' );
+		$vars['wgWebFontsHelpPage'] = wfMessage( 'webfonts-help-page' )->inContentLanguage()->text();
 		return true;
 	}
 
