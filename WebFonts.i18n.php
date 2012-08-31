@@ -795,7 +795,7 @@ $messages['ja'] = array(
 	'webfonts-preview-download' => 'このフォントをダウンロード',
 	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog',
 	'webfonts-preview-installing-fonts-title' => 'フォントのインストール',
-	'webfonts-preview-installing-fonts-text' => '上記の "{{int:webfonts-preview-download}}" リンクを使用してフォントをダウンロードできます。ダウンロードしたフォントをあなたのコンピュータにインストールするには、[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts このドキュメント]をご覧ください。',
+	'webfonts-preview-installing-fonts-text' => '上記のリンク「{{int:webfonts-preview-download}}」を使用してフォントをダウンロードできます。ダウンロードしたフォントを自分のコンピューターにインストールするには、[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts このドキュメント]をご覧ください。',
 );
 
 /** Javanese (Basa Jawa)
