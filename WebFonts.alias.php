@@ -43,6 +43,11 @@ $specialPageAliases['hi'] = array(
 	'WebFonts' => array( 'वेब_फ़ॉण्ट', 'वेब_फॉण्ट' ),
 );
 
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'WebFonts' => array( 'Webフォント', 'ウェブフォント' ),
+);
+
 /** Georgian (ქართული) */
 $specialPageAliases['ka'] = array(
 	'WebFonts' => array( 'ვებ-ფონტები' ),
