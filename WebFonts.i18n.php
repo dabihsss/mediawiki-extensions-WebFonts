@@ -606,6 +606,7 @@ $messages['gsw'] = array(
 
 /** Gujarati (ગુજરાતી)
  * @author Ankit
+ * @author Ashok modhvadia
  * @author KartikMistry
  * @author Sushant savla
  */
@@ -617,12 +618,12 @@ $messages['gu'] = array(
 	'webfonts-enable-preference' => 'ફોન્ટ ઍમ્બેડિંગ સક્રીય કરો (વેબ ફોન્ટ)',
 	'webfonts-menu-tooltip' => 'આ પાના માટે ફોન્ટ પસંદ કરો',
 	'webfonts-help' => 'મદદ',
-	'webfonts-preview-intro' => 'આ પાનું તમને વેબફોન્ડ વિસ્તારક હેઠળ ઉપલબ્ધ ફોન્ટનું પુનરવલોકન કરવામાં મદદ કરશે  અને તમને તે ફોન્ટ ડાઉનલોડ કરી રાખવામાં મદદ કરશે.',
+	'webfonts-preview-intro' => 'આ પાનું તમને વેબફોન્ટ વિસ્તારક હેઠળ ઉપલબ્ધ ફોન્ટનું પુનરવલોકન કરવામાં અને તમારા કમ્પ્યુટર પર તે ફોન્ટ ડાઉનલોડ અને કાર્યાન્વીત કરવામાં મદદ કરશે.',
 	'webfonts-preview-title' => 'ફોન્ટની કાચી પ્રત બતાવો',
 	'webfonts-preview-download' => 'આ ફોન્ટ ડાઉનલોડ કરો',
 	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog (ધ ક્વીક બ્રાઉન ફોક્સ જમ્પ્સ ઓવર લેઝી ડોગ)',
-	'webfonts-preview-installing-fonts-title' => 'ફોંટ બેસાડી રહ્યાં છીએ.',
-	'webfonts-preview-installing-fonts-text' => 'ઉપર આપેલી કડી દ્વારા તમે  "{{int:webfonts-preview-download}}" વાપરી ફોન્ટ ડાઉનલોડ કરી શકો છો. તે ફોન્ટને તમારા કમ્યુટર પ્ર કાર્યાન્વીત કરવા આહીં માહિતી છે:  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation].',
+	'webfonts-preview-installing-fonts-title' => 'ફોન્ટ્‍સ સ્થાપિત થાય છે.',
+	'webfonts-preview-installing-fonts-text' => 'ઉપર આપેલી "{{int:webfonts-preview-download}}" કડી દ્વારા તમે ફોન્ટ ડાઉનલોડ કરી શકો છો. તે ફોન્ટને તમારા કમ્પ્યુટર પર કાર્યાન્વીત કરવા કૃપયા જુઓ:  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts આ માર્ગદર્શન].',
 );
 
 /** Hebrew (עברית)
