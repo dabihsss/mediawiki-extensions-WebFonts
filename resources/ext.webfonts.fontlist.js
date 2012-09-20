@@ -413,7 +413,12 @@
 				woff: "Mymr/TharLon.woff",
 				version: "1.0"
 			},
-
+			"Tuladha Jejeg": {
+				eot: "Java/TuladhaJejeg_gr.eot",
+				ttf: "Java/TuladhaJejeg_gr.ttf",
+				woff: "Java/TuladhaJejeg_gr.woff",
+				version: "1.92"
+			},
 			"Libertine": {
 				eot: "Latn/LinLibertine_R.eot",
 				ttf: "Latn/LinLibertine_R.ttf",
@@ -492,6 +497,7 @@
 			hbo: [ "Taamey Frank CLM" ],
 			he:  [ "Miriam CLM", "Taamey Frank CLM" ],
 			hi:  [ "Lohit Devanagari" ],
+			'jv-java':  [ "Tuladha Jejeg" ],
 			km:  [ "KhmerOSbattambang", "KhmerOSsiemreap", "KhmerOS", "KhmerOSbokor",
 			       "KhmerOSmuollight", "KhmerOSmuol", "KhmerOSmuolpali",
 			       "KhmerOSfreehand", "KhmerOSfasthand" ],
