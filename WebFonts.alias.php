@@ -68,7 +68,7 @@ $specialPageAliases['ml'] = array(
 	'WebFonts' => array( 'വെബ്ഫോണ്ട്സ്' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'WebFonts' => array( 'Nettfonter' ),
 );
