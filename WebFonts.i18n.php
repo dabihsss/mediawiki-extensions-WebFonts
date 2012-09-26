@@ -1423,11 +1423,21 @@ $messages['sr-ec'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Можете да преузмете фонт преко горенаведене везе „{{int:webfonts-preview-download}}“. Да бисте га инсталирали на рачунар, погледајте  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ову документацију].',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'webfonts' => 'Veb fontovi',
 	'webfonts-desc' => 'Ugradi fontove na stranicama',
 	'webfonts-load' => 'Izaberi font',
+	'webfonts-reset' => 'Poništi',
+	'webfonts-enable-preference' => 'Omogući ugrađivanje fonta (WebFonts)',
+	'webfonts-menu-tooltip' => 'Izaberite font za stranicu',
+	'webfonts-help' => 'Pomoć',
+	'webfonts-preview-intro' => 'Na ovoj stranici možete da pogledate fontove koji su na raspolaganju sa dodatkom WebFonts (uz mogućnost preuzimanja i instaliranja na vaš računar).',
+	'webfonts-preview-title' => 'Pregled fontova',
+	'webfonts-preview-download' => 'Preuzmi font',
+	'webfonts-preview-sampletext' => 'Fijuče vetar u šiblju, ledi pasaže i kuće iza njih i gunđa u odžacima.',
+	'webfonts-preview-installing-fonts-title' => 'Instaliranje fontova',
+	'webfonts-preview-installing-fonts-text' => 'Možete da preuzmete font preko gorenavedene veze „{{int:webfonts-preview-download}}“. Da biste ga instalirali na računar, pogledajte  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ovu dokumentaciju].',
 );
 
 /** Swedish (svenska)
