@@ -14,26 +14,32 @@ class SpecialWebFonts extends SpecialPage {
 	}
 
 	public function execute( $params ) {
-		$this->out = $this->getOutput();
+		$out = $this->getOutput();
 		$this->lang = $this->getLanguage()->getCode();
-		if ( isset( $params ) ) {
+
+		// Language::isValidBuiltInCode() will throw an exception if it's passed crap.
+		if ( isset( $params ) && Language::isValidBuiltInCode( $params ) ) {
 			$this->lang = $params;
 		}
-		$this->out->addModules( 'ext.webfonts.preview' );
+
+		$out->addModules( 'ext.webfonts.preview' );
 		$this->setHeaders();
-		$this->out->setPageTitle( wfMessage( 'webfonts' )->text() );
-		$this->out->addWikiMsg( 'webfonts-preview-intro' );
+		$out->setPageTitle( $this->msg( 'webfonts' ) );
+		$out->addWikiMsg( 'webfonts-preview-intro' );
 		$this->showPreviewForm();
 	}
 
 	protected function showPreviewForm() {
-		$this->out->wrapWikiMsg( '==$1==', 'webfonts-preview-title' ) ;
-		$this->out->addHtml( $this->showToolbar() );
-		$editArea = Html::Element( 'div', array( 'id' => 'webfonts-preview-area' , 'contenteditable' => 'true' ) ,
-			wfMessage( 'webfonts-preview-sampletext' )->text() ) ;
-		$this->out->addHtml( $editArea );
-		$this->out->wrapWikiMsg( '==$1==', 'webfonts-preview-installing-fonts-title' ) ;
-		$this->out->addWikiMsg( 'webfonts-preview-installing-fonts-text' );
+		$out = $this->getOutput();
+
+		$out->wrapWikiMsg( '==$1==', 'webfonts-preview-title' );
+		$out->addHtml( $this->showToolbar() );
+		$editArea = Html::Element( 'div',
+			array( 'id' => 'webfonts-preview-area', 'contenteditable' => 'true' ),
+			$this->msg( 'webfonts-preview-sampletext' )->text() );
+		$out->addHtml( $editArea );
+		$out->wrapWikiMsg( '== $1 ==', 'webfonts-preview-installing-fonts-title' );
+		$out->addWikiMsg( 'webfonts-preview-installing-fonts-text' );
 	}
 
 	protected function showToolbar() {
@@ -45,27 +51,25 @@ class SpecialWebFonts extends SpecialPage {
 		$sizeSelector = new XmlSelect();
 		$sizeSelector->setAttribute( 'id', 'webfonts-size-chooser' );
 		for ( $size = 8; $size <= 28; $size += 2 ) {
-			$sizeSelector->addOption( $size , $size );
+			$sizeSelector->addOption( $size, $size );
 		}
 		$sizeSelector->setDefault( 16 );
 
-		$bold = Html::Element( 'button', array( 'id' => 'webfonts-preview-bold' )  , 'B' );
+		$bold = Html::Element( 'button', array( 'id' => 'webfonts-preview-bold' ), 'B' );
+		$italic = Html::Element( 'button', array( 'id' => 'webfonts-preview-italic' ), 'I' );
+		$underline = Html::Element( 'button', array( 'id' => 'webfonts-preview-underline' ),  'U' );
 
-		$italic = Html::Element( 'button', array( 'id' => 'webfonts-preview-italic' ) , 'I' );
+		$download  = Html::Element( 'a', array( 'id' => 'webfonts-preview-download', 'href' => '#' ),
+			$this->msg( 'webfonts-preview-download' )->text() );
 
-		$underline = Html::Element( 'button', array( 'id' => 'webfonts-preview-underline' ) ,  'U' );
-
-		$download  = Html::Element( 'a', array( 'id' => 'webfonts-preview-download', 'href' => '#' ) ,
-			wfMessage( 'webfonts-preview-download' )->text() );
-
-		return Html::openElement( 'div', array( 'id' => 'webfonts-preview-toolbar' ) )
-			. $langSelector[1]
-			. $fontSelector->getHtml()
-			. $sizeSelector->getHtml()
-			. $bold
-			. $italic
-			. $underline
-			. $download
-			. Html::closeElement( 'div' );
+		return Html::openElement( 'div', array( 'id' => 'webfonts-preview-toolbar' ) ) .
+			$langSelector[1] .
+			$fontSelector->getHtml() .
+			$sizeSelector->getHtml() .
+			$bold .
+			$italic .
+			$underline .
+			$download .
+			Html::closeElement( 'div' );
 	}
 }

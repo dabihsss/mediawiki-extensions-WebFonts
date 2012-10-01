@@ -8,7 +8,6 @@
 
 // WebFonts hooks
 class WebFontsHooks {
-
 	/**
 	 * BeforePageDisplay hook handler.
 	 * @param $out OutputPage
@@ -23,19 +22,21 @@ class WebFontsHooks {
 
 		return true;
 	}
+
 	/**
 	 * ResourceLoaderTestModules hook handler.
-	 * @param $testModules: array of javascript testing modules. 'qunit' is fed using tests/qunit/QUnitTestResources.php.
-	 * @param $resourceLoader object
+	 * @param $testModules array of javascript testing modules. 'qunit' is fed using tests/qunit/QUnitTestResources.php.
+	 * @param ResourceLoader $resourceLoader
 	 * @return bool
 	 */
 	public static function addTestModules( array &$testModules, ResourceLoader &$resourceLoader ) { 
 		$testModules['qunit']['ext.webfonts.tests'] = array(
 			'scripts' => array( 'tests/qunit/ext.webfonts.tests.js' ),
 			'dependencies' => array( 'ext.webfonts.core' ),
-			'localBasePath' => dirname( __FILE__ ),
+			'localBasePath' => __DIR__,
 			'remoteExtPath' => 'WebFonts',
 		);
+
 		return true;
 	}
 
@@ -74,8 +75,10 @@ class WebFontsHooks {
 	 */
 	public static function addDefaultOptions( &$defaultOptions ) {
 		global $wgWebFontsEnabledByDefault;
+
 		// By default, the preference page option to enable webfonts is set to wgWebFontsEnabledByDefault value.
 		$defaultOptions['webfontsEnable'] = $wgWebFontsEnabledByDefault;
+
 		return true;
 	 }
 }
