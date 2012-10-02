@@ -149,7 +149,7 @@ $messages['ba'] = array(
 	'webfonts-help' => 'Белешмә',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -345,7 +345,7 @@ $messages['de'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Du kannst eine Schriftart herunterladen, indem du oben rechts auf den Link „{{int:webfonts-preview-download}}“ klickst. Um die heruntergeladene Schriftart auf deinem Computer zu installieren, folge bitte [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts diesen Hinweisen].',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -920,7 +920,7 @@ $messages['ksh'] = array(
 Öm di_j_eronger jelaade Schreff op Dingem Rääschner ze enschtalleere, haal Desch aan di Sigg:  „{{int:webfonts-preview-download}}“',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1092,7 +1092,7 @@ $messages['mt'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Tista\' tniżżel tipa billi tuża l-ħolqa "{{int:webfonts-preview-download}}" mogħtija hawn fuq. Sabiex tinstalla t-tipa mniżżla fuq il-kompjuter tiegħek, aqra [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts din id-dokumentazzjoni].',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  * @author Simny
  */
@@ -1145,7 +1145,7 @@ $messages['nl'] = array(
 	'webfonts-preview-installing-fonts-text' => 'U kunt een lettertype downloaden via de verwijzing "{{int:webfonts-preview-download}}" hierboven. Bekijk de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] om het gedownloade lettertype te installeren op uw computer.',
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
@@ -1404,7 +1404,7 @@ $messages['sl'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Pisavo lahko prenesete tako, da uporabite zgoraj navedeno povezavo »{{int:webfonts-preview-download}}«. Za namestitev prenesene pisave na svoj računalnik si oglejte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentacijo].',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1620,7 +1620,7 @@ $messages['yi'] = array(
 	'webfonts-help' => 'הילף',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author Hzy980512
  * @author Liangent
@@ -1641,7 +1641,7 @@ $messages['zh-hans'] = array(
 	'webfonts-preview-installing-fonts-text' => '您可以使用上面的"{{int:webfonts-preview-download}}"链接下载字体。要安装在您电脑上的字体，请参阅[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts 这篇文章].',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Oapbtommy
  * @author Waihorace
