@@ -364,10 +364,12 @@ $messages['diq'] = array(
 	'webfonts-enable-preference' => 'Têdayışê fonta bıqefılnê (Fontê Webi)',
 	'webfonts-menu-tooltip' => 'Pela re jew font weçinê',
 	'webfonts-help' => 'Peşti',
+	'webfonts-preview-intro' => 'Na pela mewcud fonta derganiya WebFonta verasayış u keyfi heta komputer ra ronayışi re şıma re desteg dano.',
 	'webfonts-preview-title' => 'Verqaytê fontan',
 	'webfonts-preview-download' => 'Nê fonti ron',
 	'webfonts-preview-sampletext' => 'Kahverengiya pêt luwa azad kutıg ser çekeno',
 	'webfonts-preview-installing-fonts-title' => 'Sazkerdışê Fontan',
+	'webfonts-preview-installing-fonts-text' => 'Cor dê "{{int:webfonts-preview-download}}" karkerdış ra  şıma şenê yew font ronê. Komputer de xora  nusni barkerden re, reca keme  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ena dokuman] bıvinê.',
 );
 
 /** Lower Sorbian (dolnoserbski)
