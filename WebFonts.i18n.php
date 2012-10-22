@@ -43,6 +43,7 @@ $messages['qqq'] = array(
 	'webfonts-menu-tooltip' => 'Tooltip text displayed in the webfont link',
 	'webfonts-help' => 'Text for the help link.
 {{Identical|Help}}',
+	'webfonts-help-page' => 'Change this only if you want to point the help link to a different wiki page.',
 	'webfonts-preview-intro' => 'Introduction to [[Special:WebFonts|the special page]].',
 	'webfonts-preview-title' => 'Title for the preview area.',
 	'webfonts-preview-download' => 'Download link text.',
@@ -793,6 +794,7 @@ $messages['ja'] = array(
 	'webfonts-enable-preference' => 'フォントの埋め込み（Webフォント）を有効にする',
 	'webfonts-menu-tooltip' => 'ページのフォントを選択',
 	'webfonts-help' => 'ヘルプ',
+	'webfonts-help-page' => '//www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:WebFonts',
 	'webfonts-preview-intro' => 'このページは、Webフォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
 	'webfonts-preview-title' => 'フォントをプレビュー',
 	'webfonts-preview-download' => 'このフォントをダウンロード',
@@ -1251,8 +1253,8 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Rafael Vargas
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'webfonts' => 'WebFonts',
@@ -1426,7 +1428,8 @@ $messages['sr-ec'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Можете да преузмете фонт преко горенаведене везе „{{int:webfonts-preview-download}}“. Да бисте га инсталирали на рачунар, погледајте  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ову документацију].',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'webfonts' => 'Veb fontovi',
 	'webfonts-desc' => 'Ugradi fontove na stranicama',
@@ -1664,4 +1667,3 @@ $messages['zh-hant'] = array(
 	'webfonts-preview-installing-fonts-title' => '安裝字體',
 	'webfonts-preview-installing-fonts-text' => '您可以使用上面給出的{{int:webfonts-preview-download}}連結下載字體。要安裝在您的電腦上下載的字體，請參閱[//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts 此文檔]。',
 );
-
