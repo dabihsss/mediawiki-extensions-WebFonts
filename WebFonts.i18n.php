@@ -794,7 +794,6 @@ $messages['ja'] = array(
 	'webfonts-enable-preference' => 'フォントの埋め込み（Webフォント）を有効にする',
 	'webfonts-menu-tooltip' => 'ページのフォントを選択',
 	'webfonts-help' => 'ヘルプ',
-	'webfonts-help-page' => '//www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:WebFonts',
 	'webfonts-preview-intro' => 'このページは、Webフォント拡張機能で利用できるフォントのプレビュー、コンピュータへのダウンロードとインストール、を支援します。',
 	'webfonts-preview-title' => 'フォントをプレビュー',
 	'webfonts-preview-download' => 'このフォントをダウンロード',
