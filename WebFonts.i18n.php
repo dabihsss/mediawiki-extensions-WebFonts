@@ -979,7 +979,7 @@ $messages['lt'] = array(
 	'webfonts-preview-installing-fonts-title' => 'Įdiegiami Šriftai',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
