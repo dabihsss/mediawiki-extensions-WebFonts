@@ -446,6 +446,7 @@
 			akk: [ "Akkadian" ],
 			am:  [ "AbyssinicaSIL" ],
 			as:  [ "Lohit Assamese" ],
+			ar:  [ "Amiri" ],
 			arb: [ "Amiri" ],
 			// ber: [ "Hapax Berbère" ],
 			bh:  [ "Lohit Devanagari" ],
