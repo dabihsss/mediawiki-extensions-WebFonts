@@ -77,3 +77,8 @@ $specialPageAliases['ml'] = array(
 $specialPageAliases['nb'] = array(
 	'WebFonts' => array( 'Nettfonter' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'WebFonts' => array( '网络字体' ),
+);
