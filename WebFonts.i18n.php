@@ -864,12 +864,13 @@ $messages['km'] = array(
 );
 
 /** Kannada (ಕನ್ನಡ)
+ * @author HPN
  * @author M G Harish
  */
 $messages['kn'] = array(
 	'webfonts' => 'ವೆಬ್ ಫಾಂಟ್ಸ್',
 	'webfonts-desc' => 'ಪುಟಗಳಲ್ಲಿ ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಅಡಕಗೊಳಿಸಿ',
-	'webfonts-load' => 'ಅಕ್ಷರಶೈಲಿ ಆಯ್ದುಕೊಳ್ಳಿ',
+	'webfonts-load' => 'ಫಾಂಟ್ ಆಯ್ಕೆ',
 	'webfonts-reset' => 'ಪೂರ್ವನಿಯೋಜಿತ',
 	'webfonts-enable-preference' => 'ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಅಡಕಗೊಳಿಸುವುದನ್ನು ಶಕ್ತಗೊಳಿಸಿ (ವೆಬ್ ಫಾಂಟ್ಸ್)',
 	'webfonts-menu-tooltip' => 'ಈ ಪುಟಕ್ಕಾಗಿ ಒಂದು ಅಕ್ಷರಶೈಲಿ ಆಯ್ದುಕೊಳ್ಳಿ',
