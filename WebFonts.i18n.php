@@ -702,6 +702,25 @@ $messages['hu'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Betűtípusokat a fent megadott "{{int:webfonts-preview-download}}" hivatkozáson keresztül tölthetsz le. A letöltött betűtípus telepítéséhez az alábbi [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentáció] nyújthat segítséget.',
 );
 
+/** Armenian (Հայերեն)
+ * @author Xelgen
+ */
+$messages['hy'] = array(
+	'webfonts' => 'Վեբ տառատեսակ',
+	'webfonts-desc' => 'Ներդնել տառատեսակները էջերում',
+	'webfonts-load' => 'Ընտրեք տառատեսակը',
+	'webfonts-reset' => 'Զրոյացնել',
+	'webfonts-enable-preference' => 'Միացնել տառատեսակի ներդրումը էջերում (Վեբ տառատեսակներ)',
+	'webfonts-menu-tooltip' => 'Ընտրեք էջի տառատեսակը',
+	'webfonts-help' => 'Օգնություն',
+	'webfonts-preview-intro' => 'Այս էջի օգնությամբ կարող եք նախադիտել ՎեբՖոնթս ընդլայնման մեջ առկա տառատեսակենրը և ցանկության դեպքում բեռնել և տեղադրել դրանք ձեր համակարգչում։',
+	'webfonts-preview-title' => 'Տեսնել տառատեսակները',
+	'webfonts-preview-download' => 'Բեռնել այս տառատեսակը',
+	'webfonts-preview-sampletext' => 'Բել դղյակի ձախ ժամն օֆ ազգությանը ցպահանջ չճտած վնաս էր և փառք։',
+	'webfonts-preview-installing-fonts-title' => 'Տառատեսակի տեղադրում',
+	'webfonts-preview-installing-fonts-text' => 'Դուք կարող եք բեռնել տառատեսակը օգտվելով "{{int:webfonts-preview-download}}" բերված հղումից։ Տառատեսակը ձեր համակարգչում տեղադրելու համար, ծանոթացեք [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this այս ուղեցուցին]։',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
