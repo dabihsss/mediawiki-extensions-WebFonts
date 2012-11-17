@@ -48,6 +48,11 @@ $specialPageAliases['hi'] = array(
 	'WebFonts' => array( 'वेब_फ़ॉण्ट', 'वेब_फॉण्ट' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'WebFonts' => array( 'CaratteriWeb' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'WebFonts' => array( 'Webフォント', 'ウェブフォント' ),
