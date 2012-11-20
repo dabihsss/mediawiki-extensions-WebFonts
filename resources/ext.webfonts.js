@@ -123,8 +123,7 @@
 			}
 			if ( variant !== 'normal' ) {
 				if ( fontconfig.variants !== undefined && fontconfig.variants[variant] ) {
-					fontFamily = fontconfig.variants[variant];
-					fontconfig = mw.webfonts.config.fonts[fontFamily];
+					fontconfig = mw.webfonts.config.fonts[fontconfig.variants[variant]];
 				}
 			}
 			if ( fontconfig.eot !== undefined ) {

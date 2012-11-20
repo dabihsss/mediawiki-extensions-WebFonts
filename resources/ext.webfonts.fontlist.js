@@ -12,7 +12,37 @@
 				eot: "Arab/amiri-regular.eot",
 				ttf: "Arab/amiri-regular.ttf",
 				woff: "Arab/amiri-regular.woff",
-				version: "1.0.2"
+				version: "1.0.4",
+				variants: {
+					bold: "Amiri Bold",
+					italic: "Amiri Italic",
+					bolditalic: "Amiri Bold Italic"
+				}
+			},
+
+			"Amiri Bold": {
+				eot: "Arab/amiri-bold.eot",
+				ttf: "Arab/amiri-bold.ttf",
+				woff: "Arab/amiri-bold.woff",
+				fontweight: "bold",
+				version: "1.0.4"
+			},
+
+			"Amiri Italic": {
+				eot: "Arab/amiri-slanted.eot",
+				ttf: "Arab/amiri-slanted.ttf",
+				woff: "Arab/amiri-slanted.woff",
+				fontstyle: "italic",
+				version: "1.0.4"
+			},
+
+			"Amiri Bold Italic": {
+				eot: "Arab/amiri-boldslanted.eot",
+				ttf: "Arab/amiri-boldslanted.ttf",
+				woff: "Arab/amiri-boldslanted.woff",
+				fontstyle: "italic",
+				fontweight: "bold",
+				version: "1.0.4"
 			},
 
 			"Iranian Sans": {
