@@ -198,11 +198,11 @@
 				version: "1.10"
 			},
 
-			Kedage: {
-				eot: "Knda/Kedage.eot",
-				ttf: "Knda/Kedage.ttf",
-				woff: "Knda/Kedage.woff",
-				version: "1.06"
+			Gubbi: {
+				eot: "Knda/Gubbi.eot",
+				ttf: "Knda/Gubbi.ttf",
+				woff: "Knda/Gubbi.woff",
+				version: "1.3"
 			},
 
 			"Lohit Kannada": {
@@ -495,7 +495,7 @@
 			km:  [ "KhmerOSbattambang", "KhmerOSsiemreap", "KhmerOS", "KhmerOSbokor",
 			       "KhmerOSmuollight", "KhmerOSmuol", "KhmerOSmuolpali",
 			       "KhmerOSfreehand", "KhmerOSfasthand" ],
-			kn:  [ "Lohit Kannada", "Kedage"],
+			kn:  [ "Lohit Kannada", "Gubbi" ],
 			kok: [ "Lohit Devanagari" ],
 			gom: [ "Lohit Devanagari" ],
 			mai: [ "Lohit Devanagari" ],
