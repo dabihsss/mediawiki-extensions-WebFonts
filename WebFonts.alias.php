@@ -83,6 +83,11 @@ $specialPageAliases['nb'] = array(
 	'WebFonts' => array( 'Nettfonter' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'WebFonts' => array( 'CaratteriWeb' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'WebFonts' => array( '网络字体' ),

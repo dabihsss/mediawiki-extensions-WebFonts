@@ -1559,6 +1559,16 @@ $messages['tr'] = array(
 	'webfonts-help' => 'Yardım',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'webfonts' => 'ⵉⴳⵎⵎⴰⵢⵏ ⵏ ⵡⵉⴱ',
+	'webfonts-load' => 'ⵙⵜⵉ ⴰⴳⵎⵎⴰⵢ',
+	'webfonts-menu-tooltip' => 'Select a font for the page',
+	'webfonts-help' => 'ⵜⵉⵡⵉⵙⵉ',
+);
+
 /** Ukrainian (українська)
  * @author A1
  * @author Microcell
