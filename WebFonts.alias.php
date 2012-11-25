@@ -83,6 +83,11 @@ $specialPageAliases['nb'] = array(
 	'WebFonts' => array( 'Nettfonter' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'WebFonts' => array( 'ਵੈੱਬ_ਫ਼ਾਂਟ' ),
+);
+
 /** Sicilian (sicilianu) */
 $specialPageAliases['scn'] = array(
 	'WebFonts' => array( 'CaratteriWeb' ),
