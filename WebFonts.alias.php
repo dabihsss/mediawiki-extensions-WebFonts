@@ -85,7 +85,7 @@ $specialPageAliases['nb'] = array(
 
 /** Punjabi (ਪੰਜਾਬੀ) */
 $specialPageAliases['pa'] = array(
-	'WebFonts' => array( 'ਵੈੱਬ_ਫ਼ਾਂਟ' ),
+	'WebFonts' => array( 'ਵੈੱਬ_ਫ਼ੌਂਟ' ),
 );
 
 /** Sicilian (sicilianu) */

@@ -171,6 +171,20 @@ $messages['be-tarask'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Вы можаце загрузіць шрыфт, скарыстаўшыся спасылкай «{{int:webfonts-preview-download}}» вышэй. Каб усталяваць загружаны шрыфт на Ваш кампутар, калі ласка, глядзіце [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts дакумэнтацыю].',
 );
 
+/** Bulgarian (български)
+ * @author Stanqo
+ */
+$messages['bg'] = array(
+	'webfonts-load' => 'Изберете шрифт',
+	'webfonts-reset' => 'Изчисти',
+	'webfonts-enable-preference' => 'Позволява вграждане (на уеб шрифтове)',
+	'webfonts-menu-tooltip' => 'Изберете шрифт за страницата',
+	'webfonts-help' => 'Помощ',
+	'webfonts-preview-title' => 'Преглед на шрифтове',
+	'webfonts-preview-download' => 'Изтеглете този шрифт',
+	'webfonts-preview-installing-fonts-title' => 'Инсталиране на шрифтовете',
+);
+
 /** Bhojpuri (भोजपुरी)
  * @author Anshumangupta21
  */
@@ -479,6 +493,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Huji
+ * @author Reza1615
  * @author Rmashhadi
  * @author ZxxZxxZ
  */
@@ -486,7 +501,7 @@ $messages['fa'] = array(
 	'webfonts' => 'قلم‌های وبی',
 	'webfonts-desc' => 'جاسازی قلم‌ها در صفحه‌ها',
 	'webfonts-load' => 'انتخاب قلم',
-	'webfonts-reset' => 'بازنشانی',
+	'webfonts-reset' => 'غیرفعال کردن ابزار',
 	'webfonts-enable-preference' => 'فعال‌کردن جاسازی قلم (قلم‌های وبی)',
 	'webfonts-menu-tooltip' => 'انتخاب قلم برای صفحه',
 	'webfonts-help' => 'کمک',
