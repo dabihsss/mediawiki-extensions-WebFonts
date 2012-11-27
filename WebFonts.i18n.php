@@ -370,6 +370,7 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'webfonts' => 'Fontê webi',
@@ -379,7 +380,7 @@ $messages['diq'] = array(
 	'webfonts-enable-preference' => 'Têdayışê fonta bıqefılnê (Fontê Webi)',
 	'webfonts-menu-tooltip' => 'Pela re jew font weçinê',
 	'webfonts-help' => 'Peşti',
-	'webfonts-preview-intro' => 'Na pela mewcud fonta derganiya WebFonta verasayış u keyfi heta komputer ra ronayışi re şıma re desteg dano.',
+	'webfonts-preview-intro' => 'Na pele verqaytê fontan webfontê ke be derganiye estê u waştene ra gore warardış u barkerdışê komputerê şıma de şıma rê bena destek.',
 	'webfonts-preview-title' => 'Verqaytê fontan',
 	'webfonts-preview-download' => 'Nê fonti ron',
 	'webfonts-preview-sampletext' => 'Kahverengiya pêt luwa azad kutıg ser çekeno',
@@ -1586,6 +1587,7 @@ $messages['tzm'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Base
  * @author Microcell
  * @author Olvin
  * @author Тест
@@ -1598,6 +1600,7 @@ $messages['uk'] = array(
 	'webfonts-enable-preference' => 'Дозволити вбудовування шрифтів (Web fonts)',
 	'webfonts-menu-tooltip' => 'Виберіть шрифт для сторінки',
 	'webfonts-help' => 'Допомога',
+	'webfonts-preview-title' => 'Попередній перегляд шрифтів',
 	'webfonts-preview-download' => 'Завантажити цей шрифт',
 );
 
