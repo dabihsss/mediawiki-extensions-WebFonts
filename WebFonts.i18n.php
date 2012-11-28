@@ -172,17 +172,18 @@ $messages['be-tarask'] = array(
 );
 
 /** Bulgarian (български)
+ * @author DCLXVI
  * @author Stanqo
  */
 $messages['bg'] = array(
-	'webfonts-load' => 'Изберете шрифт',
+	'webfonts-load' => 'Избиране на шрифт',
 	'webfonts-reset' => 'Изчисти',
-	'webfonts-enable-preference' => 'Позволява вграждане (на уеб шрифтове)',
-	'webfonts-menu-tooltip' => 'Изберете шрифт за страницата',
+	'webfonts-enable-preference' => 'Позволяване на вграждане (уеб шрифтове)',
+	'webfonts-menu-tooltip' => 'Избиране на шрифт за страницата',
 	'webfonts-help' => 'Помощ',
-	'webfonts-preview-title' => 'Преглед на шрифтове',
-	'webfonts-preview-download' => 'Изтеглете този шрифт',
-	'webfonts-preview-installing-fonts-title' => 'Инсталиране на шрифтовете',
+	'webfonts-preview-title' => 'Преглед на шрифтовете',
+	'webfonts-preview-download' => 'Изтегляне на шрифта',
+	'webfonts-preview-installing-fonts-title' => 'Инсталиране на шрифтове',
 );
 
 /** Bhojpuri (भोजपुरी)
