@@ -177,7 +177,7 @@ $messages['be-tarask'] = array(
  */
 $messages['bg'] = array(
 	'webfonts-load' => 'Избиране на шрифт',
-	'webfonts-reset' => 'Изчисти',
+	'webfonts-reset' => 'Начално състояние',
 	'webfonts-enable-preference' => 'Позволяване на вграждане (уеб шрифтове)',
 	'webfonts-menu-tooltip' => 'Избиране на шрифт за страницата',
 	'webfonts-help' => 'Помощ',
