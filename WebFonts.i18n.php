@@ -1062,13 +1062,14 @@ $messages['mk'] = array(
  * @author Praveenp
  * @author Santhosh
  * @author Santhosh.thottingal
+ * @author Shijualex
  * @author Vssun
  */
 $messages['ml'] = array(
 	'webfonts' => 'വെബ്ഫോണ്ടുകൾ',
 	'webfonts-desc' => 'മീഡിയവിക്കി താളുകളിൽ ഫോണ്ടുകൾ എംബെഡ് ചെയ്യുക',
 	'webfonts-load' => 'ഫോണ്ടുകൾ',
-	'webfonts-reset' => 'പഴയപടിയാക്കുക',
+	'webfonts-reset' => 'സിസ്റ്റം ഫോണ്ട് ഉപയോഗിക്കുക',
 	'webfonts-enable-preference' => 'ഫോണ്ട് എംബെഡ് ചെയ്യുക.(വെബ്ഫോണ്ട്സ്)',
 	'webfonts-menu-tooltip' => 'ഈ താളിനുവേണ്ടി ഒരു ഫോണ്ട് തിരഞ്ഞെടുക്കുക',
 	'webfonts-help' => 'സഹായം',
