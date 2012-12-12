@@ -140,6 +140,13 @@ $messages['az'] = array(
 	'webfonts-help' => 'Kömək',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Amir a57
+ */
+$messages['azb'] = array(
+	'webfonts-help' => 'یاردیم',
+);
+
 /** Bashkir (башҡортса)
  * @author Haqmar
  */
