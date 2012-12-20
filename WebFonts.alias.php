@@ -93,6 +93,11 @@ $specialPageAliases['scn'] = array(
 	'WebFonts' => array( 'CaratteriWeb' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'WebFonts' => array( 'Phông_chữ_Web' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'WebFonts' => array( '网络字体' ),
