@@ -1612,6 +1612,7 @@ $messages['tzm'] = array(
  * @author Base
  * @author Microcell
  * @author Olvin
+ * @author Steve.rusyn
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1624,6 +1625,7 @@ $messages['uk'] = array(
 	'webfonts-help' => 'Допомога',
 	'webfonts-preview-title' => 'Попередній перегляд шрифтів',
 	'webfonts-preview-download' => 'Завантажити цей шрифт',
+	'webfonts-preview-installing-fonts-title' => 'Встановлення шрифтів',
 );
 
 /** Urdu (اردو)

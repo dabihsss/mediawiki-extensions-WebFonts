@@ -102,3 +102,8 @@ $specialPageAliases['vi'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'WebFonts' => array( '网络字体' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'WebFonts' => array( '網頁字體' ),
+);
