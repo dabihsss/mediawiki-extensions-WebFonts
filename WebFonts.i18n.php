@@ -1203,7 +1203,7 @@ $messages['nl'] = array(
 	'webfonts-preview-download' => 'Lettertype downloaden',
 	'webfonts-preview-sampletext' => "Pa's wijze lynx bezag vroom het fikse aquaduct",
 	'webfonts-preview-installing-fonts-title' => 'Lettertypen installeren',
-	'webfonts-preview-installing-fonts-text' => 'U kunt een lettertype downloaden via de verwijzing "{{int:webfonts-preview-download}}" hierboven. Bekijk de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] om het gedownloade lettertype te installeren op uw computer.',
+	'webfonts-preview-installing-fonts-text' => 'U kunt een lettertype downloaden via de koppeling "{{int:webfonts-preview-download}}" hierboven. Bekijk de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] om het gedownloade lettertype te installeren op uw computer.',
 );
 
 /** Nederlands (informeel)‎ (Nederlands (informeel)‎)
@@ -1211,7 +1211,7 @@ $messages['nl'] = array(
  */
 $messages['nl-informal'] = array(
 	'webfonts-preview-intro' => 'Via deze pagina kan je de lettertypen bekijken die beschikbaar zijn in de uitbreiding WebFonts en als je dat wilt, kan je ze downloaden en installeren op je computer.',
-	'webfonts-preview-installing-fonts-text' => 'Je kunt een lettertype downloaden via de verwijzing "{{int:webfonts-preview-download}}" hierboven. Bekijk de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] om het gedownloade lettertype te installeren op je computer.',
+	'webfonts-preview-installing-fonts-text' => 'Je kunt een lettertype downloaden via de koppeling "{{int:webfonts-preview-download}}" hierboven. Bekijk de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] om het gedownloade lettertype te installeren op je computer.',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
@@ -1605,6 +1605,15 @@ $messages['tzm'] = array(
 	'webfonts-load' => 'ⵙⵜⵉ ⴰⴳⵎⵎⴰⵢ',
 	'webfonts-menu-tooltip' => 'Select a font for the page',
 	'webfonts-help' => 'ⵜⵉⵡⵉⵙⵉ',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'webfonts-reset' => 'ئەسلىگە قايتۇر',
+	'webfonts-help' => 'ياردەم',
+	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog',
 );
 
 /** Ukrainian (українська)
