@@ -1649,6 +1649,24 @@ $messages['ur'] = array(
 	'webfonts-preview-installing-fonts-title' => 'فونٹ انسٹال کرنے',
 );
 
+/** vèneto (vèneto)
+ * @author GatoSelvadego
+ */
+$messages['vec'] = array(
+	'webfonts' => 'WebFonts',
+	'webfonts-desc' => 'Incorpora carateri inte łe pàjine',
+	'webfonts-load' => 'Sełesiona el tipo de caratere',
+	'webfonts-reset' => 'Axera',
+	'webfonts-enable-preference' => "Ativa l'incorporasion de i carateri (WebFont)",
+	'webfonts-menu-tooltip' => "Sełesiona un tipo de caratere pa' ła pàjina",
+	'webfonts-help' => 'Ajuto',
+	'webfonts-preview-intro' => "Sta pàjina te consente de vardar in anteprima i font disponibiłi inte'l estension WebFonts e, opsionalmente, de scargarli e instałarli so'l to compute.",
+	'webfonts-preview-title' => 'Anteprima de i tipi de carateri',
+	'webfonts-preview-download' => 'Scarga sto tipo de carateri',
+	'webfonts-preview-sampletext' => "Ma ła volpe có 'l so salto ła ga raxonto el chieto can",
+	'webfonts-preview-installing-fonts-title' => 'Instała i tipi de carateri',
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
