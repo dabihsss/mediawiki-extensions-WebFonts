@@ -1665,6 +1665,7 @@ $messages['vec'] = array(
 	'webfonts-preview-download' => 'Scarga sto tipo de carateri',
 	'webfonts-preview-sampletext' => "Ma ła volpe có 'l so salto ła ga raxonto el chieto can",
 	'webfonts-preview-installing-fonts-title' => 'Instała i tipi de carateri',
+	'webfonts-preview-installing-fonts-text' => 'Te pol scargar un tipo de caratere tramite el ligamento "{{int:webfonts-preview-download}}" sorastante. Par instałare el tipo de caratere scargà so\'l to computer, lexi [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts sta documentasion].',
 );
 
 /** Veps (vepsän kel’)
