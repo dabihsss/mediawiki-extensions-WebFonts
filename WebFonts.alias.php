@@ -68,6 +68,11 @@ $specialPageAliases['ko'] = array(
 	'WebFonts' => array( '웹글꼴', '웹폰트' ),
 );
 
+/** Minangkabau (Baso Minangkabau) */
+$specialPageAliases['min'] = array(
+	'WebFonts' => array( 'HurupWeb' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'WebFonts' => array( 'МрежниФонтови' ),

@@ -84,6 +84,7 @@ $messages['an'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author Mido
  * @author روخو
  */
 $messages['ar'] = array(
@@ -91,6 +92,9 @@ $messages['ar'] = array(
 	'webfonts-load' => 'أختر الخط',
 	'webfonts-reset' => 'أعد الضبط',
 	'webfonts-help' => 'مساعدة',
+	'webfonts-preview-title' => 'معاينة الخطوط',
+	'webfonts-preview-download' => 'تنزيل هذا الخط',
+	'webfonts-preview-sampletext' => 'أبجد هوَّز حُطّي كلَمُن سَعْفَص قُرِشَت ثَخَدٌ ضَظَغ',
 	'webfonts-preview-installing-fonts-title' => 'تنصيب الخطوط',
 );
 
