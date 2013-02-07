@@ -48,6 +48,11 @@ $specialPageAliases['hi'] = array(
 	'WebFonts' => array( 'वेब_फ़ॉण्ट', 'वेब_फॉण्ट' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$specialPageAliases['id'] = array(
+	'WebFonts' => array( 'Font_web', 'FontWeb' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'WebFonts' => array( 'CaratteriWeb' ),
@@ -83,7 +88,7 @@ $specialPageAliases['ml'] = array(
 	'WebFonts' => array( 'വെബ്ഫോണ്ട്സ്' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'WebFonts' => array( 'Nettfonter' ),
 );
