@@ -1597,9 +1597,17 @@ $messages['tly'] = array(
  * @author Suelnur
  */
 $messages['tr'] = array(
+	'webfonts' => 'Web yazı tipi',
+	'webfonts-desc' => 'Sayfalardaki yazı tiplerini katıştırma',
 	'webfonts-load' => 'Yazı tipi seçin',
 	'webfonts-reset' => 'Sıfırla',
+	'webfonts-enable-preference' => 'Yazı tipi katıştırmayı etkinleştir (Web yazı tipi)',
+	'webfonts-menu-tooltip' => 'Sayfa için bir yazı tipi seçin',
 	'webfonts-help' => 'Yardım',
+	'webfonts-preview-title' => 'Yazı tiplerini ön izle',
+	'webfonts-preview-download' => 'Bu yazı tipini indir',
+	'webfonts-preview-sampletext' => 'Pijamalı hasta yağız şoföre çabucak güvendi — PİJAMALI HASTA YAĞIZ ŞOFÖRE ÇABUCAK GÜVENDİ',
+	'webfonts-preview-installing-fonts-title' => 'Yazı Tipleri Yükleniyor',
 );
 
 /** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
