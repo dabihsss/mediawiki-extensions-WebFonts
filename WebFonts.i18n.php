@@ -1631,6 +1631,7 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author AtUkr
  * @author Base
  * @author Microcell
  * @author Olvin
@@ -1645,9 +1646,12 @@ $messages['uk'] = array(
 	'webfonts-enable-preference' => 'Дозволити вбудовування шрифтів (Web fonts)',
 	'webfonts-menu-tooltip' => 'Виберіть шрифт для сторінки',
 	'webfonts-help' => 'Допомога',
+	'webfonts-preview-intro' => "Ця сторінка допоможе проглянути шрифти, доступні в розширенні Webfonts.  При необхідності їх можна буде завантажити і встановити на своєму комп'ютері.",
 	'webfonts-preview-title' => 'Попередній перегляд шрифтів',
 	'webfonts-preview-download' => 'Завантажити цей шрифт',
+	'webfonts-preview-sampletext' => 'Швидка коричнева лисиця стрибає через ледачого собаку',
 	'webfonts-preview-installing-fonts-title' => 'Встановлення шрифтів',
+	'webfonts-preview-installing-fonts-text' => "Ви можете завантажити шрифт за допомогою наведеного нижче посилання «{{int:webfonts-preview-download}}». Щоб встановити завантажений шрифт на вашому комп'ютері, будь ласка, зверніться [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts до даної документації].",
 );
 
 /** Urdu (اردو)
