@@ -1364,6 +1364,9 @@ $messages['roa-tara'] = array(
 	'webfonts-enable-preference' => "Abbilite 'u 'ngapsulamende de le font (WebFonts)",
 	'webfonts-menu-tooltip' => "Scacchie 'nu font pa pàgene",
 	'webfonts-help' => 'Ajute',
+	'webfonts-preview-title' => 'Andeprime de le carattere',
+	'webfonts-preview-download' => 'Scareche stu carattere',
+	'webfonts-preview-installing-fonts-title' => 'Stoche a installe le carattere',
 );
 
 /** Russian (русский)
