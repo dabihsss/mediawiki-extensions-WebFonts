@@ -1364,9 +1364,12 @@ $messages['roa-tara'] = array(
 	'webfonts-enable-preference' => "Abbilite 'u 'ngapsulamende de le font (WebFonts)",
 	'webfonts-menu-tooltip' => "Scacchie 'nu font pa pàgene",
 	'webfonts-help' => 'Ajute',
+	'webfonts-preview-intro' => "Sta pàgene te dè 'na màne a fà vedè l'andeprime de le carattere disponibbile jndr'à le estenziune WebFonts e opzionalmende scarecà e installà sus a 'u combiuter tune.",
 	'webfonts-preview-title' => 'Andeprime de le carattere',
 	'webfonts-preview-download' => 'Scareche stu carattere',
+	'webfonts-preview-sampletext' => "'A volpe marrone veloce zumbe sus a le cane pigre",
 	'webfonts-preview-installing-fonts-title' => 'Stoche a installe le carattere',
+	'webfonts-preview-installing-fonts-text' => "Tu puè scarecà 'nu carattere ausanne 'u \"{{int:webfonts-preview-download}}\" collegamende date sus. Pe installà le carattere scarecate sus a 'u combiuter tune, pe piacere 'ndruche [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts stu documende].",
 );
 
 /** Russian (русский)
