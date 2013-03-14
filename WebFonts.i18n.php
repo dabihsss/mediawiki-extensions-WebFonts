@@ -134,7 +134,7 @@ $messages['ast'] = array(
 	'webfonts-preview-download' => 'Descargar esta fonte',
 	'webfonts-preview-sampletext' => "El xabaril que diba pel ḥou cabu la foz y la cigüeña qu'esnalaba per Ḷḷuarca",
 	'webfonts-preview-installing-fonts-title' => 'Instalación de les fontes',
-	'webfonts-preview-installing-fonts-text' => 'Pues descargar una fonte usando l\'enllaz "{{int:webfonts-preview-download}}" anterior. Pa instalar la fonte descargada nel to ordenador, llee [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación].',
+	'webfonts-preview-installing-fonts-text' => 'Pue descargar una fonte usando l\'enllaz "{{int:webfonts-preview-download}}" anterior. Pa instalar la fonte descargada nel so ordenador, llea [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación].',
 );
 
 /** Azerbaijani (azərbaycanca)
