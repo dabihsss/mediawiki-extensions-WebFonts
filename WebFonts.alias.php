@@ -73,6 +73,11 @@ $specialPageAliases['ko'] = array(
 	'WebFonts' => array( '웹글꼴', '웹폰트' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'WebFonts' => array( 'Schrëftarten_(Webfonts)' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'WebFonts' => array( 'HurupWeb' ),
