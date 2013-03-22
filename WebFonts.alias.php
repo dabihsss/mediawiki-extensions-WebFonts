@@ -38,6 +38,11 @@ $specialPageAliases['diq'] = array(
 	'WebFonts' => array( 'RengêWebi' ),
 );
 
+/** Esperanto (Esperanto) */
+$specialPageAliases['eo'] = array(
+	'WebFonts' => array( 'Rettiparoj' ),
+);
+
 /** Swiss German (Alemannisch) */
 $specialPageAliases['gsw'] = array(
 	'WebFonts' => array( 'Schriftarte' ),

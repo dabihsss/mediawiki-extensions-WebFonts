@@ -224,10 +224,11 @@ $messages['bho'] = array(
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Jayantanth
+ * @author Leemon2010
  * @author Wikitanvir
  */
 $messages['bn'] = array(
-	'webfonts' => 'ওয়েবফন্টস',
+	'webfonts' => 'ওয়েব ফন্টসমূহ',
 	'webfonts-desc' => 'পাতায় ফন্ট সন্নিবেশ',
 	'webfonts-load' => 'ফন্ট নির্বাচন',
 	'webfonts-reset' => 'পুনরায় আরম্ভ',
