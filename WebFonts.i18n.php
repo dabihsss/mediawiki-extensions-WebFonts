@@ -33,10 +33,11 @@ $messages['en'] = array(
  * @author McDutchie
  * @author Mormegil
  * @author Raymond
+ * @author Shirayuki
  * @author Singhalawap
  */
 $messages['qqq'] = array(
-	'webfonts' => 'The extension name - WebFonts',
+	'webfonts' => '{{doc-special|WebFonts}}',
 	'webfonts-desc' => 'short description of the extension',
 	'webfonts-load' => 'The text shown in the webfont link',
 	'webfonts-reset' => '{{Identical|Reset}}',
@@ -432,6 +433,14 @@ $messages['dsb'] = array(
 	'webfonts-preview-download' => 'Toś to pismo ześěgnuś',
 	'webfonts-preview-installing-fonts-title' => 'Pisma instalěrowaś',
 	'webfonts-preview-installing-fonts-text' => 'Móžoš pismo z pomocu wótkaza "{{int:webfonts-preview-download}}" górjejce ześěgnuś. Aby ześěgnjone pismo na swójo licadle instalěrował, glědaj pšosym [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts toś tu dokumentaciju].',
+);
+
+/** Divehi (ދިވެހިބަސް)
+ * @author Ushau97
+ */
+$messages['dv'] = array(
+	'webfonts' => 'ވެބް އަކުރުސިފަ',
+	'webfonts-desc' => 'ޞަފްޙާތަކުގައި އަކުރުސިފަ ހަރު ކުރައްވާ',
 );
 
 /** Greek (Ελληνικά)
