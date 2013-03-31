@@ -41,6 +41,7 @@ $messages['qqq'] = array(
 	'webfonts-desc' => 'short description of the extension',
 	'webfonts-load' => 'The text shown in the webfont link',
 	'webfonts-reset' => '{{Identical|Reset}}',
+	'webfonts-enable-preference' => 'Used as label for the checkbox, under {{msg-mw|Prefs-advancedediting}} section of {{msg-mw|Prefs-editing}} tab, in [[Special:Preferences]].',
 	'webfonts-menu-tooltip' => 'Tooltip text displayed in the webfont link',
 	'webfonts-help' => 'Text for the help link.
 {{Identical|Help}}',
