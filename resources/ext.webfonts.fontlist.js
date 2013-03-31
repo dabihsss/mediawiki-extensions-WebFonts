@@ -462,6 +462,25 @@
 				ttf: "Latn/UnifrakturMaguntia.ttf",
 				woff: "Latn/UnifrakturMaguntia.woff",
 				version: "2012-02-11"
+			},
+
+			"FreeFontThaana": {
+				eot: "Thaa/FreeFont-Thaana.eot",
+				ttf: "Thaa/FreeFont-Thaana.ttf",
+				woff: "Thaa/FreeFont-Thaana.woff",
+				version: "1.0",
+				variants: {
+					bold: "FreeFontThaana Bold"
+				}
+			},
+
+			"FreeFontThaana Bold": {
+				eot: "Thaa/FreeFont-Thaana-Bold.eot",
+				ttf: "Thaa/FreeFont-Thaana-Bold.ttf",
+				woff: "Thaa/FreeFont-Thaana-Bold.woff",
+				version: "1.0",
+				fontweight: "bold",
+				fontstyle: "normal",
 			}
 
 /*
@@ -491,6 +510,7 @@
 			bpy: [ "Siyam Rupali", "Lohit Bengali" ],
 			bug: [ "Saweri" ],
 			cdo: [ "Charis SIL" ],
+			dv:  [ "FreeFontThaana" ],
 			dz:  [ "Jomolhari" ],
 			fa:  [ "Iranian Sans", "Amiri" ],
 			gu:  [ "Lohit Gujarati" ],
