@@ -28,10 +28,7 @@ $messages['en'] = array(
 	'webfonts-preview-installing-fonts-text' => 'You can download a font using the "{{int:webfonts-preview-download}}" link given above. To install the downloaded font on your computer, please see [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation].',
 );
 
-/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
-
-It might be easier to translate it as "translation guidelines" or "translation help".
-{{Identical|Message documentation}})
+/** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author McDutchie
  * @author Mormegil
