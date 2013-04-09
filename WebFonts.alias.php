@@ -23,7 +23,7 @@ $specialPageAliases['arc'] = array(
 	'WebFonts' => array( 'ܣܘܪ̈ܛܐ_ܕܘܝܒ' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'WebFonts' => array( 'ৱেব_ফণ্টসমূহ' ),
 );
