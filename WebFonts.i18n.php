@@ -1319,12 +1319,13 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Malafaya
  */
 $messages['pt'] = array(
 	'webfonts' => 'TiposDeLetraIncorporados',
 	'webfonts-desc' => 'Tipos de letra incorporados nas páginas',
-	'webfonts-load' => 'Seleccione o tipo',
+	'webfonts-load' => 'Selecionar fonte',
 	'webfonts-reset' => 'Reiniciar',
 	'webfonts-enable-preference' => 'Ativar incorporação de fontes (Web fonts)',
 	'webfonts-menu-tooltip' => 'Selecione uma fonte para a página',
