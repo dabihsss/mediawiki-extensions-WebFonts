@@ -807,21 +807,22 @@ $messages['ia'] = array(
 /** Indonesian (Bahasa Indonesia)
  * @author Farras
  * @author IvanLanin
+ * @author Iwan Novirion
  */
 $messages['id'] = array(
 	'webfonts' => 'WebFonts',
-	'webfonts-desc' => 'Menyertakan fon (huruf) dalam halaman',
-	'webfonts-load' => 'Pilih fon',
+	'webfonts-desc' => 'Memasang huruf pada halaman',
+	'webfonts-load' => 'Pilih huruf',
 	'webfonts-reset' => 'Setel ulang',
-	'webfonts-enable-preference' => 'Aktifkan penanaman font (font web)',
-	'webfonts-menu-tooltip' => 'Pilih font untuk halaman ini',
+	'webfonts-enable-preference' => 'Aktifkan pemasangan huruf (Web fonts)',
+	'webfonts-menu-tooltip' => 'Pilih huruf untuk halaman ini',
 	'webfonts-help' => 'Bantuan',
-	'webfonts-preview-intro' => 'Halaman ini membantu Anda meninjau font yang tersedia melalui ekstensi WebFonts dan dapat diunduh dan diinstal di komputer Anda.',
-	'webfonts-preview-title' => 'Pratinjau font',
-	'webfonts-preview-download' => 'Unduh font ini',
+	'webfonts-preview-intro' => 'Halaman ini membantu Anda meninjau huruf yang tersedia melalui ekstensi WebFonts dan dapat diunduh dan diinstal di komputer Anda.',
+	'webfonts-preview-title' => 'Pratinjau huruf',
+	'webfonts-preview-download' => 'Unduh huruf ini',
 	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog',
-	'webfonts-preview-installing-fonts-title' => 'Menginstal Font',
-	'webfonts-preview-installing-fonts-text' => 'Anda dapat mengunduh font menggunakan pranala "{{int:webfonts-preview-download}}" di atas. Untuk menginstalnya di komputer, lihat [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation].',
+	'webfonts-preview-installing-fonts-title' => 'Menginstal Font (huruf)',
+	'webfonts-preview-installing-fonts-text' => 'Anda dapat mengunduh huruf menggunakan pranala "{{int:webfonts-preview-download}}" di atas. Untuk menginstalnya di komputer, lihat [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentasi ini].',
 );
 
 /** Iloko (Ilokano)
