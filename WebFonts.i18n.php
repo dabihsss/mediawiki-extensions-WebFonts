@@ -1087,6 +1087,25 @@ $messages['lv'] = array(
 	'webfonts-preview-installing-fonts-title' => 'Uzstāda fontus',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'webfonts' => 'Hurup web',
+	'webfonts-desc' => 'Pasang hurup di laman',
+	'webfonts-load' => 'Piliah hurup',
+	'webfonts-reset' => 'Setel ulang',
+	'webfonts-enable-preference' => 'Aktipan pamasangan hurup',
+	'webfonts-menu-tooltip' => 'Piliah hurup untuak laman ko',
+	'webfonts-help' => 'Bantuan',
+	'webfonts-preview-intro' => 'Laman ko mambantu Sanak maninjau hurup nan tasadio pado ekstensi WebFonts dan dapek diunduah sarato diinstal pado komputer Sanak.',
+	'webfonts-preview-title' => 'Pratonton hurup',
+	'webfonts-preview-download' => 'Unduah hurup iko',
+	'webfonts-preview-sampletext' => 'The quick brown fox jumps over the lazy dog',
+	'webfonts-preview-installing-fonts-title' => 'Manginstal Font (hurup)',
+	'webfonts-preview-installing-fonts-text' => 'Sanak dapek mangunduah hurup manggunoan pautan "{{int:webfonts-preview-download}}" di ateh. Untuak manginstalnyo di komputer, caliak [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentasi iko].',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
