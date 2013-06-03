@@ -102,7 +102,7 @@ $messages['ar'] = array(
 	'webfonts-preview-installing-fonts-title' => 'تنصيب الخطوط',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Gitartha.bordoloi
  */
@@ -1203,7 +1203,7 @@ $messages['mt'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Tista\' tniżżel tipa billi tuża l-ħolqa "{{int:webfonts-preview-download}}" mogħtija hawn fuq. Sabiex tinstalla t-tipa mniżżla fuq il-kompjuter tiegħek, aqra [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts din id-dokumentazzjoni].',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  * @author Simny
  */
@@ -1264,7 +1264,7 @@ $messages['nl-informal'] = array(
 	'webfonts-preview-installing-fonts-text' => 'Je kunt een lettertype downloaden via de koppeling "{{int:webfonts-preview-download}}" hierboven. Bekijk de [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts documentatie] om het gedownloade lettertype te installeren op je computer.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author Odisha1
