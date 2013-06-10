@@ -85,6 +85,7 @@ $messages['an'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Alexknight12
  * @author Meno25
  * @author Mido
  * @author ترجمان05
@@ -93,7 +94,7 @@ $messages['an'] = array(
 $messages['ar'] = array(
 	'webfonts' => 'خطوط الويب',
 	'webfonts-desc' => 'تضمين الخطوط في الصفحات',
-	'webfonts-load' => 'أختر الخط',
+	'webfonts-load' => 'اختر الخط',
 	'webfonts-reset' => 'أعد الضبط',
 	'webfonts-help' => 'مساعدة',
 	'webfonts-preview-title' => 'معاينة الخطوط',
