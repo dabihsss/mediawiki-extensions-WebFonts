@@ -35,7 +35,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'WebFonts' => array( 'RengêWebi' ),
+	'WebFonts' => array( 'RengéWebi' ),
 );
 
 /** Esperanto (Esperanto) */
