@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Incorpora fontes nas páxinas",
+    "webfonts-load": "Seleccione unha fonte",
+    "webfonts-reset": "Restablecer",
+    "webfonts-enable-preference": "Activar a incorporación de fontes (WebFonts)",
+    "webfonts-menu-tooltip": "Seleccione unha fonte para a páxina",
+    "webfonts-help": "Axuda",
+    "webfonts-preview-intro": "Esta páxina axúdalle a ollar unha vista previa das fontes dispoñibles na extensión WebFonts e, opcionalmente, descargalas e instalalas no seu ordenador.",
+    "webfonts-preview-title": "Vista previa das fontes",
+    "webfonts-preview-download": "Descargar esta fonte",
+    "webfonts-preview-sampletext": "Necesitamos unha tipografía chuliña de cor kiwi, que lle zorregue unha labazada visual á xente",
+    "webfonts-preview-installing-fonts-title": "Instalación das fontes",
+    "webfonts-preview-installing-fonts-text": "Pode descargar unha fonte mediante a ligazón \"{{int:webfonts-preview-download}}\" anterior. Para instalar a fonte descargada no seu ordenador consulte [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación]."
+}

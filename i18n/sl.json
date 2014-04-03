@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Dbc334",
+            "Eleassar",
+            "Irena Plahuta"
+        ]
+    },
+    "webfonts": "SpletnePisave",
+    "webfonts-desc": "Vdelaj pisave na strani",
+    "webfonts-load": "Izberite pisavo",
+    "webfonts-reset": "Ponastavi",
+    "webfonts-enable-preference": "Omogoči vdelavo pisav (SpletnePisave)",
+    "webfonts-menu-tooltip": "Izberite pisavo strani",
+    "webfonts-help": "Pomoč",
+    "webfonts-preview-intro": "Stran vam pomaga pri predogledu pisav, ki so na razpolago v razširitvi WebFonts, ter pri njihovem prenosu in namestitvi na vaš računalnik.",
+    "webfonts-preview-title": "Predogled pisav",
+    "webfonts-preview-download": "Prenesi pisavo",
+    "webfonts-preview-sampletext": "V kožuščku hudobnega fanta stopiclja mizar",
+    "webfonts-preview-installing-fonts-title": "Nameščanje pisav",
+    "webfonts-preview-installing-fonts-text": "Pisavo lahko prenesete tako, da uporabite zgoraj navedeno povezavo »{{int:webfonts-preview-download}}«. Za namestitev prenesene pisave na svoj računalnik si oglejte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentacijo]."
+}

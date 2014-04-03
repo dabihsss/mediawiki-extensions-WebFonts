@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ansumang",
+            "Bhawani Gautam"
+        ]
+    },
+    "webfonts": "वेब फॉण्ट्स",
+    "webfonts-desc": "पृष्ठों में फॉन्ट्सका जड़ान करें",
+    "webfonts-load": "फ़ॉन्ट का चयन करें",
+    "webfonts-reset": "पुनर्स्थापित करें",
+    "webfonts-enable-preference": "फ़ॉन्ट एम्बेडिंग (WebFonts) को सक्षम करें",
+    "webfonts-menu-tooltip": "पृष्ठ के लिए फ़ॉन्ट का चयन करें",
+    "webfonts-help": "सहायता"
+}

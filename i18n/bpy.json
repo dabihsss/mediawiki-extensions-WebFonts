@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Usingha"
+        ]
+    },
+    "webfonts": "ৱেবফন্টস",
+    "webfonts-desc": "পাতাহাত ফন্ট নাপকর",
+    "webfonts-load": "ফন্ট বাছ",
+    "webfonts-reset": "বারো অকর",
+    "webfonts-enable-preference": "ফন্ট নাপকরানিহান অকর (ৱেবফন্ট)",
+    "webfonts-menu-tooltip": "পাতাহানরকা ফন্ট বাছ",
+    "webfonts-help": "পাংলাক"
+}

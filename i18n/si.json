@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Singhalawap",
+            "පසිඳු කාවින්ද"
+        ]
+    },
+    "webfonts": "ජාලක්ෂර",
+    "webfonts-desc": "පිටු මත එබ්බවූ අක්ෂර",
+    "webfonts-load": "අක්ෂරය තෝරන්න",
+    "webfonts-reset": "ප්‍රත්‍යාරම්භ කරන්න",
+    "webfonts-enable-preference": "අක්ෂර එබ්බවීම සක්‍රිය කරන්න (ජලාක්ෂර)",
+    "webfonts-menu-tooltip": "පිටුව සඳහා අක්ෂරයක් තෝරන්න",
+    "webfonts-help": "උදව්",
+    "webfonts-preview-title": "අකෂර පෙරදසුන් කරන්න",
+    "webfonts-preview-download": "මෙම අක්ෂරය බාගන්න",
+    "webfonts-preview-sampletext": "ශුද්ධ සිංහල ෴",
+    "webfonts-preview-installing-fonts-title": "ෆොන්ට් ස්ථාපනය කරන්න"
+}

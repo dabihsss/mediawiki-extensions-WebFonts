@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pikne"
+        ]
+    },
+    "webfonts": "Kirjaliigid",
+    "webfonts-desc": "Lehekülje kirjaliigi seadmine",
+    "webfonts-load": "Vali kirjaliik",
+    "webfonts-reset": "Lähtesta",
+    "webfonts-enable-preference": "Luba kirjaliigi valimine",
+    "webfonts-menu-tooltip": "Vali lehekülje jaoks kirjaliik",
+    "webfonts-help": "Abi",
+    "webfonts-preview-intro": "Sellel leheküljel saad kirjaliikide lisaga kaasnevaid kirjaliike eelvaates proovida ja soovi korral enda arvutis installimiseks alla laadida.",
+    "webfonts-preview-title": "Kirjaliikide eelvaade",
+    "webfonts-preview-download": "Laadi see kirjaliik alla",
+    "webfonts-preview-sampletext": "See väike mölder jõuab rongile hüpata.",
+    "webfonts-preview-installing-fonts-title": "Kirjaliikide installimine",
+    "webfonts-preview-installing-fonts-text": "Kirjaliigi allalaadimiseks klõpsa ülal linki \"{{int:webfonts-preview-download}}\". Alla laaditud kirjaliigi enda arvutisse installimise kohta vaata [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts seda dokumentatsiooni]."
+}

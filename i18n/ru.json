@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Eugrus",
+            "KPu3uC B Poccuu",
+            "Kaganer",
+            "Lockal",
+            "Александр Сигачёв"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Позволяет встраивать шрифты на страницы",
+    "webfonts-load": "Выбрать шрифт",
+    "webfonts-reset": "Сбросить",
+    "webfonts-enable-preference": "Включить внедрение шрифтов (Web fonts)",
+    "webfonts-menu-tooltip": "Выберите шрифт для страницы",
+    "webfonts-help": "Справка",
+    "webfonts-preview-intro": "Эта страница поможет просмотреть шрифты, доступные в расширение WebFonts.  При необходимости их можно будет загрузить и установить на своём компьютере.",
+    "webfonts-preview-title": "Просмотр шрифтов",
+    "webfonts-preview-download": "Загрузить этот шрифт",
+    "webfonts-preview-sampletext": "В чащах юга жил-был цитрус... — да, но фальшивый экземпляръ! The quick brown fox jumps over the lazy dog.",
+    "webfonts-preview-installing-fonts-title": "Установка шрифтов",
+    "webfonts-preview-installing-fonts-text": "Вы можете загрузить шрифт с помощью приведённой ниже ссылки «{{int:webfonts-preview-download}}». Чтобы установить загруженный шрифт на вашем компьютере, пожалуйста, обратитесь [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts к данной документации]."
+}

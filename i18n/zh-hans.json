@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Anakmalaysia",
+            "Hzy980512",
+            "Liangent"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "在页面中嵌入字体",
+    "webfonts-load": "选择字体",
+    "webfonts-reset": "重置",
+    "webfonts-enable-preference": "启用字体嵌入（WebFonts）",
+    "webfonts-menu-tooltip": "为本页选择字体",
+    "webfonts-help": "帮助",
+    "webfonts-preview-intro": "本页面可以帮助您预览在WebFonts扩展可用的字体，并可选下载并安装字体。",
+    "webfonts-preview-title": "预览字体",
+    "webfonts-preview-download": "下载此字体",
+    "webfonts-preview-sampletext": "灰狐狸快速地从那条笨狗的头上跳过",
+    "webfonts-preview-installing-fonts-title": "安装字体",
+    "webfonts-preview-installing-fonts-text": "您可以使用上面的\"{{int:webfonts-preview-download}}\"链接下载字体。要安装在您电脑上的字体，请参阅[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts 这篇文章]."
+}

@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Borichèt",
+            "Dragonòt"
+        ]
+    },
+    "webfonts": "Caràter dl'aragnà",
+    "webfonts-desc": "Anserì ij caràter ant le pàgine",
+    "webfonts-load": "Ch'a selession-a un tipo ëd caràter",
+    "webfonts-reset": "Spian-a",
+    "webfonts-enable-preference": "Abilité l'anseriment ëd tipo ëd caràter (Caràter dl'aragnà)",
+    "webfonts-menu-tooltip": "Selessioné un tipo ëd caràter për la pàgina",
+    "webfonts-help": "Agiut",
+    "webfonts-preview-intro": "Sta pàgina a-j giuta a previsualisé ij caràter disponìbij ant l'estension WebFonts e opsionalment a dëscarieje e anstaleje an sò ordinator.",
+    "webfonts-preview-title": "Preuva ij caràter",
+    "webfonts-preview-download": "Dëscarié cost caràter",
+    "webfonts-preview-sampletext": "La cita volp maròn a sàuta dlà dël can fòl",
+    "webfonts-preview-installing-fonts-title": "Anstalassion dij Caràter",
+    "webfonts-preview-installing-fonts-text": "A peul dëscarié un caràter an dovrand la liura «{{int:webfonts-preview-download}}» smonùa dëdzora. Për anstalé ël caràter dëscarià an sò ordinator, për piasì ch'a lesa [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts sa documentassion]"
+}

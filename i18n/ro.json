@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Firilacroco",
+            "Minisarm",
+            "Stelistcristi"
+        ]
+    },
+    "webfonts": "Fonturi web",
+    "webfonts-desc": "Fonturi încoporate în pagini",
+    "webfonts-load": "Selectează fontul",
+    "webfonts-reset": "Resetează",
+    "webfonts-enable-preference": "Activează încorporarea fonturilor (WebFonts)",
+    "webfonts-menu-tooltip": "Selectează un font pentru pagină",
+    "webfonts-help": "Ajutor",
+    "webfonts-preview-title": "Previzualizare fonturi",
+    "webfonts-preview-download": "Descarcă acest font",
+    "webfonts-preview-sampletext": "Muzicologă în bej, vând whisky și tequila, preț fix.",
+    "webfonts-preview-installing-fonts-title": "Se instalează fonturile"
+}

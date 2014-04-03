@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armando-Martin",
+            "Fitoschido",
+            "Imre",
+            "Platonides"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Incrustar tipografías en las páginas",
+    "webfonts-load": "Seleccionar tipografía",
+    "webfonts-reset": "Restablecer",
+    "webfonts-enable-preference": "Activar la incrustación de tipografías (WebFonts)",
+    "webfonts-menu-tooltip": "Elegir una tipografía para la página",
+    "webfonts-help": "Ayuda",
+    "webfonts-preview-intro": "Esta página le ayuda a obtener una vista previa de las fuentes disponibles en la extensión WebFonts y opcionalmente descargarlas e instalarlas en su equipo.",
+    "webfonts-preview-title": "Obtener una vista previa de las fuentes",
+    "webfonts-preview-download": "Descargar esta fuente",
+    "webfonts-preview-sampletext": "Cada vez que me trabo, Félix paga un whisky añejo",
+    "webfonts-preview-installing-fonts-title": "Instalando las fuentes",
+    "webfonts-preview-installing-fonts-text": "Puede descargar una fuente utilizando el vínculo \"{{int:webfonts-preview-download}}\" dado anteriormente. Para instalar la fuente descargada en el equipo, consulte [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación]."
+}

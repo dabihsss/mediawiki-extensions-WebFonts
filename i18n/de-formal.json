@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln"
+        ]
+    },
+    "webfonts-preview-intro": "Diese Seite hilft Ihnen dabei, die durch die Erweiterung Webfonts verfügbaren Schriftarten in der Vorschau anzusehen und sie auf Ihren Computer herunterzuladen sowie zu installieren.",
+    "webfonts-preview-installing-fonts-text": "Sie können eine Schriftart herunterladen, indem Sie oben rechts auf den Link „{{int:webfonts-preview-download}}“ klicken. Um die heruntergeladene Schriftart auf Ihrem Computer zu installieren, folgen Sie bitte [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts diesen Hinweisen]."
+}

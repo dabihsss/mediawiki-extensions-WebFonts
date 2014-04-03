@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "BeginaFelicysym",
+            "Olgak85",
+            "Woytecr"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Czcionki osadzone na stronach",
+    "webfonts-load": "Wybierz czcionkę",
+    "webfonts-reset": "Reset",
+    "webfonts-enable-preference": "Włącz osadzanie czcionek",
+    "webfonts-menu-tooltip": "Wybierz czcionkę dla strony",
+    "webfonts-help": "Pomoc",
+    "webfonts-preview-intro": "Ta strona umożliwia podgląd czcionek dostępnych w rozszerzeniu WebFonts a opcjonalnie pobranie i instalację w komputerze.",
+    "webfonts-preview-title": "Podgląd czcionek",
+    "webfonts-preview-download": "Pobierz tą czcionkę",
+    "webfonts-preview-sampletext": "Zażółć gęślą jaźń Zażółć gęślą",
+    "webfonts-preview-installing-fonts-title": "Instalowanie czcionek",
+    "webfonts-preview-installing-fonts-text": "Możesz pobrać czcionki przy użyciu łącza „{{int:webfonts-preview-download}} \" podanego powyżej. Aby zainstalować czcionki pobrane na komputer, przejrzyj [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts.pl tą dokumentację]."
+}

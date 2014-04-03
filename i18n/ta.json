@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Logicwiki",
+            "Sodabottle",
+            "மதனாஹரன்"
+        ]
+    },
+    "webfonts": "இணைய எழுத்துருக்கள்",
+    "webfonts-desc": "பக்கங்களில் எழுத்துருக்களை செயலாக்க",
+    "webfonts-load": "எழுத்துரு மாற்ற",
+    "webfonts-reset": "இயல்பு எழுத்துரு",
+    "webfonts-enable-preference": "எழுத்துரு புதைத்தல் (இணைய எழுத்துருக்களை) பயன்படுத்துக",
+    "webfonts-menu-tooltip": "பக்கத்திற்கான எழுத்துருவை தேர்வு செய்க",
+    "webfonts-help": "உதவி",
+    "webfonts-preview-intro": "இந்த பக்கம் இணைய எழுத்துரு நீட்சியிலுள்ள எழுத்துருக்களை முன்தோற்றம் பார்க்க உதவுகிறது. மேலும் எழுத்துருவை உங்கள் கணினிக்கு பதிவிறக்கி, நிறுவ உதவும்.",
+    "webfonts-preview-title": "இந்த எழுத்துருவின் முன்தோற்றம் காண்க",
+    "webfonts-preview-download": "இந்த எழுத்துரு பதிவிறக்கு",
+    "webfonts-preview-sampletext": "அஆஇஈஉஊஎஏஐஒஓஔஃகங்சாஞிடீணுதூநெபேமையொரோலௌவழளஜஷஸஹக்ஷஸ்ரீ",
+    "webfonts-preview-installing-fonts-title": "எழுத்துரு நிறுவ",
+    "webfonts-preview-installing-fonts-text": "\"{{int:webfonts-preview-download}}\" மேலே வழங்கப்பட்ட தொடுப்பைப் பயன்படுத்துவதன் மூலம் நீங்கள் ஓர் எழுத்துருவைத் தரவிறக்க முடியும். உங்கள் கணினியில் தரவிறக்கிய எழுத்துருவை நிறுவுவதற்கு, தயவு செய்து [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts இவ்வாவணத்தைப்] பார்க்கவும்."
+}

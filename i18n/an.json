@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Juanpabl"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Incrustar fuents tipograficas en as pachinas",
+    "webfonts-load": "Trigar fuent tipografica",
+    "webfonts-reset": "Restablir",
+    "webfonts-enable-preference": "Activar a incrustación de fuents tipograficas (WebFonts)",
+    "webfonts-menu-tooltip": "Trigar una fuent tipografica t'a pachina",
+    "webfonts-help": "Aduya",
+    "webfonts-preview-intro": "Ista pachina le aduya a previsualizar as fuents tipograficas disponibles en a extensión WebFonts y, si lo deseya, descargar-las y instalar-las en o suyo ordinador.",
+    "webfonts-preview-title": "Anvista previa d'as fuents tipograficas",
+    "webfonts-preview-download": "Descargar ista fuent tipografica",
+    "webfonts-preview-sampletext": "A-saber-las vegadas o can o mixín y o zapo han malfurriau quantos kilowatios.",
+    "webfonts-preview-installing-fonts-title": "Instalando as fuents tipograficas",
+    "webfonts-preview-installing-fonts-text": "Puede descargar-se una fuent tipografica fendo servir o vinclo \"{{int:webfonts-preview-download}}\" d'alto. Ta instalar a fuent descargada en o suyo ordinador, consulte por favor [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ista documentación]"
+}

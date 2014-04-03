@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Amir a57",
+            "Mousa"
+        ]
+    },
+    "webfonts": "وب یازی‌تیپلری",
+    "webfonts-desc": "یازی‌تیپلرینی صحیفه‌لرده یئرلشدیر",
+    "webfonts-load": "یازی‌تیپی سئچ",
+    "webfonts-reset": "ایلک دورومونا قایتار",
+    "webfonts-enable-preference": "یازی‌تیپی یئرلشدیرمه‌سینی آچ (وِب یازی‌تیپلری)",
+    "webfonts-menu-tooltip": "بو صحیفه اوچون بیر یازی‌تیپی سئچ",
+    "webfonts-help": "یاردیم",
+    "webfonts-preview-intro": "بو صحیفه سیزه یاردیم ائدیر وار اولان یازی‌تیپلرین اؤن‌گؤستریشلرینی گؤروب و ایسته‌سز اونلاری اندیریب و بیلگی‌سایارینیزدا قوراسینیز.",
+    "webfonts-preview-title": "یازی‌تیپلری اؤن‌گؤستر",
+    "webfonts-preview-download": "بو یازی‌تیپینی اَندیر",
+    "webfonts-preview-sampletext": "ء ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ؤ ۆ ۇ ه ی ئ ؽ ۰۱۲۳۴۵۶۷۸۹",
+    "webfonts-preview-installing-fonts-title": "یازی‌تیپلری قورولور",
+    "webfonts-preview-installing-fonts-text": "سیز هر یازی‌تیپینی اوست‌ده وئریلن «{{int:webfonts-preview-download}}» باغلانتیسی ایله اندیره بیلرسینیز. اندیریلن یازی‌تیپینی بیلگی‌سایارینیزا قورماق اوچون لوطفاً [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts بو سندلر]ه باخین."
+}

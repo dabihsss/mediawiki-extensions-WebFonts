@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bjankuloski06"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Вградување на фонтови во страници",
+    "webfonts-load": "Изберете фонт",
+    "webfonts-reset": "Врати",
+    "webfonts-enable-preference": "Овозможи на вметнување на фонтови (WebFonts)",
+    "webfonts-menu-tooltip": "Изберете фонт за страницата",
+    "webfonts-help": "Помош",
+    "webfonts-preview-intro": "На оваа страница можете да ги погледате фонтовите што ви се на располагање со додатокот WebFonts (со можност да ги преземете и инсталирате на вашиот сметач).",
+    "webfonts-preview-title": "Преглед на фонтовите",
+    "webfonts-preview-download": "Преземи го фонтот",
+    "webfonts-preview-sampletext": "Бучниов жолт џин ѕида куќа со фурна меѓу полиња за цреши, хмељ и грозје.",
+    "webfonts-preview-installing-fonts-title": "Инсталација на фонотовите",
+    "webfonts-preview-installing-fonts-text": "Можете да преземете фонт преку горенаведената врска „{{int:webfonts-preview-download}}“. За да го инсталирате на сметачот, погледајте ја [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts?uselang=mk оваа документација]."
+}

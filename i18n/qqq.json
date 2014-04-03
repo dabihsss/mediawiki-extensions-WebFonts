@@ -1,0 +1,26 @@
+{
+    "@metadata": {
+        "authors": [
+            "EugeneZelenko",
+            "McDutchie",
+            "Mormegil",
+            "Raymond",
+            "Shirayuki",
+            "Singhalawap"
+        ]
+    },
+    "webfonts": "{{doc-special|WebFonts}}",
+    "webfonts-desc": "short description of the extension",
+    "webfonts-load": "The text shown in the webfont link",
+    "webfonts-reset": "{{Identical|Reset}}",
+    "webfonts-enable-preference": "Used as label for the checkbox, under {{msg-mw|Prefs-advancedediting}} section of {{msg-mw|Prefs-editing}} tab, in [[Special:Preferences]].",
+    "webfonts-menu-tooltip": "Tooltip text displayed in the webfont link",
+    "webfonts-help": "Text for the help link.\n{{Identical|Help}}",
+    "webfonts-help-page": "Change this only if you want to point the help link to a different wiki page.",
+    "webfonts-preview-intro": "Introduction to [[Special:WebFonts|the special page]].",
+    "webfonts-preview-title": "Title for the preview area.",
+    "webfonts-preview-download": "Download link text.",
+    "webfonts-preview-sampletext": "Do not translate literally, but give a [[:w:Pangram|pangram]] in your language for using as default preview text.",
+    "webfonts-preview-installing-fonts-title": "Title of Installing Fonts section",
+    "webfonts-preview-installing-fonts-text": "Text pointing to the installation document link."
+}

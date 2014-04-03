@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "CERminator"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Ugradnja fontova na stranice",
+    "webfonts-load": "Odaberi font"
+}

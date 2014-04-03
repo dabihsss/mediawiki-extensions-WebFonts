@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kwj2772",
+            "아라"
+        ]
+    },
+    "webfonts": "웹 글꼴",
+    "webfonts-desc": "문서에 글꼴을 포함하기",
+    "webfonts-load": "글꼴 선택",
+    "webfonts-reset": "초기화",
+    "webfonts-enable-preference": "글꼴 임베딩 켜기 (WebFonts)",
+    "webfonts-menu-tooltip": "문서를 표시할 글꼴 선택",
+    "webfonts-help": "도움말",
+    "webfonts-preview-intro": "이 페이지는 WebFonts 확장 기능에서 제공하는 글꼴을 미리 보고 글꼴을 선택하여 컴퓨터에 내려받고 설치할 수 있도록 도와 줄 것입니다.",
+    "webfonts-preview-title": "글꼴 미리 보기",
+    "webfonts-preview-download": "이 글꼴을 다운로드",
+    "webfonts-preview-sampletext": "덧글은 통신 예절 지키면서 표현 자유 추구하는 방향으로.",
+    "webfonts-preview-installing-fonts-title": "글꼴 설치하기",
+    "webfonts-preview-installing-fonts-text": "위의 \"{{int:webfonts-preview-download}}\" 링크를 통해 글꼴을 내려받을 수 있습니다. 내려받은 글꼴을 컴퓨터에 설치하려면 [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts 이 설명문서]를 참고하십시오."
+}

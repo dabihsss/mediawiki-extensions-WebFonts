@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "AnakngAraw"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Magbaon ng mga estilo ng titik sa mga pahina",
+    "webfonts-load": "Pumili ng estilo ng titik",
+    "webfonts-reset": "Muling itakda",
+    "webfonts-enable-preference": "Paganahin ang pagbabaon ng hubog ng panitik (mga ''font'' ng Web)",
+    "webfonts-menu-tooltip": "Pumili ng isang hubog na panitik para sa pahina",
+    "webfonts-help": "Tulong",
+    "webfonts-preview-intro": "Tumutulong ang pahinang ito na paunang matingnan ang makukuhang mga hubog na panitik na nasa loob ng dugtong na WebFonts at ikargang paibaba at iluklok o hindi ikargang paibaba at hindi iluklok sa loob ng kompyuter mo.",
+    "webfonts-preview-title": "Paunang tingnan ang mga hubog ng panitik",
+    "webfonts-preview-download": "Ikargang paibaba ang hubog na ito ng panitik",
+    "webfonts-preview-sampletext": "Abcdefghijklmnopqrstuvwxyz",
+    "webfonts-preview-installing-fonts-title": "Iniluluklok ang mga Hubog ng Panitik",
+    "webfonts-preview-installing-fonts-text": "Makapagkakarga kang paibaba ng isang hubog ng panitik na ginagamit ang kawing na \"{{int:webfonts-preview-download}}\" na ibinigay sa itaas. Upang mailuklok ang naikargang paibaba na hubog ng panitik sa iyong kompyuter, paki tingnan ang [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts kasulatang ito]."
+}

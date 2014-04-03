@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ushau97"
+        ]
+    },
+    "webfonts": "ވެބް އަކުރުސިފަ",
+    "webfonts-desc": "ޞަފްޙާތަކުގައި އަކުރުސިފަ ހަރު ކުރައްވާ",
+    "webfonts-load": "އަކުރުސިފަ ޚިޔާރުކުރައްވާ",
+    "webfonts-reset": "ރީސެޓް",
+    "webfonts-enable-preference": "އަކުރުސިފަ ހަރުކުރެއްވުން (ވެބް އަކުރުސިފަ)",
+    "webfonts-menu-tooltip": "ޞަފްޙާއަށް އަކުރުސިފަ ޚިޔާރުކުރައްވާ",
+    "webfonts-help": "އެހީ",
+    "webfonts-preview-intro": "މި ޞަފްޙާއިން ތިބޭފުޅާއަށް އަކުރުސިފައިގެ ނަމޫނާ ބައްލަވާ ޑައުންލޯޑްކުރެއްވައި ކޮމްޕިއުޓަރަށް އިންސްޓޯލްކުރެއްވުމަށް އެހީތެރިވެދޭނެއެވެ.",
+    "webfonts-preview-title": "އަކުރުސިފައިގެ ނަމޫނާ",
+    "webfonts-preview-download": "މި އަކުރުސިފަ ޑައުންލޯޑް ކުރައްވާ",
+    "webfonts-preview-installing-fonts-title": "އަކުރުސިފަ އިންސްޓޯލްކުރެވެނީ",
+    "webfonts-preview-installing-fonts-text": "ތިބޭފުޅާއަށް \"{{int:webfonts-preview-download}}\"އަށް ފިއްތަވައިގެން އަކުރުސިފަ ޑައުންލޯޑްކުރެއްވޭނެއެވެ. އަކުރުސިފަ ތިބޭފުޅާގެ ކޮމްޕިއުޓަރަށް އިންސްޓޯލްކުރެއްވުމަށް [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts މި ޞަފްޙާއަށް] ވަޑައިގަންނަވާށެވެ."
+}

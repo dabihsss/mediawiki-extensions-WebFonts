@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "NoiX180"
+        ]
+    },
+    "webfonts": "Fon wèb",
+    "webfonts-desc": "Sisipaké fon nèng kaca",
+    "webfonts-load": "Pilih fon",
+    "webfonts-reset": "Balèni setèl",
+    "webfonts-enable-preference": "Urubaké pananeman fon (fon wèb)",
+    "webfonts-menu-tooltip": "Pilih fon kanggo kaca",
+    "webfonts-help": "Pitulung",
+    "webfonts-preview-intro": "Kaca iki nulungi Sampéyan mratayang fon sing sumadhiya nèng èkstènsi WebFonts, undhuh bebas lan pasang nèng komputer Sampéyan.",
+    "webfonts-preview-title": "Pratayang fon",
+    "webfonts-preview-download": "Undhuh fon iki",
+    "webfonts-preview-sampletext": "The quick brown fox jumps over the lazy dog",
+    "webfonts-preview-installing-fonts-title": "Masang Fon",
+    "webfonts-preview-installing-fonts-text": "Sampéyan bisa ngundhuh fon nganggo pranala sumadhiya ndhuwur \"{{int:webfonts-preview-download}}\". Carané masang fon nèng kompter Sampéyan, mangga ndelok [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumèntasi iki]."
+}

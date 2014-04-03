@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Anakmalaysia"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Gunakan fon dalam laman",
+    "webfonts-load": "Pilih fon",
+    "webfonts-reset": "Set semula",
+    "webfonts-enable-preference": "Hidupkan pembenaman fon (WebFonts)",
+    "webfonts-menu-tooltip": "Pilih fon untuk laman ini",
+    "webfonts-help": "Bantuan",
+    "webfonts-preview-intro": "Laman ini membantu anda untuk mempralihat fon-fon yang terdapat dalam sambungan WebFonts, serta memilih untuk memuat turun dan memasang fon-fon itu dalam komputer anda.",
+    "webfonts-preview-title": "Pralihat fon",
+    "webfonts-preview-download": "Muat turun fon ini",
+    "webfonts-preview-sampletext": "Taufik ialah seorang pakar virus dan jurusinar X yang rajin membaca buku, gemar menonton wayang dan pandai menghafaz al-Quran.",
+    "webfonts-preview-installing-fonts-title": "Pemasangan Fon",
+    "webfonts-preview-installing-fonts-text": "Anda boleh memuat turun fon dengan menggunakan pautan \"{{int:webfonts-preview-download}}\" yang disediakan di atas. Untuk memasang fon yang dimuat turun ke dalam komputer anda, sila rujuk [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentasi ini]."
+}

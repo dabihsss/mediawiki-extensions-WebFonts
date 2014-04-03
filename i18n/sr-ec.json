@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Rancher"
+        ]
+    },
+    "webfonts": "Веб фонтови",
+    "webfonts-desc": "Угради фонтове на страницама",
+    "webfonts-load": "Изабери фонт",
+    "webfonts-reset": "Поништи",
+    "webfonts-enable-preference": "Омогући уграђивање фонта (WebFonts)",
+    "webfonts-menu-tooltip": "Изаберите фонт за страницу",
+    "webfonts-help": "Помоћ",
+    "webfonts-preview-intro": "На овој страници можете да погледате фонтове који су на располагању са додатком WebFonts (уз могућност преузимања и инсталирања на ваш рачунар).",
+    "webfonts-preview-title": "Преглед фонтова",
+    "webfonts-preview-download": "Преузми фонт",
+    "webfonts-preview-sampletext": "Фијуче ветар у шибљу, леди пасаже и куће иза њих и гунђа у оџацима.",
+    "webfonts-preview-installing-fonts-title": "Инсталирање фонтова",
+    "webfonts-preview-installing-fonts-text": "Можете да преузмете фонт преко горенаведене везе „{{int:webfonts-preview-download}}“. Да бисте га инсталирали на рачунар, погледајте  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ову документацију]."
+}

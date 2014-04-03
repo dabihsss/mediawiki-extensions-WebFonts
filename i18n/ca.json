@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Arnaugir"
+        ]
+    },
+    "webfonts": "Fonts Web",
+    "webfonts-desc": "Inclou fonts en pàgines",
+    "webfonts-load": "Escull font",
+    "webfonts-reset": "Reinicia",
+    "webfonts-menu-tooltip": "Escull una font per la pàgina",
+    "webfonts-help": "Ajuda",
+    "webfonts-preview-intro": "Aquesta pàgina d'ajuda et permet previsualitzar les fonts disponibles en l'extensió WebFonts i, opcionalment, descarregar-les i instal·lar-les al teu ordinador.",
+    "webfonts-preview-title": "Previsualitza les fonts",
+    "webfonts-preview-download": "Descarrega aquesta font",
+    "webfonts-preview-sampletext": "Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi!",
+    "webfonts-preview-installing-fonts-title": "Instal·lació de fonts"
+}

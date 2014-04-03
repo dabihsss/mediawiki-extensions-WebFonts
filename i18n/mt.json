@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Chrisportelli",
+            "පසිඳු කාවින්ද"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-load": "Agħżel it-tipa",
+    "webfonts-reset": "Irrisettja",
+    "webfonts-menu-tooltip": "Agħżel tipa għal din il-paġna",
+    "webfonts-help": "Għajnuna",
+    "webfonts-preview-installing-fonts-text": "Tista' tniżżel tipa billi tuża l-ħolqa \"{{int:webfonts-preview-download}}\" mogħtija hawn fuq. Sabiex tinstalla t-tipa mniżżla fuq il-kompjuter tiegħek, aqra [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts din id-dokumentazzjoni]."
+}

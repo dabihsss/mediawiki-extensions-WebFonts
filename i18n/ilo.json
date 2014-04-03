@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lam-ang"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Ikabil dagiti kita ti letra kadagiti panid",
+    "webfonts-load": "Agpili ti kita ti letra",
+    "webfonts-reset": "Isubli",
+    "webfonts-enable-preference": "Pakabaelan na ti agikabil ti kita ti letra (WebFonts)",
+    "webfonts-menu-tooltip": "Agpili ti kita ti letra para iti panid",
+    "webfonts-help": "Tulong",
+    "webfonts-preview-intro": "Daytoy  a panid ket makatulong kenka nga agipadas kadagiti kita ti letra a magun-od iti WebFonts a pagpaatiddog ken mapilim ti agikarga ken agikabil dita komputer mo.",
+    "webfonts-preview-title": "Ipadas dagiti kita ti letra",
+    "webfonts-preview-download": "Ikarga daytoy a kita ti letra",
+    "webfonts-preview-sampletext": "Ti napartak a kayumanggi a sorro ket limmagto ti nasadut nga aso",
+    "webfonts-preview-installing-fonts-title": "Agikabkabil kadagiti Kita ti letra",
+    "webfonts-preview-installing-fonts-text": "Makaikarga ka ti kita ti letra babaen ti panag-usar ti \"{{int:webfonts-preview-download}}\"  a panilpo a naited dita ngato. Ti panagikabil ti naikarga a kita ti letra iti komputer mo, pangngaasi a kitaen[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts daytoy a dokumentasion]."
+}

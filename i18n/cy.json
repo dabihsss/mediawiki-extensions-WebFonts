@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lloffiwr",
+            "Pwyll"
+        ]
+    },
+    "webfonts": "Ffontiau gwe",
+    "webfonts-desc": "Mewnblannu ffontiau mewn tudalennau",
+    "webfonts-load": "Dewiswch ffont",
+    "webfonts-reset": "Ailosod",
+    "webfonts-menu-tooltip": "Dewiswch ffont ar gyfer y dudalen",
+    "webfonts-help": "Cymorth",
+    "webfonts-preview-title": "Rhagolwg o'r ffontiau",
+    "webfonts-preview-download": "Lawrlwytho'r ffont hon",
+    "webfonts-preview-sampletext": "Parciais fy jac codi baw hud llawn dŵr ger tŷ Mabon",
+    "webfonts-preview-installing-fonts-title": "Gosod Ffontiau"
+}

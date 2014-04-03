@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "ChrisPtDe"
+        ]
+    },
+    "webfonts": "Polices vouèbe",
+    "webfonts-desc": "Apond les polices a les pâges.",
+    "webfonts-load": "Chouèsésséd una police",
+    "webfonts-reset": "Tornar inicialisar",
+    "webfonts-enable-preference": "Activar l’aponsa de les fontes (WebFonts)",
+    "webfonts-menu-tooltip": "Chouèsésséd una police por la pâge",
+    "webfonts-help": "Éde",
+    "webfonts-preview-title": "Prèvisualisar les polices",
+    "webfonts-preview-download": "Tèlèchargiér cela police",
+    "webfonts-preview-installing-fonts-title": "Enstalacion de les polices"
+}

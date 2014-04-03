@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Pisma do stronow zasadźić",
+    "webfonts-load": "Pismo wubrać",
+    "webfonts-reset": "Wróćo stajić",
+    "webfonts-enable-preference": "Zasadźenje pismow zmóžnić (WebFonts)",
+    "webfonts-menu-tooltip": "Pismo za stronu wubrać",
+    "webfonts-help": "Pomoc",
+    "webfonts-preview-intro": "Tuta strona ći pomha sej pismaj wobhladać, kotrež w rozšěrjenju k dispoziciji steja a je na přeće sćahnyć a na twojim ličaku instalować.",
+    "webfonts-preview-title": "Přehlad pismow",
+    "webfonts-preview-download": "Tute pismo sćahnyć",
+    "webfonts-preview-installing-fonts-title": "Pisma instalować",
+    "webfonts-preview-installing-fonts-text": "Móžeš pismo z pomocu wotkaza \"{{int:webfonts-preview-download}}\" horjeka sćahnyć. Zo by sćehnjene pismo na swojim ličaku instalował, hlej prošu [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts tutu dokumentaciju]."
+}

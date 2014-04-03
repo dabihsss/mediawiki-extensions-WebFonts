@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln",
+            "Metalhead64"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Ermöglicht die Schriftarteneinbettung in Seiten",
+    "webfonts-load": "Schriftart auswählen",
+    "webfonts-reset": "Zurücksetzen",
+    "webfonts-enable-preference": "Schriftarteneinbettung aktivieren",
+    "webfonts-menu-tooltip": "Eine Schriftart für die Seite auswählen.",
+    "webfonts-help": "Hilfe",
+    "webfonts-preview-intro": "Diese Seite hilft dir dabei, die durch die Erweiterung Webfonts verfügbaren Schriftarten in der Vorschau anzusehen und sie auf deinen Computer herunterzuladen sowie zu installieren.",
+    "webfonts-preview-title": "Schriftartvorschau",
+    "webfonts-preview-download": "Diese Schriftart herunterladen",
+    "webfonts-preview-sampletext": "Franz jagt im komplett verwahrlosten Taxi quer durch Bayern.",
+    "webfonts-preview-installing-fonts-title": "Schriftarten installieren",
+    "webfonts-preview-installing-fonts-text": "Du kannst eine Schriftart herunterladen, indem du oben rechts auf den Link „{{int:webfonts-preview-download}}“ klickst. Um die heruntergeladene Schriftart auf deinem Computer zu installieren, folge bitte [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts diesen Hinweisen]."
+}

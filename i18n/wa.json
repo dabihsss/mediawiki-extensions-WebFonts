@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Srtxg"
+        ]
+    },
+    "webfonts": "Fontes waibe",
+    "webfonts-desc": "Mete des fontes ådvins minme des pådjes",
+    "webfonts-load": "Tchoezixhoz ene fonte",
+    "webfonts-reset": "Netyî",
+    "webfonts-enable-preference": "Mete en alaedje les fontes waibe (WebFonts)",
+    "webfonts-menu-tooltip": "Tchoezixhoz ene fonte pol pådje",
+    "webfonts-help": "Aidance",
+    "webfonts-preview-intro": "Cisse pådje ci vs aidrè a prévey les fontes k' i gn a avou l' rawete WebFonts et motoit ossu ls aberweter ey astaler sol copiutrece da vosse.",
+    "webfonts-preview-title": "Prévey les fontes",
+    "webfonts-preview-download": "Aberweter l' fonte",
+    "webfonts-preview-sampletext": "Mi trûte a les balzins, co mî ki l' grijhe cawe di m' pôve fayé vexhåd!",
+    "webfonts-preview-installing-fonts-title": "Astaler des fontes",
+    "webfonts-preview-installing-fonts-text": "Vos ploz aberweter ene fonte avou l' loyén «{{int:webfonts-preview-download}}» chal å dzeur. Po-z astaler l' fonte sol copiutrece da vosse, loukîz a [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts cisse documintåcion ci]."
+}

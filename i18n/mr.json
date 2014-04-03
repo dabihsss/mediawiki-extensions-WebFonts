@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Htt",
+            "Kaajawa",
+            "Mahitgar",
+            "Rahuldeshmukh101"
+        ]
+    },
+    "webfonts": "जालटंक",
+    "webfonts-desc": "पृष्ठात टंक स्थापित करा",
+    "webfonts-load": "टंक",
+    "webfonts-reset": "पूर्ववत करा",
+    "webfonts-enable-preference": "(WebFonts) फॉंट अंतःस्थापन  (एंबेडिंग) सक्षम करा",
+    "webfonts-menu-tooltip": "पानासाठी टंक निवडा",
+    "webfonts-help": "मदत",
+    "webfonts-preview-title": "टंकाचे पुर्ववलोलन करा",
+    "webfonts-preview-download": "हा टंक(फॉँट) उतरवा/वापरा",
+    "webfonts-preview-sampletext": "The quick brown fox jumps over the lazy dog कुणी अनुवादाचे हे खरे आव्हान पेलू शकेल काय ? मराठी भाषेतील प्रत्येक अक्षर येईल आणि एकदाच येईल किमान सर्वाधिक अक्षरे येतील अशी वाक्य रचना हवी आहे. येथे बदल करण्याकरिता तुम्हाला ट्रांसलेटविकि डॉट नेट वर आधी आपले खाते उघडून अनुवाद करू देण्याची फॉर्मॅलिटी पार पाडावी लागेल.",
+    "webfonts-preview-installing-fonts-title": "फॉंट इन्स्टॉलींग"
+}

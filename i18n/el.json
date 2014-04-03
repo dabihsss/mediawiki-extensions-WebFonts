@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "AK",
+            "Glavkos"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Ενσωμάτωση γραμματοσειρών στις σελίδες",
+    "webfonts-load": "Επιλέξτε γραμματοσειρά",
+    "webfonts-reset": "Επαναφορά",
+    "webfonts-enable-preference": "Ενεργοποίηση της ενσωμάτωσης γραμματοσειρών (WebFonts)",
+    "webfonts-menu-tooltip": "Επιλέξτε γραμματοσειρά για τη σελίδα",
+    "webfonts-help": "Βοήθεια",
+    "webfonts-preview-title": "Προεπισκόπηση γραμματοσειρών",
+    "webfonts-preview-installing-fonts-title": "Εγκαθιστώντας Γραμματοσειρές"
+}

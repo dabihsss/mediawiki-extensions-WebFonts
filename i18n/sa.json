@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ansumang",
+            "Bhawani Gautam",
+            "Shubha"
+        ]
+    },
+    "webfonts": "वेब फॉण्ट्स",
+    "webfonts-desc": "पृष्ठेषु वर्णानि (fonts) स्थापयतु",
+    "webfonts-load": "वर्णानि चयनं करोतु",
+    "webfonts-reset": "पुनर्स्थापयतु",
+    "webfonts-enable-preference": "वर्णस्थापना (वेबफ़ॉन्ट) सक्रियं करोतु",
+    "webfonts-menu-tooltip": "पृष्ठाय लिपिविन्यासः चीयताम्",
+    "webfonts-help": "साहाय्यम्",
+    "webfonts-preview-intro": "जाललिपिविन्यासविस्तारे विद्यमानानां लिपिविन्यासानां प्राग्दर्शनाय, अवारोपणाय भवतः सङ्गणकयन्त्रे प्रतिष्ठापनाय च इदं पृष्ठं सहकरोति ।",
+    "webfonts-preview-title": "लिपिविन्यासस्य प्राग्दृश्यम्",
+    "webfonts-preview-download": "लिपिविन्यासस्य अवतारणम्",
+    "webfonts-preview-sampletext": "अलसस्य शुनकस्य उपरि चटुलः कपिलः वृकः उत्पतति",
+    "webfonts-preview-installing-fonts-title": "लिपिविन्यासानां समायोजनम्",
+    "webfonts-preview-installing-fonts-text": "उपरि दत्तमिदं \"{{int:webfonts-preview-download}}\" अनुबन्धम् उपयुज्य भवान् लिपिविन्यासम् अवारोपयितुम् अर्हति । अवारोपितं लिपिविन्यासं भवतः सङ्गणके प्रतिष्ठापनाय कृपया दृश्यताम् [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts this documentation]."
+}

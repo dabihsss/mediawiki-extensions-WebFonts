@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Dj",
+            "Misibacsi",
+            "TK-999",
+            "Xbspiro"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Betűtípusok beágyazása a lapokba",
+    "webfonts-load": "Válassza ki a betűtípust!",
+    "webfonts-reset": "Törlés",
+    "webfonts-enable-preference": "Betűtípusok beágyazása (WebFonts)",
+    "webfonts-menu-tooltip": "Válassz egy betűtípust az oldalhoz",
+    "webfonts-help": "Segítség",
+    "webfonts-preview-intro": "Ezen az oldalon megtekintheted a WebFonts kiterjesztés elérhető betűtípusait, valamint opcionálisan letöltheted és telepítheted őket a számítógépedre.",
+    "webfonts-preview-title": "Betűtípusok előnézetének megtekintése",
+    "webfonts-preview-download": "Betűtípus letöltése",
+    "webfonts-preview-sampletext": "Árvíztűrő tükörfúrógép",
+    "webfonts-preview-installing-fonts-title": "Betűtípusok telepítése",
+    "webfonts-preview-installing-fonts-text": "Betűtípusokat a fent megadott \"{{int:webfonts-preview-download}}\" hivatkozáson keresztül tölthetsz le. A letöltött betűtípus telepítéséhez az alábbi [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentáció] nyújthat segítséget."
+}

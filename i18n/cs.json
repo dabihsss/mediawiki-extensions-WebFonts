@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Mormegil",
+            "Utar"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Vkládání písem do stránek",
+    "webfonts-load": "Vybrat písmo",
+    "webfonts-reset": "Resetovat",
+    "webfonts-enable-preference": "Povolit vkládání písem (WebFonts)",
+    "webfonts-menu-tooltip": "Vybrat písmo pro tuto stránku",
+    "webfonts-help": "Nápověda",
+    "webfonts-preview-intro": "Tato stránka vám pomůže zobrazit náhled písem dostupných v rozšíření WebFonts a případně si je i stáhnout a nainstalovat do počítače.",
+    "webfonts-preview-title": "Náhled písem",
+    "webfonts-preview-download": "Stáhnout toto písmo",
+    "webfonts-preview-sampletext": "Příliš žluťoučký kůň úpěl ďábelské ódy.",
+    "webfonts-preview-installing-fonts-title": "Instalace písem",
+    "webfonts-preview-installing-fonts-text": "Písmo si můžete stáhnout pomocí odkazu „{{int:webfonts-preview-download}}“ zobrazeného výše. Postup instalace staženého písma do vašeho počítače najdete v [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentaci]"
+}

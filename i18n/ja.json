@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ant176",
+            "Fryed-peach",
+            "Schu",
+            "Shirayuki"
+        ]
+    },
+    "webfonts": "Webフォント",
+    "webfonts-desc": "ページにフォントを埋め込む",
+    "webfonts-load": "フォントを選択",
+    "webfonts-reset": "リセット",
+    "webfonts-enable-preference": "フォントの埋め込み (Webフォント) を有効にする",
+    "webfonts-menu-tooltip": "ページのフォントを選択",
+    "webfonts-help": "ヘルプ",
+    "webfonts-preview-intro": "このページは、Webフォント拡張機能で利用できるフォントのプレビュー、コンピューターへのダウンロードとインストール、を支援します。",
+    "webfonts-preview-title": "フォントをプレビュー",
+    "webfonts-preview-download": "このフォントをダウンロード",
+    "webfonts-preview-sampletext": "The quick brown fox jumps over the lazy dog",
+    "webfonts-preview-installing-fonts-title": "フォントのインストール",
+    "webfonts-preview-installing-fonts-text": "上記のリンク「{{int:webfonts-preview-download}}」を使用してフォントをダウンロードできます。ダウンロードしたフォントを自分のコンピューターにインストールするには、[//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts このドキュメント]をご覧ください。"
+}

@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Xuacu"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Incorporar fontes nes páxines",
+    "webfonts-load": "Seleiciona la fonte",
+    "webfonts-reset": "Reaniciar",
+    "webfonts-enable-preference": "Activar la incorporación de fontes (WebFonts)",
+    "webfonts-menu-tooltip": "Seleicionar una fonte pa la páxina",
+    "webfonts-help": "Ayuda",
+    "webfonts-preview-intro": "Esta páxina t'ayuda a dar una vista previa a les fontes disponibles na estensión WebFonts y, opcionalmente, descargales ya instalales nel to ordenador.",
+    "webfonts-preview-title": "Vista previa de les fontes",
+    "webfonts-preview-download": "Descargar esta fonte",
+    "webfonts-preview-sampletext": "El xabaril que diba pel ḥou cabu la foz y la cigüeña qu'esnalaba per Ḷḷuarca",
+    "webfonts-preview-installing-fonts-title": "Instalación de les fontes",
+    "webfonts-preview-installing-fonts-text": "Pue descargar una fonte usando l'enllaz \"{{int:webfonts-preview-download}}\" anterior. Pa instalar la fonte descargada nel so ordenador, llea [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts esta documentación]."
+}

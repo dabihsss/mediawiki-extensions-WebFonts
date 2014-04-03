@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Eitvys200",
+            "Vogone"
+        ]
+    },
+    "webfonts-load": "Pasirinkite šriftą",
+    "webfonts-reset": "Atstatyti",
+    "webfonts-menu-tooltip": "Pasirinkite puslapio šriftą",
+    "webfonts-help": "Pagalba",
+    "webfonts-preview-title": "Peržiūrėti šriftus",
+    "webfonts-preview-download": "Atsisiųsti šį šriftą",
+    "webfonts-preview-sampletext": "Įlinkusi fechtuotojo špaga blykčiodama gręžė apvalų arbūzą",
+    "webfonts-preview-installing-fonts-title": "Įdiegiami Šriftai"
+}

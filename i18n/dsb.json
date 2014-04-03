@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Pisma do bokow zasajźiś",
+    "webfonts-load": "Pismo wubraś",
+    "webfonts-reset": "Slědk stajiś",
+    "webfonts-enable-preference": "Zasajźenje pismow zmóžniś (WebFonts)",
+    "webfonts-menu-tooltip": "Pismo za bok wubraś",
+    "webfonts-help": "Pomoc",
+    "webfonts-preview-intro": "Toś ten bok śi pomaga se pisma woglědaś, kótarež stoje w rozšyrjenju k dispoziciji a je na žycenje ześěgnuś a na twójom licadle instalěrowaś.",
+    "webfonts-preview-title": "Pśeglěd pismow",
+    "webfonts-preview-download": "Toś to pismo ześěgnuś",
+    "webfonts-preview-installing-fonts-title": "Pisma instalěrowaś",
+    "webfonts-preview-installing-fonts-text": "Móžoš pismo z pomocu wótkaza \"{{int:webfonts-preview-download}}\" górjejce ześěgnuś. Aby ześěgnjone pismo na swójo licadle instalěrował, glědaj pšosym [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts toś tu dokumentaciju]."
+}

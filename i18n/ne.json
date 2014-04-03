@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bhawani Gautam"
+        ]
+    },
+    "webfonts": "वेब फण्ट्स",
+    "webfonts-desc": "पृष्ठहरुमा लिपि जड़ान(fonts embed) गर्ने",
+    "webfonts-load": "लिपि(font)  चुन्ने",
+    "webfonts-reset": "पुनर्स्थापित गर्ने",
+    "webfonts-enable-preference": "लिपि जडान कार्य (वेब फण्ट्स) सक्रिय गर्ने"
+}

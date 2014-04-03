@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Yekrats"
+        ]
+    },
+    "webfonts": "Retaj Tiparoj",
+    "webfonts-desc": "Enmeti tiparojn en paĝoj",
+    "webfonts-load": "Elekti tiparon",
+    "webfonts-reset": "Restarigi",
+    "webfonts-enable-preference": "Ŝalti enmetadon de tiparoj (WebFonts)",
+    "webfonts-menu-tooltip": "Elektu tiparon por la paĝo",
+    "webfonts-help": "Helpo",
+    "webfonts-preview-intro": "Ĉi tiu paĝo helpas al vi antaŭvidi la disponajn tiparojn en la WebFonts kromprogramo, kaj laŭvole alŝuti kaj instali ĝin en via komputilo.",
+    "webfonts-preview-title": "Antaŭvidi la tiparojn",
+    "webfonts-preview-download": "Elŝuti ĉi tiun tiparon.",
+    "webfonts-preview-sampletext": "Eĥoŝanĝo Ĉiuĵaŭde",
+    "webfonts-preview-installing-fonts-title": "Instalado de tiparo",
+    "webfonts-preview-installing-fonts-text": "Vi povas elŝuti tiparon per la ligilo \"{{int:webfonts-preview-download}}\" supre. Instali la elŝutitan tiparon ĉe via komputilo, bonvolu legi [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts la dokumentadon]."
+}

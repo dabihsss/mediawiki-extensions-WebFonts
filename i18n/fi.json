@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Beluga",
+            "Kulmalukko",
+            "Linnea",
+            "Nedergard",
+            "Olli"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Upota fontit sivuille",
+    "webfonts-load": "Valitse fontti",
+    "webfonts-reset": "Nollaa",
+    "webfonts-enable-preference": "Ota fonttien upotus käyttöön (WebFonts)",
+    "webfonts-menu-tooltip": "Valitse sivun fontti",
+    "webfonts-help": "Ohje",
+    "webfonts-preview-intro": "Tämä sivu auttaa sinua, että voit esikatsella WebFonts-lisäosan sisältämiä fontteja ja voit myös halutessasi ladata ja asentaa niitä tietokoneellesi.",
+    "webfonts-preview-title": "Esikatsele fontteja",
+    "webfonts-preview-download": "Lataa tämä fontti",
+    "webfonts-preview-sampletext": "On sangen hauskaa, että polkupyörä on maanteiden jokapäiväinen ilmiö",
+    "webfonts-preview-installing-fonts-title": "Fonttien asentaminen",
+    "webfonts-preview-installing-fonts-text": "Voit ladata fontin käyttämällä \"{{int:webfonts-preview-download}}\" -linkkiä. Asentaaksesi ladatun fontin tietokoneellesi, katso [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts tämä ohje]."
+}

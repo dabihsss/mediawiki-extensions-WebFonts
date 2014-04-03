@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fulup",
+            "Y-M D"
+        ]
+    },
+    "webfonts": "Fontoù Kenrouedad",
+    "webfonts-desc": "Ensoc'hañ a ra ar fontoù er pajennoù",
+    "webfonts-load": "Diuzañ ar font",
+    "webfonts-reset": "Adderaouekaat",
+    "webfonts-enable-preference": "Gweredekaat an ensoc'hañ fontoù (Fontoù Kenrouedad)",
+    "webfonts-menu-tooltip": "Dibabit ur font evit ar bajenn",
+    "webfonts-help": "Skoazell",
+    "webfonts-preview-intro": "Ho skoazellañ a ra ar bajenn-mañ da rakwelet ar fontoù hegerz en astenn WebFonts ha, diouzh an dro, o fellgargañ hag o staliañ war hoc'h urzhiataer.",
+    "webfonts-preview-title": "Rakwelet ar fontoù",
+    "webfonts-preview-download": "Pellgargañ ar font-mañ",
+    "webfonts-preview-sampletext": "Jezuz, ned eus stêr verr na sklaer o c'hourc'hemenniñ war yezh eürus he fobl na chag.",
+    "webfonts-preview-installing-fonts-title": "Staliañ ar fontoù",
+    "webfonts-preview-installing-fonts-text": "Pellgargañ ur font a c'hallit en ur ober gant al liamm \"{{int:webfonts-preview-download}}\" merket a-us. Evit staliañ ar font pellgarget en hoc'h urzhiataer, sellit ouzh [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts an teul titouriñ-mañ]."
+}

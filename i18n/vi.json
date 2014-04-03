@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Minh Nguyen",
+            "Vinhtantran"
+        ]
+    },
+    "webfonts": "Phông chữ Web",
+    "webfonts-desc": "Nhúng phông chữ vào các trang",
+    "webfonts-load": "Chọn phông chữ",
+    "webfonts-reset": "Mặc định lại",
+    "webfonts-enable-preference": "Bật các phông chữ được nhúng vào (WebFonts)",
+    "webfonts-menu-tooltip": "Chọn phông chữ để sử dụng trong trang",
+    "webfonts-help": "Trợ giúp",
+    "webfonts-preview-intro": "Trang này giúp bạn xem trước các phông chữ có sẵn trong phần mở rộng WebFonts và tùy ý tải về và cài đặt chúng nó vào máy tính của bạn.",
+    "webfonts-preview-title": "Xem trước các phông chữ",
+    "webfonts-preview-download": "Tải về phông chữ này",
+    "webfonts-preview-sampletext": "Tôi có thể ăn thủy tinh mà không hại gì",
+    "webfonts-preview-installing-fonts-title": "Cài đặt phông chữ",
+    "webfonts-preview-installing-fonts-text": "Bạn có thể tải về phông chữ dùng liên kết “{{int:webfonts-preview-download}}” ở trên. Để cài đặt các phông chữ được tải về máy tính của bạn, hãy xem [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts tài liệu này]."
+}

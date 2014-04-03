@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "EugeneZelenko",
+            "Jim-by",
+            "Wizardist"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Дазваляе ўбудоўваць шрыфты на старонкі",
+    "webfonts-load": "Выбраць шрыфт",
+    "webfonts-reset": "Скінуць",
+    "webfonts-enable-preference": "Дазволіць убудаваньне шрыфтоў (WebFonts)",
+    "webfonts-menu-tooltip": "Выбраць шрыфт для старонкі",
+    "webfonts-help": "Дапамога",
+    "webfonts-preview-intro": "Гэтая старонка дапаможа Вам праглядзець шрыфты даступныя ў пашырэньні WebFonts і, калі пажадаеце, загрузіць і ўсталяваць іх на Вашым кампьютары.",
+    "webfonts-preview-title": "Праглядзець шрыфты",
+    "webfonts-preview-download": "Загрузіць гэты шрыфт",
+    "webfonts-preview-sampletext": "Хуткая шэрая лісіца пераскочыла праз лянівага сабаку",
+    "webfonts-preview-installing-fonts-title": "Усталяваньне шрыфтоў",
+    "webfonts-preview-installing-fonts-text": "Вы можаце загрузіць шрыфт, скарыстаўшыся спасылкай «{{int:webfonts-preview-download}}» вышэй. Каб усталяваць загружаны шрыфт на Ваш кампутар, калі ласка, глядзіце [//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts дакумэнтацыю]."
+}

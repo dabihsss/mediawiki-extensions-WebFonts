@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Nghtwlkr",
+            "Simny"
+        ]
+    },
+    "webfonts": "Nettfonter",
+    "webfonts-desc": "Bygg inn fonter i sider",
+    "webfonts-load": "Velg font",
+    "webfonts-reset": "Nullstill",
+    "webfonts-enable-preference": "Tillat integrering av skrifttyper (WebFonts)",
+    "webfonts-menu-tooltip": "Velg en skrifttype for siden",
+    "webfonts-help": "Hjelp",
+    "webfonts-preview-intro": "Denne siden lar deg forhåndsvise fontene som er tilgjengelige i Nettfonter-utvidelsen, og lar deg laste ned og installere dem på din datamaskin.",
+    "webfonts-preview-title": "Forhåndsvis skrifttypene",
+    "webfonts-preview-download": "Last ned denne fonten",
+    "webfonts-preview-sampletext": "Høvdingens kjære squaw får litt pizza i Mexico by.",
+    "webfonts-preview-installing-fonts-title": "Installerer skrifttyper",
+    "webfonts-preview-installing-fonts-text": "Du kan laste ned en font ved å bruke «{{int:webfonts-preview-download}}»-lenka ovenfor. For å installere den nedlastede fonten på din datamaskin, se [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts denne dokumentasjonen]."
+}

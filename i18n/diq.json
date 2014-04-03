@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Erdemaslancan",
+            "Mirzali"
+        ]
+    },
+    "webfonts": "Fontê webi",
+    "webfonts-desc": "Fontanê pela pêtewrke",
+    "webfonts-load": "Babeta nusni weçinê",
+    "webfonts-reset": "Reset fi",
+    "webfonts-enable-preference": "Têdayışê fonta bıqefılnê (Fontê Webi)",
+    "webfonts-menu-tooltip": "Pela re jew font weçinê",
+    "webfonts-help": "Peşti",
+    "webfonts-preview-intro": "Na pele verqaytê fontan webfontê ke be derganiye estê u waştene ra gore warardış u barkerdışê komputerê şıma de şıma rê bena destek.",
+    "webfonts-preview-title": "Verqaytê fontan",
+    "webfonts-preview-download": "Nê fonti ron",
+    "webfonts-preview-sampletext": "Kahverengiya pêt luwa azad kutıg ser çekeno",
+    "webfonts-preview-installing-fonts-title": "Sazkerdışê Fontan",
+    "webfonts-preview-installing-fonts-text": "Cor dê \"{{int:webfonts-preview-download}}\" karkerdış ra  şıma şenê yew font ronê. Komputer de xora  nusni barkerden re, reca keme  [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts ena dokuman] bıvinê."
+}

@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Anakmalaysia",
+            "Oapbtommy",
+            "Waihorace"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "在頁面中嵌入字體",
+    "webfonts-load": "選擇字體",
+    "webfonts-reset": "重置",
+    "webfonts-enable-preference": "啟用字體嵌入（WebFonts）",
+    "webfonts-menu-tooltip": "為本頁選擇字體",
+    "webfonts-help": "說明",
+    "webfonts-preview-intro": "本頁面可以幫助您預覽在WebFonts擴展可用的字體，並可選下載並安裝字體。",
+    "webfonts-preview-title": "預覽字體",
+    "webfonts-preview-download": "下載此字體",
+    "webfonts-preview-sampletext": "平雪迎骨水直",
+    "webfonts-preview-installing-fonts-title": "安裝字體",
+    "webfonts-preview-installing-fonts-text": "您可以使用上面給出的{{int:webfonts-preview-download}}連結下載字體。要安裝在您的電腦上下載的字體，請參閱[//mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts 此文檔]。"
+}

@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gomoko",
+            "IAlex",
+            "Od1n",
+            "Sherbrooke",
+            "Srtxg"
+        ]
+    },
+    "webfonts": "Polices web",
+    "webfonts-desc": "Incorpore les polices dans les pages",
+    "webfonts-load": "Sélectionnez une police",
+    "webfonts-reset": "Réinitialiser",
+    "webfonts-enable-preference": "Active l'incorporation des fontes (WebFonts)",
+    "webfonts-menu-tooltip": "Sélectionnez une police pour la page",
+    "webfonts-help": "Aide",
+    "webfonts-preview-intro": "Cette page vous aide à prévisualiser les polices disponibles dans l'extension WebFonts et éventuellement à les télécharger et les installer dans votre ordinateur.",
+    "webfonts-preview-title": "Prévisualiser les polices",
+    "webfonts-preview-download": "Télécharger cette police",
+    "webfonts-preview-sampletext": "Portez ce vieux whisky au juge blond qui fume",
+    "webfonts-preview-installing-fonts-title": "Installation des polices",
+    "webfonts-preview-installing-fonts-text": "Vous pouvez télécharger une police en utilisant le lien \"{{int:webfonts-preview-download}}\" ci-dessus. Pour installer la police téléchargée sur votre ordinateur, veuillez consulter [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts cette documentation]."
+}

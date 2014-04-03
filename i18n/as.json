@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bishnu Saikia",
+            "Gitartha.bordoloi"
+        ]
+    },
+    "webfonts": "ৱেবফণ্টসমূহ",
+    "webfonts-desc": "পৃষ্ঠাত ফ'ণ্ট এম্বেড কৰক",
+    "webfonts-load": "ফন্ট নিৰ্বাচন কৰক",
+    "webfonts-reset": "পূৰ্বৰ অৱস্থালৈ লৈ যাওক",
+    "webfonts-enable-preference": "ফ'ণ্ট এম্বেডিং সক্ৰিয় কৰক (ৱেবফ'ণ্ট)",
+    "webfonts-menu-tooltip": "পৃষ্ঠাৰ বাবে এটা ফ'ণ্ট বাছনি কৰক",
+    "webfonts-help": "সহায়",
+    "webfonts-preview-intro": "এই পৃষ্ঠাটোৱে আপোনাক ৱেবফন্ট সম্প্ৰসাৰনত উপলব্ধ ফন্টসমূহ পূৰ্বদৰ্শন কৰিবলৈ আৰু বিকল্পভাৱে ডাউনল'ড কৰি আপোনাৰ কম্পিউটাৰত ইন্ষ্টল কৰিবলৈ সহায় কৰে।",
+    "webfonts-preview-title": "ফন্ট প্রাকদর্শন",
+    "webfonts-preview-download": "এই ফন্টটো ডাউনলোড কৰক",
+    "webfonts-preview-sampletext": "শুই থকা শিয়ালে হাঁহ ধৰিব নোৱাৰে",
+    "webfonts-preview-installing-fonts-title": "ফন্ট ইনষ্টল হৈ আছে",
+    "webfonts-preview-installing-fonts-text": "আপুনি ওপৰত দিয়া \"{{int:webfonts-preview-download}}\" সংযোগ ব্যৱহাৰ কৰি এটা ফন্ট ডাউনল'ড কৰিব পাৰিব। ডাউনল'ড কৰা ফন্ট আপোনাৰ কম্পিউটাৰত ইনষ্টল কৰিবলৈ, অনুগ্ৰহ কৰি [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts এই তথ্যচিত্ৰ] চাওক।"
+}

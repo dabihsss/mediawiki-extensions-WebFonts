@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Incorporar typos de litteras in paginas",
+    "webfonts-load": "Typo de litteras",
+    "webfonts-reset": "Reinitialisar",
+    "webfonts-enable-preference": "Activar le incorporation de typos de litteras (WebFonts)",
+    "webfonts-menu-tooltip": "Seliger un typo de litteras pro le pagina",
+    "webfonts-help": "Adjuta",
+    "webfonts-preview-intro": "Iste pagina permitte previsualisar le typos de litteras disponibile in le extension WebFonts e, si desirate, discargar e installar los in tu computator.",
+    "webfonts-preview-title": "Previsualisar le typos de litteras",
+    "webfonts-preview-download": "Discargar iste typo de litteras",
+    "webfonts-preview-sampletext": "Apud le zoo, quatro juvene feminas bibe whisky ex calices gothic",
+    "webfonts-preview-installing-fonts-title": "Installar typos de litteras",
+    "webfonts-preview-installing-fonts-text": "Tu pote discargar un typo de litteras usante le ligamine \"{{int:webfonts-preview-download}}\" hic supra. Pro installar le typo de litteras discargate in tu computator, per favor consulta [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts iste documentation]."
+}

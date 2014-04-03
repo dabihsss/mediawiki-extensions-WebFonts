@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "BRUTE",
+            "David1010",
+            "ITshnik"
+        ]
+    },
+    "webfonts": "ვებ-ფონტები",
+    "webfonts-desc": "იძლევა გვერდებში შრიფტების ჩამატების საშუალებას",
+    "webfonts-load": "ფონტის არჩევა",
+    "webfonts-reset": "გაუქმება",
+    "webfonts-enable-preference": "შრიფტების დანერგვის ჩართვა (Web fonts)",
+    "webfonts-menu-tooltip": "აირჩიეთ ფონტი გვერდისათვის",
+    "webfonts-help": "დახმარება",
+    "webfonts-preview-intro": "ეს გვერდი დაგეხმარებათ იხილოთ შრიფტები, რომელიც ხელმისაწვდომია WebFonts-ის გაფართოებაში.  სურვილისამებრ შესაძლებელია მათი ჩამოტვირთვა და თქვენს კომპიუტერზე დაყენება.",
+    "webfonts-preview-title": "ფონტების გადახედვა",
+    "webfonts-preview-download": "ჩაიწერეთ ეს შრიფტი",
+    "webfonts-preview-sampletext": "სწრაფი ყავისფერი მელა ახტება ზარმაც ძაღლს",
+    "webfonts-preview-installing-fonts-title": "შრიფტების ინსტალაცია",
+    "webfonts-preview-installing-fonts-text": "თქვენ შეგიძლიათ ჩამოტვირთოთ ფონტი ქვემოთ მოცემული ბმულის დახმარებით „{{int:webfonts-preview-download}}“. ჩამოტვირთული ფონტის თქვენ კომპიუტერზე დასაყენებლად, გთხოვთ იხილოთ [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts დოკუმენტაცია]."
+}

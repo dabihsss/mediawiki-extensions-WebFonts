@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Farras",
+            "IvanLanin",
+            "Iwan Novirion"
+        ]
+    },
+    "webfonts": "WebFonts",
+    "webfonts-desc": "Memasang huruf pada halaman",
+    "webfonts-load": "Pilih huruf",
+    "webfonts-reset": "Setel ulang",
+    "webfonts-enable-preference": "Aktifkan pemasangan huruf (Web fonts)",
+    "webfonts-menu-tooltip": "Pilih huruf untuk halaman ini",
+    "webfonts-help": "Bantuan",
+    "webfonts-preview-intro": "Halaman ini membantu Anda meninjau huruf yang tersedia melalui ekstensi WebFonts dan dapat diunduh dan diinstal di komputer Anda.",
+    "webfonts-preview-title": "Pratinjau huruf",
+    "webfonts-preview-download": "Unduh huruf ini",
+    "webfonts-preview-sampletext": "The quick brown fox jumps over the lazy dog",
+    "webfonts-preview-installing-fonts-title": "Menginstal Font (huruf)",
+    "webfonts-preview-installing-fonts-text": "Anda dapat mengunduh huruf menggunakan pranala \"{{int:webfonts-preview-download}}\" di atas. Untuk menginstalnya di komputer, lihat [//www.mediawiki.org/wiki/Special:MyLanguage/Help:How_to_install_fonts dokumentasi ini]."
+}

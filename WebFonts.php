@@ -8,7 +8,7 @@
  * @author Santhosh Thottingal
  * @author Niklas Laxström
  * @author Amir Aharoni
- * @copyright © 2011-2012 Santhosh Thottingal, Niklas Laxström, Amir Aharoni 
+ * @copyright © 2011-2012 Santhosh Thottingal, Niklas Laxström, Amir Aharoni
  * @licence GNU General Public Licence 3.0 or later
  */
 
@@ -20,7 +20,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'WebFonts',
-	'version'        => '1.0',
+	'version'        => '1.1.0',
 	'author'         => array( 'Santhosh Thottingal', 'Niklas Laxström', 'Amir Aharoni' ),
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:WebFonts',
 	'descriptionmsg' => 'webfonts-desc',
@@ -29,6 +29,7 @@ $wgExtensionCredits['other'][] = array(
 $dir = dirname( __FILE__ );
 
 // Internationalization
+$wgMessagesDirs['WebFonts'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['WebFonts'] = "$dir/WebFonts.i18n.php";
 $wgExtensionMessagesFiles['WebFontsAlias'] = "$dir/WebFonts.alias.php";
 
